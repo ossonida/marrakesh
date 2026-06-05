@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="Referrer" content="origin">
+  <meta name="referrer" content="always">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,interactive-widget=resizes-content">
+  <!-- 애드센스 -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4300260005676352"
+    crossorigin="anonymous"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2SXMSZW15"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q2SXMSZW15');
+  </script>
+  <title>Marrakesh Reference</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1224;
+      --card: #0f172a;
+      --accent: #22d3ee;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Space Grotesk','Noto Sans KR','Malgun Gothic',sans-serif;
+      background: radial-gradient(circle at 20% 20%, #132347 0, #0b1224 40%), #0b1224;
+      color: var(--text);
+      padding: 20px 20px;
+    }
+    .layout { max-width: 1200px; margin: 0 auto; display: grid; gap: 24px; }
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      width: max-content;
+      margin: 0 0 8px;
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+      opacity: 0.88;
+    }
+    .home-link:hover { opacity: 1; color: var(--accent); }
+    .home-link svg { width: 16px; height: 16px; flex: 0 0 auto; }
+    .page-top {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 4px 0 12px;
+      background: linear-gradient(180deg, rgba(11,18,36,0.96) 0%, rgba(11,18,36,0.78) 60%, rgba(11,18,36,0) 100%);
+      backdrop-filter: blur(6px);
+    }
+    .page-top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: nowrap; }
+    .page-title { margin: 0 0 10px; font-size: 26px; font-weight: 600; letter-spacing: -0.3px; flex: 1 1 auto; min-width: 0; }
+    .lang-switch { position: relative; z-index: 120; flex-shrink: 0; }
+    .lang-switch button {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .lang-switch button .lang-label,
+    .lang-menu button .lang-label { display: inline-flex; align-items: center; gap: 6px; }
+    .lang-icon {
+      display: block;
+      width: 18px;
+      height: 13px;
+      object-fit: cover;
+      border-radius: 2px;
+      flex: 0 0 auto;
+    }
+    .lang-switch button .lang-caret { font-size: 12px; opacity: 0.85; }
+    .lang-menu {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 6px);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+      z-index: 130;
+      display: none;
+      min-width: 56px;
+      padding: 6px;
+    }
+    .lang-menu button {
+      width: 100%;
+      background: transparent;
+      border: none;
+      color: var(--text);
+      padding: 10px 12px;
+      text-align: left;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .lang-menu button:hover { background: rgba(255,255,255,0.06); }
+    .lang-menu button.is-active { background: rgba(34, 211, 238, 0.12); }
+    .lang-switch.open .lang-menu { display: block; }
+    .filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 12px; }
+    .filter-tabs button {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: border-color 120ms, transform 120ms;
+    }
+    .filter-tabs button:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .filter-tabs button.is-active { border-color: var(--accent); box-shadow: 0 0 0 1px rgba(34,211,238,0.3); }
+    .search-bar { position: relative; margin-bottom: 8px; }
+    .search-bar input {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      outline: 1px solid transparent;
+      transition: outline 120ms ease, background 120ms ease;
+      font-size: 16px;
+    }
+    .search-bar input:focus { outline: 1px solid var(--accent); background: rgba(34,211,238,0.05); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 20px 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    }
+    .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+    .count-tag { font-size: 12px; color: var(--muted); font-weight: 600; }
+    .card h2 { margin: 0; font-size: 18px; letter-spacing: -0.2px; }
+    table { width: 100%; border-collapse: collapse; }
+    thead { color: var(--muted); font-size: 13px; }
+    th, td { padding: 10px 8px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tbody tr.hide { display: none; }
+    tbody tr:hover { background: rgba(255,255,255,0.03); }
+    .table-wrap { overflow-x: auto; }
+    .empty { color: var(--muted); padding: 12px 4px; font-size: 14px; }
+    .empty.hide { display: none; }
+    .hide-section { display: none; }
+    .btn-top {
+      position: fixed;
+      right: 14px;
+      bottom: 16px;
+      z-index: 80;
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(34, 211, 238, 0.12);
+      color: var(--text);
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      display: none;
+      backdrop-filter: blur(6px);
+    }
+    .btn-top.show { display: inline-flex; align-items: center; gap: 6px; }
+    @media (max-width: 900px) {
+      .layout { gap: 18px; }
+      body { padding: 5px 16px 30px; }
+      .card { padding: 16px 14px; }
+      .search-bar input { font-size: 15px; }
+      .page-title { font-size: 22px; }
+      .count-tag { font-size: 11px; }
+    }
+    @media (max-width: 720px) {
+      .layout { gap: 12px; }
+      .card { padding: 12px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div class="page-top">
+      <a class="home-link" href="https://ossonida.github.io/" aria-label="Go to home">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5h-5.2v-6.4H8.7V21H3.5a.5.5 0 0 1-.5-.5v-9.7Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
+        <span>HOME</span>
+      </a>
+      <div class="page-top-row">
+        <h1 class="page-title" id="page-title">Marrakesh 레퍼런스</h1>
+        <div class="lang-switch" id="lang-switch">
+          <button type="button" aria-haspopup="listbox" aria-expanded="false" id="lang-button">
+            <span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span>
+            <span class="lang-caret">▾</span>
+          </button>
+          <div class="lang-menu" role="listbox" aria-label="Language">
+            <button type="button" data-lang="en"><span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span></button>
+            <button type="button" data-lang="ko"><span class="lang-label"><img class="lang-icon" data-lang="ko" src="img/flag-kr.svg" alt="Korea flag" aria-hidden="true"><span class="lang-code">KR</span></span></button>
+            <button type="button" data-lang="de"><span class="lang-label"><img class="lang-icon" data-lang="de" src="img/flag-de.svg" alt="Germany flag" aria-hidden="true"><span class="lang-code">DE</span></span></button>
+            <button type="button" data-lang="fr"><span class="lang-label"><img class="lang-icon" data-lang="fr" src="img/flag-fr.svg" alt="France flag" aria-hidden="true"><span class="lang-code">FR</span></span></button>
+            <button type="button" data-lang="ja"><span class="lang-label"><img class="lang-icon" data-lang="ja" src="img/flag-jp.svg" alt="Japan flag" aria-hidden="true"><span class="lang-code">JP</span></span></button>
+            <button type="button" data-lang="es"><span class="lang-label"><img class="lang-icon" data-lang="es" src="img/flag-es.svg" alt="Spain flag" aria-hidden="true"><span class="lang-code">ES</span></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="filter-tabs" id="section-tabs">
+        <button type="button" data-show="all" class="is-active">전체</button>
+        <button type="button" data-show="overview">개요</button>
+        <button type="button" data-show="components">컴포넌트</button>
+        <button type="button" data-show="cards">카드</button>
+        <button type="button" data-show="tiles">타일</button>
+        <button type="button" data-show="faq">FAQ</button>
+      </div>
+      <div class="search-bar">
+        <input id="global-search" type="search" placeholder="이름·내용을 입력하세요" autofocus>
+      </div>
+    </div>
+
+    <div id="global-empty" class="empty hide" style="text-align:center;">검색 결과가 없습니다.</div>
+
+    <section class="card" data-section="overview">
+      <div class="card-header"><h2>개요</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>항목</th><th>내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty">내용 준비 중입니다.</div>
+    </section>
+
+    <section class="card" data-section="components">
+      <div class="card-header"><h2>컴포넌트</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>분류</th><th>이름</th><th>내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty">내용 준비 중입니다.</div>
+    </section>
+
+    <section class="card" data-section="cards">
+      <div class="card-header"><h2>카드</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>번호</th><th>이름</th><th>내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty">내용 준비 중입니다.</div>
+    </section>
+
+    <section class="card" data-section="tiles">
+      <div class="card-header"><h2>타일</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>분류</th><th>이름</th><th>내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty">내용 준비 중입니다.</div>
+    </section>
+
+    <section class="card" data-section="faq">
+      <div class="card-header"><h2>FAQ</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>질문</th><th>답변</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty">내용 준비 중입니다.</div>
+    </section>
+  </div>
+
+  <button class="btn-top" id="btn-top" type="button">TOP</button>
+
+  <script>
+    const translations = {
+      ko: {
+        pageTitle: 'Marrakesh 레퍼런스',
+        tabs: ['전체', '개요', '컴포넌트', '카드', '타일', 'FAQ'],
+        search: '이름·내용을 입력하세요',
+        empty: '내용 준비 중입니다.',
+        globalEmpty: '검색 결과가 없습니다.',
+        sections: {
+          overview: { title: '개요', count: '0개', cols: ['항목', '내용'] },
+          components: { title: '컴포넌트', count: '0개', cols: ['분류', '이름', '내용'] },
+          cards: { title: '카드', count: '0개', cols: ['번호', '이름', '내용'] },
+          tiles: { title: '타일', count: '0개', cols: ['분류', '이름', '내용'] },
+          faq: { title: 'FAQ', count: '0개', cols: ['질문', '답변'] }
+        }
+      },
+      en: {
+        pageTitle: 'Marrakesh Reference',
+        tabs: ['All', 'Overview', 'Components', 'Cards', 'Tiles', 'FAQ'],
+        search: 'Search name or text',
+        empty: 'Content pending.',
+        globalEmpty: 'No results found.',
+        sections: {
+          overview: { title: 'Overview', count: '0 items', cols: ['Item', 'Text'] },
+          components: { title: 'Components', count: '0 items', cols: ['Type', 'Name', 'Text'] },
+          cards: { title: 'Cards', count: '0 items', cols: ['No.', 'Name', 'Text'] },
+          tiles: { title: 'Tiles', count: '0 items', cols: ['Type', 'Name', 'Text'] },
+          faq: { title: 'FAQ', count: '0 items', cols: ['Question', 'Answer'] }
+        }
+      },
+      de: {
+        pageTitle: 'Marrakesh Referenz',
+        tabs: ['Alle', 'Übersicht', 'Komponenten', 'Karten', 'Plättchen', 'FAQ'],
+        search: 'Name oder Text suchen',
+        empty: 'Inhalt folgt.',
+        globalEmpty: 'Keine Ergebnisse gefunden.',
+        sections: {
+          overview: { title: 'Übersicht', count: '0 Einträge', cols: ['Eintrag', 'Text'] },
+          components: { title: 'Komponenten', count: '0 Einträge', cols: ['Typ', 'Name', 'Text'] },
+          cards: { title: 'Karten', count: '0 Einträge', cols: ['Nr.', 'Name', 'Text'] },
+          tiles: { title: 'Plättchen', count: '0 Einträge', cols: ['Typ', 'Name', 'Text'] },
+          faq: { title: 'FAQ', count: '0 Einträge', cols: ['Frage', 'Antwort'] }
+        }
+      },
+      fr: {
+        pageTitle: 'Référence Marrakesh',
+        tabs: ['Tout', 'Aperçu', 'Composants', 'Cartes', 'Tuiles', 'FAQ'],
+        search: 'Rechercher un nom ou un texte',
+        empty: 'Contenu à venir.',
+        globalEmpty: 'Aucun résultat.',
+        sections: {
+          overview: { title: 'Aperçu', count: '0 élément', cols: ['Élément', 'Texte'] },
+          components: { title: 'Composants', count: '0 élément', cols: ['Type', 'Nom', 'Texte'] },
+          cards: { title: 'Cartes', count: '0 élément', cols: ['No.', 'Nom', 'Texte'] },
+          tiles: { title: 'Tuiles', count: '0 élément', cols: ['Type', 'Nom', 'Texte'] },
+          faq: { title: 'FAQ', count: '0 élément', cols: ['Question', 'Réponse'] }
+        }
+      },
+      ja: {
+        pageTitle: 'Marrakesh リファレンス',
+        tabs: ['すべて', '概要', 'コンポーネント', 'カード', 'タイル', 'FAQ'],
+        search: '名前またはテキストを検索',
+        empty: '内容は準備中です。',
+        globalEmpty: '検索結果がありません。',
+        sections: {
+          overview: { title: '概要', count: '0件', cols: ['項目', 'テキスト'] },
+          components: { title: 'コンポーネント', count: '0件', cols: ['種類', '名前', 'テキスト'] },
+          cards: { title: 'カード', count: '0件', cols: ['番号', '名前', 'テキスト'] },
+          tiles: { title: 'タイル', count: '0件', cols: ['種類', '名前', 'テキスト'] },
+          faq: { title: 'FAQ', count: '0件', cols: ['質問', '回答'] }
+        }
+      },
+      es: {
+        pageTitle: 'Referencia de Marrakesh',
+        tabs: ['Todo', 'Resumen', 'Componentes', 'Cartas', 'Losetas', 'FAQ'],
+        search: 'Buscar nombre o texto',
+        empty: 'Contenido pendiente.',
+        globalEmpty: 'No se encontraron resultados.',
+        sections: {
+          overview: { title: 'Resumen', count: '0 elementos', cols: ['Elemento', 'Texto'] },
+          components: { title: 'Componentes', count: '0 elementos', cols: ['Tipo', 'Nombre', 'Texto'] },
+          cards: { title: 'Cartas', count: '0 elementos', cols: ['No.', 'Nombre', 'Texto'] },
+          tiles: { title: 'Losetas', count: '0 elementos', cols: ['Tipo', 'Nombre', 'Texto'] },
+          faq: { title: 'FAQ', count: '0 elementos', cols: ['Pregunta', 'Respuesta'] }
+        }
+      }
+    };
+
+    const langSwitch = document.getElementById('lang-switch');
+    const langButton = document.getElementById('lang-button');
+    const langMenu = document.querySelector('.lang-menu');
+    const input = document.getElementById('global-search');
+    const tabs = document.querySelectorAll('#section-tabs button');
+    const sections = document.querySelectorAll('[data-section]');
+    const globalEmpty = document.getElementById('global-empty');
+    const btnTop = document.getElementById('btn-top');
+    let activeSection = 'all';
+
+    const syncLanguageSwitcher = (lang) => {
+      const active = langMenu.querySelector(`[data-lang="${lang}"]`);
+      const label = active?.querySelector('.lang-label')?.cloneNode(true);
+      if (label) {
+        const current = langButton.querySelector('.lang-label');
+        current.replaceWith(label);
+      }
+      langMenu.querySelectorAll('button').forEach(btn => {
+        btn.classList.toggle('is-active', btn.dataset.lang === lang);
+      });
+    };
+
+    const applyLanguage = (lang) => {
+      const activeLang = translations[lang] ? lang : 'en';
+      const t = translations[activeLang];
+      document.documentElement.lang = activeLang;
+      document.documentElement.setAttribute('data-lang', activeLang);
+      document.getElementById('page-title').textContent = t.pageTitle;
+      tabs.forEach((btn, i) => { if (t.tabs[i]) btn.textContent = t.tabs[i]; });
+      input.placeholder = t.search;
+      if (globalEmpty) globalEmpty.textContent = t.globalEmpty;
+      document.querySelectorAll('.empty').forEach(el => el.textContent = t.empty);
+      sections.forEach(section => {
+        const key = section.dataset.section;
+        const data = t.sections[key];
+        if (!data) return;
+        const h2 = section.querySelector('h2');
+        const count = section.querySelector('.count-tag');
+        const ths = section.querySelectorAll('thead th');
+        if (h2) h2.textContent = data.title;
+        if (count) count.textContent = data.count;
+        ths.forEach((th, i) => { if (data.cols[i]) th.textContent = data.cols[i]; });
+      });
+      localStorage.setItem('marrakesh-lang', activeLang);
+      syncLanguageSwitcher(activeLang);
+      applyFilters();
+    };
+
+    const applyFilters = () => {
+      const q = input.value.trim().toLowerCase();
+      let visibleCount = 0;
+      sections.forEach(section => {
+        const sectionMatch = activeSection === 'all' || activeSection === section.dataset.section;
+        let rowCount = 0;
+        section.querySelectorAll('tbody tr').forEach(row => {
+          const searchMatch = !q || row.textContent.toLowerCase().includes(q);
+          const visible = sectionMatch && searchMatch;
+          row.classList.toggle('hide', !visible);
+          if (visible) rowCount += 1;
+        });
+        const hasRows = section.querySelectorAll('tbody tr').length > 0;
+        const showSection = sectionMatch && (!q || rowCount > 0 || !hasRows);
+        section.classList.toggle('hide-section', !showSection);
+        section.querySelector('.empty')?.classList.toggle('hide', hasRows && rowCount > 0);
+        if (showSection) visibleCount += 1;
+      });
+      globalEmpty?.classList.toggle('hide', visibleCount > 0);
+    };
+
+    tabs.forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeSection = btn.dataset.show;
+        tabs.forEach(tab => tab.classList.toggle('is-active', tab === btn));
+        applyFilters();
+      });
+    });
+    input.addEventListener('input', applyFilters);
+
+    langButton.addEventListener('click', () => {
+      const open = langSwitch.classList.toggle('open');
+      langButton.setAttribute('aria-expanded', open);
+    });
+    langMenu.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        langSwitch.classList.remove('open');
+        langButton.setAttribute('aria-expanded', 'false');
+        applyLanguage(btn.dataset.lang);
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!langSwitch.contains(e.target)) {
+        langSwitch.classList.remove('open');
+        langButton.setAttribute('aria-expanded', 'false');
+      }
+    });
+    window.addEventListener('scroll', () => {
+      btnTop.classList.toggle('show', window.scrollY > 320);
+    });
+    btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    applyLanguage(localStorage.getItem('marrakesh-lang') || 'en');
+  </script>
+  <footer style="text-align:center; margin:16px 0 12px; font-size:11px; color:#94a3b8;">
+    <a href="mailto:ossonida@gmail.com" style="color: #e2e8f0; text-decoration: none;">ⓒfunnyda</a>
+  </footer>
+</body>
+</html>
