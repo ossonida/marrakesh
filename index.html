@@ -153,10 +153,35 @@
     }
     .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
     .count-tag { font-size: 12px; color: var(--muted); font-weight: 600; }
+    .section-note {
+      margin-left: auto;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      text-align: right;
+    }
     .card h2 { margin: 0; font-size: 18px; letter-spacing: -0.2px; }
     table { width: 100%; border-collapse: collapse; }
     thead { color: var(--muted); font-size: 13px; }
     th, td { padding: 10px 8px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .col-image { width: 190px; }
+    .col-number { width: 92px; white-space: nowrap; }
+    .col-name { width: 210px; }
+    .col-text { min-width: 360px; white-space: pre-line; line-height: 1.5; }
+    .ref-img {
+      width: 160px;
+      max-height: 240px;
+      object-fit: contain;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.04);
+      display: block;
+    }
+    [data-section="river"] .ref-img { width: 220px; max-height: 120px; }
+    [data-section="building"] .ref-img { width: 210px; max-height: 170px; }
+    [data-section="provision"] .ref-img,
+    [data-section="luxury"] .ref-img { width: 150px; max-height: 150px; }
     tbody tr.hide { display: none; }
     tbody tr:hover { background: rgba(255,255,255,0.03); }
     .table-wrap { overflow-x: auto; }
@@ -187,10 +212,19 @@
       .search-bar input { font-size: 15px; }
       .page-title { font-size: 22px; }
       .count-tag { font-size: 11px; }
+      .section-note { width: 100%; margin-left: 0; text-align: left; }
     }
     @media (max-width: 720px) {
       .layout { gap: 12px; }
       .card { padding: 12px 10px; }
+      .col-image { width: 120px; }
+      .ref-img { width: 110px; max-height: 180px; }
+      [data-section="river"] .ref-img { width: 150px; max-height: 90px; }
+      [data-section="building"] .ref-img { width: 140px; max-height: 120px; }
+      [data-section="provision"] .ref-img,
+      [data-section="luxury"] .ref-img { width: 110px; max-height: 110px; }
+      .col-name { min-width: 150px; }
+      .col-text { min-width: 260px; }
     }
   </style>
 </head>
@@ -222,162 +256,176 @@
       </div>
       <div class="filter-tabs" id="section-tabs">
         <button type="button" data-show="all" class="is-active">전체</button>
-        <button type="button" data-show="overview">개요</button>
-        <button type="button" data-show="components">컴포넌트</button>
-        <button type="button" data-show="cards">카드</button>
-        <button type="button" data-show="tiles">타일</button>
-        <button type="button" data-show="faq">FAQ</button>
+        <button type="button" data-show="scroll">스크롤</button>
+        <button type="button" data-show="oasis">오아시스</button>
+        <button type="button" data-show="river">강타일</button>
+        <button type="button" data-show="building">특수건물</button>
+        <button type="button" data-show="newOasis">뉴 오아시스</button>
+        <button type="button" data-show="luxury">뉴 사치품</button>
+        <button type="button" data-show="provision">뉴 식량공급타일</button>
       </div>
       <div class="search-bar">
-        <input id="global-search" type="search" placeholder="이름·내용을 입력하세요" autofocus>
+        <input id="global-search" type="search" placeholder="타일번호·이름·내용을 입력하세요" autofocus>
       </div>
     </div>
 
     <div id="global-empty" class="empty hide" style="text-align:center;">검색 결과가 없습니다.</div>
 
-    <section class="card" data-section="overview">
-      <div class="card-header"><h2>개요</h2><span class="count-tag">0개</span></div>
+    <section class="card" data-section="scroll">
+      <div class="card-header"><h2>스크롤</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>항목</th><th>내용</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="empty">내용 준비 중입니다.</div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
     </section>
 
-    <section class="card" data-section="components">
-      <div class="card-header"><h2>컴포넌트</h2><span class="count-tag">0개</span></div>
+    <section class="card" data-section="oasis">
+      <div class="card-header"><h2>오아시스</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>분류</th><th>이름</th><th>내용</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="empty">내용 준비 중입니다.</div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
     </section>
 
-    <section class="card" data-section="cards">
-      <div class="card-header"><h2>카드</h2><span class="count-tag">0개</span></div>
+    <section class="card" data-section="river">
+      <div class="card-header"><h2>강타일</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>번호</th><th>이름</th><th>내용</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="empty">내용 준비 중입니다.</div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
     </section>
 
-    <section class="card" data-section="tiles">
-      <div class="card-header"><h2>타일</h2><span class="count-tag">0개</span></div>
+    <section class="card" data-section="building">
+      <div class="card-header"><h2>특수건물</h2><span class="count-tag">0개</span><span class="section-note" data-section-note="building"></span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>분류</th><th>이름</th><th>내용</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="empty">내용 준비 중입니다.</div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
     </section>
 
-    <section class="card" data-section="faq">
-      <div class="card-header"><h2>FAQ</h2><span class="count-tag">0개</span></div>
+    <section class="card" data-section="newOasis">
+      <div class="card-header"><h2>뉴 오아시스</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th>질문</th><th>답변</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="empty">내용 준비 중입니다.</div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="luxury">
+      <div class="card-header"><h2>뉴 사치품</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="provision">
+      <div class="card-header"><h2>뉴 식량공급타일</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
     </section>
   </div>
 
   <button class="btn-top" id="btn-top" type="button">TOP</button>
 
+  <script src="reference-data.js"></script>
+  <script src="reference-translations.js"></script>
   <script>
-    const translations = {
+    const baseSectionLabels = {
       ko: {
         pageTitle: 'Marrakesh 레퍼런스',
-        tabs: ['전체', '개요', '컴포넌트', '카드', '타일', 'FAQ'],
-        search: '이름·내용을 입력하세요',
-        empty: '내용 준비 중입니다.',
+        tabs: ['전체', '스크롤', '오아시스', '강타일', '특수건물', '뉴 오아시스', '뉴 사치품', '뉴 식량공급타일'],
+        search: '타일번호·이름·내용을 입력하세요',
+        empty: '검색 결과가 없습니다.',
         globalEmpty: '검색 결과가 없습니다.',
-        sections: {
-          overview: { title: '개요', count: '0개', cols: ['항목', '내용'] },
-          components: { title: '컴포넌트', count: '0개', cols: ['분류', '이름', '내용'] },
-          cards: { title: '카드', count: '0개', cols: ['번호', '이름', '내용'] },
-          tiles: { title: '타일', count: '0개', cols: ['분류', '이름', '내용'] },
-          faq: { title: 'FAQ', count: '0개', cols: ['질문', '답변'] }
-        }
+        cols: ['이미지', '타일번호', '이름', '내용'],
+        buildingCols: ['이미지', '이름', '내용'],
+        sections: { scroll: '스크롤', oasis: '오아시스', river: '강타일', building: '특수건물', newOasis: '뉴 오아시스', luxury: '뉴 사치품', provision: '뉴 식량공급타일' },
+        sectionNotes: { building: '게임 시작 전에, 플레이어들은 특수 건물의 어느 면을 사용할지 합의합니다. 모든 플레이어는 같은 면을 사용해야 합니다. (초록색 테두리 케시/자원은 게임 시작시 받는 것)' },
+        count: '개'
       },
       en: {
         pageTitle: 'Marrakesh Reference',
-        tabs: ['All', 'Overview', 'Components', 'Cards', 'Tiles', 'FAQ'],
-        search: 'Search name or text',
-        empty: 'Content pending.',
+        tabs: ['All', 'Scrolls', 'Oases', 'River Tiles', 'Special Buildings', 'New Oases', 'New Luxury Goods', 'New Provision Tiles'],
+        search: 'Search tile number, name, or text',
+        empty: 'No results found.',
         globalEmpty: 'No results found.',
-        sections: {
-          overview: { title: 'Overview', count: '0 items', cols: ['Item', 'Text'] },
-          components: { title: 'Components', count: '0 items', cols: ['Type', 'Name', 'Text'] },
-          cards: { title: 'Cards', count: '0 items', cols: ['No.', 'Name', 'Text'] },
-          tiles: { title: 'Tiles', count: '0 items', cols: ['Type', 'Name', 'Text'] },
-          faq: { title: 'FAQ', count: '0 items', cols: ['Question', 'Answer'] }
-        }
+        cols: ['Image', 'Tile No.', 'Name', 'Text'],
+        buildingCols: ['Image', 'Name', 'Text'],
+        sections: { scroll: 'Scrolls', oasis: 'Oases', river: 'River Tiles', building: 'Special Buildings', newOasis: 'New Oases', luxury: 'New Luxury Goods', provision: 'New Provision Tiles' },
+        sectionNotes: { building: 'Before the game begins, players agree which side of the special buildings to use. All players must use the same side. (Green-bordered keshis/resources are received at setup.)' },
+        count: 'items'
       },
       de: {
         pageTitle: 'Marrakesh Referenz',
-        tabs: ['Alle', 'Übersicht', 'Komponenten', 'Karten', 'Plättchen', 'FAQ'],
-        search: 'Name oder Text suchen',
-        empty: 'Inhalt folgt.',
+        tabs: ['Alle', 'Schriftrollen', 'Oasen', 'Flussplättchen', 'Sondergebäude', 'Neue Oasen', 'Neue Luxusgüter', 'Neue Versorgungstättchen'],
+        search: 'Nummer, Name oder Text suchen',
+        empty: 'Keine Ergebnisse gefunden.',
         globalEmpty: 'Keine Ergebnisse gefunden.',
-        sections: {
-          overview: { title: 'Übersicht', count: '0 Einträge', cols: ['Eintrag', 'Text'] },
-          components: { title: 'Komponenten', count: '0 Einträge', cols: ['Typ', 'Name', 'Text'] },
-          cards: { title: 'Karten', count: '0 Einträge', cols: ['Nr.', 'Name', 'Text'] },
-          tiles: { title: 'Plättchen', count: '0 Einträge', cols: ['Typ', 'Name', 'Text'] },
-          faq: { title: 'FAQ', count: '0 Einträge', cols: ['Frage', 'Antwort'] }
-        }
+        cols: ['Bild', 'Nr.', 'Name', 'Text'],
+        buildingCols: ['Bild', 'Name', 'Text'],
+        sections: { scroll: 'Schriftrollen', oasis: 'Oasen', river: 'Flussplättchen', building: 'Sondergebäude', newOasis: 'Neue Oasen', luxury: 'Neue Luxusgüter', provision: 'Neue Versorgungstättchen' },
+        sectionNotes: { building: 'Vor Spielbeginn einigen sich die Spieler darauf, welche Seite der Sondergebäude verwendet wird. Alle Spieler müssen dieselbe Seite verwenden. (Keshis/Ressourcen mit grünem Rahmen erhält man beim Spielaufbau.)' },
+        count: 'Einträge'
       },
       fr: {
         pageTitle: 'Référence Marrakesh',
-        tabs: ['Tout', 'Aperçu', 'Composants', 'Cartes', 'Tuiles', 'FAQ'],
-        search: 'Rechercher un nom ou un texte',
-        empty: 'Contenu à venir.',
+        tabs: ['Tout', 'Parchemins', 'Oasis', 'Tuiles Rivière', 'Bâtiments spéciaux', 'Nouvelles oasis', 'Nouveaux biens de luxe', 'Nouvelles tuiles de ravitaillement'],
+        search: 'Rechercher numéro, nom ou texte',
+        empty: 'Aucun résultat.',
         globalEmpty: 'Aucun résultat.',
-        sections: {
-          overview: { title: 'Aperçu', count: '0 élément', cols: ['Élément', 'Texte'] },
-          components: { title: 'Composants', count: '0 élément', cols: ['Type', 'Nom', 'Texte'] },
-          cards: { title: 'Cartes', count: '0 élément', cols: ['No.', 'Nom', 'Texte'] },
-          tiles: { title: 'Tuiles', count: '0 élément', cols: ['Type', 'Nom', 'Texte'] },
-          faq: { title: 'FAQ', count: '0 élément', cols: ['Question', 'Réponse'] }
-        }
+        cols: ['Image', 'No.', 'Nom', 'Texte'],
+        buildingCols: ['Image', 'Nom', 'Texte'],
+        sections: { scroll: 'Parchemins', oasis: 'Oasis', river: 'Tuiles Rivière', building: 'Bâtiments spéciaux', newOasis: 'Nouvelles oasis', luxury: 'Nouveaux biens de luxe', provision: 'Nouvelles tuiles de ravitaillement' },
+        sectionNotes: { building: 'Avant le début de la partie, les joueurs se mettent d’accord sur la face des bâtiments spéciaux à utiliser. Tous les joueurs doivent utiliser la même face. (Les keshis/ressources avec une bordure verte sont reçus lors de la mise en place.)' },
+        count: 'éléments'
       },
       ja: {
         pageTitle: 'Marrakesh リファレンス',
-        tabs: ['すべて', '概要', 'コンポーネント', 'カード', 'タイル', 'FAQ'],
-        search: '名前またはテキストを検索',
-        empty: '内容は準備中です。',
+        tabs: ['すべて', '巻物', 'オアシス', '川タイル', '特殊建物', '新オアシス', '新しい高級品', '新しい食料供給タイル'],
+        search: '番号・名前・テキストを検索',
+        empty: '検索結果がありません。',
         globalEmpty: '検索結果がありません。',
-        sections: {
-          overview: { title: '概要', count: '0件', cols: ['項目', 'テキスト'] },
-          components: { title: 'コンポーネント', count: '0件', cols: ['種類', '名前', 'テキスト'] },
-          cards: { title: 'カード', count: '0件', cols: ['番号', '名前', 'テキスト'] },
-          tiles: { title: 'タイル', count: '0件', cols: ['種類', '名前', 'テキスト'] },
-          faq: { title: 'FAQ', count: '0件', cols: ['質問', '回答'] }
-        }
+        cols: ['画像', '番号', '名前', 'テキスト'],
+        buildingCols: ['画像', '名前', 'テキスト'],
+        sections: { scroll: '巻物', oasis: 'オアシス', river: '川タイル', building: '特殊建物', newOasis: '新オアシス', luxury: '新しい高級品', provision: '新しい食料供給タイル' },
+        sectionNotes: { building: 'ゲーム開始前に、プレイヤーは特殊建物のどちらの面を使用するかを合意します。全員が同じ面を使用しなければなりません。（緑の枠のケシ/資源はゲーム開始時に受け取ります。）' },
+        count: '件'
       },
       es: {
         pageTitle: 'Referencia de Marrakesh',
-        tabs: ['Todo', 'Resumen', 'Componentes', 'Cartas', 'Losetas', 'FAQ'],
-        search: 'Buscar nombre o texto',
-        empty: 'Contenido pendiente.',
+        tabs: ['Todo', 'Pergaminos', 'Oasis', 'Losetas de río', 'Edificios especiales', 'Nuevos oasis', 'Nuevos bienes de lujo', 'Nuevas losetas de provisión'],
+        search: 'Buscar número, nombre o texto',
+        empty: 'No se encontraron resultados.',
         globalEmpty: 'No se encontraron resultados.',
-        sections: {
-          overview: { title: 'Resumen', count: '0 elementos', cols: ['Elemento', 'Texto'] },
-          components: { title: 'Componentes', count: '0 elementos', cols: ['Tipo', 'Nombre', 'Texto'] },
-          cards: { title: 'Cartas', count: '0 elementos', cols: ['No.', 'Nombre', 'Texto'] },
-          tiles: { title: 'Losetas', count: '0 elementos', cols: ['Tipo', 'Nombre', 'Texto'] },
-          faq: { title: 'FAQ', count: '0 elementos', cols: ['Pregunta', 'Respuesta'] }
-        }
+        cols: ['Imagen', 'No.', 'Nombre', 'Texto'],
+        buildingCols: ['Imagen', 'Nombre', 'Texto'],
+        sections: { scroll: 'Pergaminos', oasis: 'Oasis', river: 'Losetas de río', building: 'Edificios especiales', newOasis: 'Nuevos oasis', luxury: 'Nuevos bienes de lujo', provision: 'Nuevas losetas de provisión' },
+        sectionNotes: { building: 'Antes de comenzar la partida, los jugadores acuerdan qué cara de los edificios especiales usar. Todos los jugadores deben usar la misma cara. (Los keshis/recursos con borde verde se reciben durante la preparación.)' },
+        count: 'elementos'
       }
     };
 
@@ -403,29 +451,94 @@
       });
     };
 
+    const rowsFor = (section) => window.referenceData?.[section] || [];
+    const itemText = (section, item, lang) => {
+      if (lang === 'ko') return { name: item.name, content: item.content };
+      const localized = window.referenceLocaleData?.[lang]?.[section]?.[item.number]
+        || window.referenceLocaleData?.en?.[section]?.[item.number];
+      return {
+        name: localized?.name || item.name,
+        content: localized?.content || item.content
+      };
+    };
+
+    const applyRowLanguage = (lang) => {
+      sections.forEach(section => {
+        const key = section.dataset.section;
+        const isBuilding = key === 'building';
+        section.querySelectorAll('tbody tr').forEach((row, i) => {
+          const item = rowsFor(key)[i];
+          if (!item) return;
+          const localized = itemText(key, item, lang);
+          const img = row.querySelector('img');
+          if (img) img.alt = `${localized.name} ${item.number}`;
+          row.cells[isBuilding ? 1 : 2].textContent = localized.name;
+          row.cells[isBuilding ? 2 : 3].textContent = localized.content;
+        });
+      });
+    };
+
+    const renderTables = () => {
+      sections.forEach(section => {
+        const key = section.dataset.section;
+        const isBuilding = key === 'building';
+        const tbody = section.querySelector('tbody');
+        tbody.textContent = '';
+        rowsFor(key).forEach(item => {
+          const row = document.createElement('tr');
+          const imgCell = document.createElement('td');
+          const nameCell = document.createElement('td');
+          const textCell = document.createElement('td');
+          const img = document.createElement('img');
+
+          img.className = 'ref-img';
+          img.src = item.image;
+          img.alt = `${item.name} ${item.number}`;
+          img.loading = 'lazy';
+          imgCell.className = 'col-image';
+          nameCell.className = 'col-name';
+          textCell.className = 'col-text';
+          nameCell.textContent = item.name;
+          textCell.textContent = item.content;
+          imgCell.appendChild(img);
+          if (isBuilding) {
+            row.append(imgCell, nameCell, textCell);
+          } else {
+            const numberCell = document.createElement('td');
+            numberCell.className = 'col-number';
+            numberCell.textContent = item.number;
+            row.append(imgCell, numberCell, nameCell, textCell);
+          }
+          tbody.appendChild(row);
+        });
+      });
+    };
+
     const applyLanguage = (lang) => {
-      const activeLang = translations[lang] ? lang : 'en';
-      const t = translations[activeLang];
+      const activeLang = baseSectionLabels[lang] ? lang : 'en';
+      const t = baseSectionLabels[activeLang];
       document.documentElement.lang = activeLang;
       document.documentElement.setAttribute('data-lang', activeLang);
       document.getElementById('page-title').textContent = t.pageTitle;
       tabs.forEach((btn, i) => { if (t.tabs[i]) btn.textContent = t.tabs[i]; });
       input.placeholder = t.search;
+      document.querySelectorAll('.card .empty').forEach(el => el.textContent = t.empty);
       if (globalEmpty) globalEmpty.textContent = t.globalEmpty;
-      document.querySelectorAll('.empty').forEach(el => el.textContent = t.empty);
       sections.forEach(section => {
         const key = section.dataset.section;
-        const data = t.sections[key];
-        if (!data) return;
         const h2 = section.querySelector('h2');
         const count = section.querySelector('.count-tag');
         const ths = section.querySelectorAll('thead th');
-        if (h2) h2.textContent = data.title;
-        if (count) count.textContent = data.count;
-        ths.forEach((th, i) => { if (data.cols[i]) th.textContent = data.cols[i]; });
+        const note = section.querySelector('[data-section-note]');
+        const cols = key === 'building' ? (t.buildingCols || [t.cols[0], t.cols[2], t.cols[3]]) : t.cols;
+        if (h2) h2.textContent = t.sections[key];
+        if (count) count.textContent = `${rowsFor(key).length}${activeLang === 'ko' || activeLang === 'ja' ? '' : ' '}${t.count}`;
+        if (note) note.textContent = t.sectionNotes?.[key] || '';
+        ths.forEach((th, i) => { if (cols[i]) th.textContent = cols[i]; });
       });
       localStorage.setItem('marrakesh-lang', activeLang);
       syncLanguageSwitcher(activeLang);
+      applyRowLanguage(activeLang);
       applyFilters();
     };
 
@@ -441,10 +554,9 @@
           row.classList.toggle('hide', !visible);
           if (visible) rowCount += 1;
         });
-        const hasRows = section.querySelectorAll('tbody tr').length > 0;
-        const showSection = sectionMatch && (!q || rowCount > 0 || !hasRows);
+        const showSection = sectionMatch && (!q || rowCount > 0);
         section.classList.toggle('hide-section', !showSection);
-        section.querySelector('.empty')?.classList.toggle('hide', hasRows && rowCount > 0);
+        section.querySelector('.empty')?.classList.toggle('hide', rowCount > 0 || !sectionMatch);
         if (showSection) visibleCount += 1;
       });
       globalEmpty?.classList.toggle('hide', visibleCount > 0);
@@ -481,7 +593,8 @@
     });
     btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-    applyLanguage(localStorage.getItem('marrakesh-lang') || 'en');
+    renderTables();
+    applyLanguage(localStorage.getItem('marrakesh-lang') || 'ko');
   </script>
   <footer style="text-align:center; margin:16px 0 12px; font-size:11px; color:#94a3b8;">
     <a href="mailto:ossonida@gmail.com" style="color: #e2e8f0; text-decoration: none;">ⓒfunnyda</a>
