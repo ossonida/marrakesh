@@ -179,6 +179,16 @@
       background: rgba(255,255,255,0.04);
       display: block;
     }
+    .image-zoom {
+      display: block;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      cursor: zoom-in;
+      border-radius: 8px;
+    }
+    .image-zoom:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
     [data-section="river"] .ref-img { width: 220px; max-height: 120px; }
     [data-section="building"] .ref-img { width: 210px; max-height: 170px; }
     [data-section="provision"] .ref-img,
@@ -212,6 +222,63 @@
       backdrop-filter: blur(6px);
     }
     .btn-top.show { display: inline-flex; align-items: center; gap: 6px; }
+    .image-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      background: rgba(0,0,0,0.72);
+    }
+    .image-modal.is-open { display: flex; }
+    .image-modal-panel {
+      width: min(920px, 100%);
+      max-height: min(92vh, 920px);
+      overflow: auto;
+      background: #0f172a;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 20px 64px rgba(0,0,0,0.52);
+      padding: 14px;
+    }
+    .image-modal-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .image-modal-title { margin: 0; font-size: 18px; line-height: 1.3; }
+    .image-modal-number { color: var(--muted); font-size: 13px; margin-top: 3px; }
+    .image-modal-close {
+      flex: 0 0 auto;
+      width: 36px;
+      height: 36px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.08);
+      color: var(--text);
+      font-size: 22px;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .image-modal-img {
+      width: 100%;
+      max-height: 58vh;
+      object-fit: contain;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      display: block;
+      margin-bottom: 12px;
+    }
+    .image-modal-content {
+      white-space: pre-line;
+      font-size: 15px;
+      line-height: 1.55;
+    }
     @media (max-width: 900px) {
       .layout { gap: 18px; }
       body { padding: 5px 16px 30px; }
@@ -241,6 +308,11 @@
       .col-name { width: 64px; min-width: 0; }
       .col-text { min-width: 0; width: auto; white-space: pre-line; }
       .ref-img { width: 54px; max-height: 96px; border-radius: 6px; }
+      .image-modal { align-items: stretch; padding: 10px; }
+      .image-modal-panel { max-height: calc(100vh - 20px); padding: 10px; border-radius: 12px; }
+      .image-modal-title { font-size: 16px; }
+      .image-modal-img { max-height: 48vh; }
+      .image-modal-content { font-size: 14px; line-height: 1.5; }
       [data-section="river"] .ref-img { width: 54px; max-height: 42px; }
       [data-section="building"] .ref-img { width: 58px; max-height: 58px; }
       [data-section="provision"] .ref-img,
@@ -467,6 +539,19 @@
   </div>
 
   <button class="btn-top" id="btn-top" type="button">TOP</button>
+  <div class="image-modal" id="image-modal" aria-hidden="true">
+    <div class="image-modal-panel" role="dialog" aria-modal="true" aria-labelledby="image-modal-title">
+      <div class="image-modal-header">
+        <div>
+          <h3 class="image-modal-title" id="image-modal-title"></h3>
+          <div class="image-modal-number" id="image-modal-number"></div>
+        </div>
+        <button class="image-modal-close" id="image-modal-close" type="button" aria-label="Close">×</button>
+      </div>
+      <img class="image-modal-img" id="image-modal-img" alt="">
+      <div class="image-modal-content" id="image-modal-content"></div>
+    </div>
+  </div>
 
   <script src="reference-data.js"></script>
   <script src="reference-translations.js"></script>
@@ -569,7 +654,14 @@
     const noNameSections = new Set(['scroll', 'oasis', 'river', 'newOasis', 'luxury', 'ex2Luxury', 'ex2Exchange', 'ex2Scroll', 'ex2Oasis']);
     const globalEmpty = document.getElementById('global-empty');
     const btnTop = document.getElementById('btn-top');
+    const imageModal = document.getElementById('image-modal');
+    const imageModalImg = document.getElementById('image-modal-img');
+    const imageModalTitle = document.getElementById('image-modal-title');
+    const imageModalNumber = document.getElementById('image-modal-number');
+    const imageModalContent = document.getElementById('image-modal-content');
+    const imageModalClose = document.getElementById('image-modal-close');
     let activeSection = 'all';
+    let activeLang = localStorage.getItem('marrakesh-lang') || 'ko';
 
     const syncLanguageSwitcher = (lang) => {
       const active = langMenu.querySelector(`[data-lang="${lang}"]`);
@@ -622,12 +714,19 @@
         const isNoNumberSection = noNumberSections.has(key);
         const tbody = section.querySelector('tbody');
         tbody.textContent = '';
-        rowsFor(key).forEach(item => {
+        rowsFor(key).forEach((item, index) => {
           const row = document.createElement('tr');
           const imgCell = document.createElement('td');
           const nameCell = document.createElement('td');
           const textCell = document.createElement('td');
           const img = document.createElement('img');
+
+          const zoomButton = document.createElement('button');
+          zoomButton.type = 'button';
+          zoomButton.className = 'image-zoom';
+          zoomButton.dataset.section = key;
+          zoomButton.dataset.index = String(index);
+          zoomButton.setAttribute('aria-label', `${item.name} image detail`);
 
           img.className = 'ref-img';
           img.src = item.image;
@@ -638,7 +737,8 @@
           textCell.className = 'col-text';
           nameCell.textContent = item.name;
           textCell.textContent = item.content;
-          imgCell.appendChild(img);
+          zoomButton.appendChild(img);
+          imgCell.appendChild(zoomButton);
           if (textOnlySections.has(key)) {
             row.append(imgCell, textCell);
           } else if (isNoNumberSection) {
@@ -659,7 +759,8 @@
     };
 
     const applyLanguage = (lang) => {
-      const activeLang = baseSectionLabels[lang] ? lang : 'en';
+      const nextLang = baseSectionLabels[lang] ? lang : 'en';
+      activeLang = nextLang;
       const t = baseSectionLabels[activeLang];
       document.documentElement.lang = activeLang;
       document.documentElement.setAttribute('data-lang', activeLang);
@@ -684,6 +785,28 @@
       syncLanguageSwitcher(activeLang);
       applyRowLanguage(activeLang);
       applyFilters();
+    };
+
+    const openImageModal = (section, index) => {
+      const item = rowsFor(section)[index];
+      if (!item) return;
+      const localized = itemText(section, item, activeLang);
+      imageModalTitle.textContent = localized.name;
+      imageModalNumber.textContent = item.number || baseSectionLabels[activeLang]?.sections?.[section] || '';
+      imageModalContent.textContent = localized.content;
+      imageModalImg.src = item.image;
+      imageModalImg.alt = `${localized.name} ${item.number || ''}`.trim();
+      imageModal.classList.add('is-open');
+      imageModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      imageModalClose.focus();
+    };
+
+    const closeImageModal = () => {
+      imageModal.classList.remove('is-open');
+      imageModal.setAttribute('aria-hidden', 'true');
+      imageModalImg.removeAttribute('src');
+      document.body.style.overflow = '';
     };
 
     const applyFilters = () => {
@@ -714,6 +837,13 @@
       });
     });
     input.addEventListener('input', applyFilters);
+    sections.forEach(section => {
+      section.addEventListener('click', (e) => {
+        const button = e.target.closest('.image-zoom');
+        if (!button) return;
+        openImageModal(button.dataset.section, Number(button.dataset.index));
+      });
+    });
 
     langButton.addEventListener('click', () => {
       const open = langSwitch.classList.toggle('open');
@@ -736,6 +866,13 @@
       btnTop.classList.toggle('show', window.scrollY > 320);
     });
     btnTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    imageModalClose.addEventListener('click', closeImageModal);
+    imageModal.addEventListener('click', (e) => {
+      if (e.target === imageModal) closeImageModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && imageModal.classList.contains('is-open')) closeImageModal();
+    });
 
     renderTables();
     applyLanguage(localStorage.getItem('marrakesh-lang') || 'ko');
