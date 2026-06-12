@@ -181,7 +181,13 @@
     [data-section="river"] .ref-img { width: 220px; max-height: 120px; }
     [data-section="building"] .ref-img { width: 210px; max-height: 170px; }
     [data-section="provision"] .ref-img,
+    [data-section="award"] .ref-img,
     [data-section="luxury"] .ref-img { width: 150px; max-height: 150px; }
+    [data-section="ex2Luxury"] .ref-img,
+    [data-section="ex2Exchange"] .ref-img,
+    [data-section="ex2Scroll"] .ref-img,
+    [data-section="ex2Oasis"] .ref-img,
+    [data-section="ex2Expert"] .ref-img { width: 180px; max-height: 220px; }
     tbody tr.hide { display: none; }
     tbody tr:hover { background: rgba(255,255,255,0.03); }
     .table-wrap { overflow-x: auto; }
@@ -222,7 +228,13 @@
       [data-section="river"] .ref-img { width: 150px; max-height: 90px; }
       [data-section="building"] .ref-img { width: 140px; max-height: 120px; }
       [data-section="provision"] .ref-img,
+      [data-section="award"] .ref-img,
       [data-section="luxury"] .ref-img { width: 110px; max-height: 110px; }
+      [data-section="ex2Luxury"] .ref-img,
+      [data-section="ex2Exchange"] .ref-img,
+      [data-section="ex2Scroll"] .ref-img,
+      [data-section="ex2Oasis"] .ref-img,
+      [data-section="ex2Expert"] .ref-img { width: 120px; max-height: 160px; }
       .col-name { min-width: 150px; }
       .col-text { min-width: 260px; }
     }
@@ -259,10 +271,16 @@
         <button type="button" data-show="scroll">스크롤</button>
         <button type="button" data-show="oasis">오아시스</button>
         <button type="button" data-show="river">강타일</button>
-        <button type="button" data-show="building">특수건물</button>
-        <button type="button" data-show="newOasis">뉴 오아시스</button>
-        <button type="button" data-show="luxury">뉴 사치품</button>
-        <button type="button" data-show="provision">뉴 식량공급타일</button>
+        <button type="button" data-show="building">Ex1.특수건물</button>
+        <button type="button" data-show="newOasis">Ex1.오아시스</button>
+        <button type="button" data-show="luxury">Ex1.사치품</button>
+        <button type="button" data-show="provision">Ex1.식량공급타일</button>
+        <button type="button" data-show="award">Ex1.시상타일</button>
+        <button type="button" data-show="ex2Luxury">Ex2.사치품(선물/조각상)</button>
+        <button type="button" data-show="ex2Exchange">Ex2.교환소타일</button>
+        <button type="button" data-show="ex2Scroll">Ex2.스크롤</button>
+        <button type="button" data-show="ex2Oasis">Ex2.오아시스</button>
+        <button type="button" data-show="ex2Expert">Ex2.전문가</button>
       </div>
       <div class="search-bar">
         <input id="global-search" type="search" placeholder="타일번호·이름·내용을 입력하세요" autofocus>
@@ -305,7 +323,7 @@
     </section>
 
     <section class="card" data-section="building">
-      <div class="card-header"><h2>특수건물</h2><span class="count-tag">0개</span><span class="section-note" data-section-note="building"></span></div>
+      <div class="card-header"><h2>Ex1.특수건물</h2><span class="count-tag">0개</span><span class="section-note" data-section-note="building"></span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
@@ -316,7 +334,7 @@
     </section>
 
     <section class="card" data-section="newOasis">
-      <div class="card-header"><h2>뉴 오아시스</h2><span class="count-tag">0개</span></div>
+      <div class="card-header"><h2>Ex1.오아시스</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
@@ -327,7 +345,7 @@
     </section>
 
     <section class="card" data-section="luxury">
-      <div class="card-header"><h2>뉴 사치품</h2><span class="count-tag">0개</span></div>
+      <div class="card-header"><h2>Ex1.사치품</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
@@ -338,7 +356,62 @@
     </section>
 
     <section class="card" data-section="provision">
-      <div class="card-header"><h2>뉴 식량공급타일</h2><span class="count-tag">0개</span></div>
+      <div class="card-header"><h2>Ex1.식량공급타일</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="ex2Luxury">
+      <div class="card-header"><h2>Ex2.사치품(선물/조각상)</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="ex2Exchange">
+      <div class="card-header"><h2>Ex2.교환소타일</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="ex2Scroll">
+      <div class="card-header"><h2>Ex2.스크롤</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="ex2Oasis">
+      <div class="card-header"><h2>Ex2.오아시스</h2><span class="count-tag">0개</span></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="empty hide">검색 결과가 없습니다.</div>
+    </section>
+
+    <section class="card" data-section="ex2Expert">
+      <div class="card-header"><h2>Ex2.전문가</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-name">이름</th><th class="col-text">내용</th></tr></thead>
@@ -357,73 +430,73 @@
     const baseSectionLabels = {
       ko: {
         pageTitle: 'Marrakesh 레퍼런스',
-        tabs: ['전체', '스크롤', '오아시스', '강타일', '특수건물', '뉴 오아시스', '뉴 사치품', '뉴 식량공급타일'],
+        tabs: ['전체', '스크롤', '오아시스', '강타일', 'Ex1.특수건물', 'Ex1.오아시스', 'Ex1.사치품', 'Ex1.식량공급타일', 'Ex1.시상타일', 'Ex2.사치품(선물/조각상)', 'Ex2.교환소타일', 'Ex2.스크롤', 'Ex2.오아시스', 'Ex2.전문가'],
         search: '타일번호·이름·내용을 입력하세요',
         empty: '검색 결과가 없습니다.',
         globalEmpty: '검색 결과가 없습니다.',
         cols: ['이미지', '타일번호', '이름', '내용'],
         buildingCols: ['이미지', '이름', '내용'],
-        sections: { scroll: '스크롤', oasis: '오아시스', river: '강타일', building: '특수건물', newOasis: '뉴 오아시스', luxury: '뉴 사치품', provision: '뉴 식량공급타일' },
+        sections: { scroll: '스크롤', oasis: '오아시스', river: '강타일', building: 'Ex1.특수건물', newOasis: 'Ex1.오아시스', luxury: 'Ex1.사치품', provision: 'Ex1.식량공급타일', award: 'Ex1.시상타일', ex2Luxury: 'Ex2.사치품(선물/조각상)', ex2Exchange: 'Ex2.교환소타일', ex2Scroll: 'Ex2.스크롤', ex2Oasis: 'Ex2.오아시스', ex2Expert: 'Ex2.전문가' },
         sectionNotes: { building: '게임 시작 전에, 플레이어들은 특수 건물의 어느 면을 사용할지 합의합니다. 모든 플레이어는 같은 면을 사용해야 합니다. (초록색 테두리 케시/자원은 게임 시작시 받는 것)' },
         count: '개'
       },
       en: {
         pageTitle: 'Marrakesh Reference',
-        tabs: ['All', 'Scrolls', 'Oases', 'River Tiles', 'Special Buildings', 'New Oases', 'New Luxury Goods', 'New Provision Tiles'],
+        tabs: ['All', 'Scrolls', 'Oases', 'River Tiles', 'Ex1. Special Buildings', 'Ex1. Oases', 'Ex1. Luxury Goods', 'Ex1. Provision Tiles', 'Ex1. Award Tiles', 'Ex2. Luxury Goods (Gifts/Statuettes)', 'Ex2. Exchange Tiles', 'Ex2. Scrolls', 'Ex2. Oases', 'Ex2. Experts'],
         search: 'Search tile number, name, or text',
         empty: 'No results found.',
         globalEmpty: 'No results found.',
         cols: ['Image', 'Tile No.', 'Name', 'Text'],
         buildingCols: ['Image', 'Name', 'Text'],
-        sections: { scroll: 'Scrolls', oasis: 'Oases', river: 'River Tiles', building: 'Special Buildings', newOasis: 'New Oases', luxury: 'New Luxury Goods', provision: 'New Provision Tiles' },
+        sections: { scroll: 'Scrolls', oasis: 'Oases', river: 'River Tiles', building: 'Ex1. Special Buildings', newOasis: 'Ex1. Oases', luxury: 'Ex1. Luxury Goods', provision: 'Ex1. Provision Tiles', award: 'Ex1. Award Tiles', ex2Luxury: 'Ex2. Luxury Goods (Gifts/Statuettes)', ex2Exchange: 'Ex2. Exchange Tiles', ex2Scroll: 'Ex2. Scrolls', ex2Oasis: 'Ex2. Oases', ex2Expert: 'Ex2. Experts' },
         sectionNotes: { building: 'Before the game begins, players agree which side of the special buildings to use. All players must use the same side. (Green-bordered keshis/resources are received at setup.)' },
         count: 'items'
       },
       de: {
         pageTitle: 'Marrakesh Referenz',
-        tabs: ['Alle', 'Schriftrollen', 'Oasen', 'Flussplättchen', 'Sondergebäude', 'Neue Oasen', 'Neue Luxusgüter', 'Neue Versorgungstättchen'],
+        tabs: ['Alle', 'Schriftrollen', 'Oasen', 'Flussplättchen', 'Ex1. Sondergebäude', 'Ex1. Oasen', 'Ex1. Luxusgüter', 'Ex1. Versorgungstättchen', 'Ex1. Auszeichnungsplättchen', 'Ex2. Luxusgüter (Geschenke/Statuetten)', 'Ex2. Tauschplättchen', 'Ex2. Schriftrollen', 'Ex2. Oasen', 'Ex2. Experten'],
         search: 'Nummer, Name oder Text suchen',
         empty: 'Keine Ergebnisse gefunden.',
         globalEmpty: 'Keine Ergebnisse gefunden.',
         cols: ['Bild', 'Nr.', 'Name', 'Text'],
         buildingCols: ['Bild', 'Name', 'Text'],
-        sections: { scroll: 'Schriftrollen', oasis: 'Oasen', river: 'Flussplättchen', building: 'Sondergebäude', newOasis: 'Neue Oasen', luxury: 'Neue Luxusgüter', provision: 'Neue Versorgungstättchen' },
+        sections: { scroll: 'Schriftrollen', oasis: 'Oasen', river: 'Flussplättchen', building: 'Ex1. Sondergebäude', newOasis: 'Ex1. Oasen', luxury: 'Ex1. Luxusgüter', provision: 'Ex1. Versorgungstättchen', award: 'Ex1. Auszeichnungsplättchen', ex2Luxury: 'Ex2. Luxusgüter (Geschenke/Statuetten)', ex2Exchange: 'Ex2. Tauschplättchen', ex2Scroll: 'Ex2. Schriftrollen', ex2Oasis: 'Ex2. Oasen', ex2Expert: 'Ex2. Experten' },
         sectionNotes: { building: 'Vor Spielbeginn einigen sich die Spieler darauf, welche Seite der Sondergebäude verwendet wird. Alle Spieler müssen dieselbe Seite verwenden. (Keshis/Ressourcen mit grünem Rahmen erhält man beim Spielaufbau.)' },
         count: 'Einträge'
       },
       fr: {
         pageTitle: 'Référence Marrakesh',
-        tabs: ['Tout', 'Parchemins', 'Oasis', 'Tuiles Rivière', 'Bâtiments spéciaux', 'Nouvelles oasis', 'Nouveaux biens de luxe', 'Nouvelles tuiles de ravitaillement'],
+        tabs: ['Tout', 'Parchemins', 'Oasis', 'Tuiles Rivière', 'Ex1. Bâtiments spéciaux', 'Ex1. Oasis', 'Ex1. Biens de luxe', 'Ex1. Tuiles de ravitaillement', 'Ex1. Tuiles de récompense', 'Ex2. Biens de luxe (cadeaux/statuettes)', 'Ex2. Tuiles d’échange', 'Ex2. Parchemins', 'Ex2. Oasis', 'Ex2. Experts'],
         search: 'Rechercher numéro, nom ou texte',
         empty: 'Aucun résultat.',
         globalEmpty: 'Aucun résultat.',
         cols: ['Image', 'No.', 'Nom', 'Texte'],
         buildingCols: ['Image', 'Nom', 'Texte'],
-        sections: { scroll: 'Parchemins', oasis: 'Oasis', river: 'Tuiles Rivière', building: 'Bâtiments spéciaux', newOasis: 'Nouvelles oasis', luxury: 'Nouveaux biens de luxe', provision: 'Nouvelles tuiles de ravitaillement' },
+        sections: { scroll: 'Parchemins', oasis: 'Oasis', river: 'Tuiles Rivière', building: 'Ex1. Bâtiments spéciaux', newOasis: 'Ex1. Oasis', luxury: 'Ex1. Biens de luxe', provision: 'Ex1. Tuiles de ravitaillement', award: 'Ex1. Tuiles de récompense', ex2Luxury: 'Ex2. Biens de luxe (cadeaux/statuettes)', ex2Exchange: 'Ex2. Tuiles d’échange', ex2Scroll: 'Ex2. Parchemins', ex2Oasis: 'Ex2. Oasis', ex2Expert: 'Ex2. Experts' },
         sectionNotes: { building: 'Avant le début de la partie, les joueurs se mettent d’accord sur la face des bâtiments spéciaux à utiliser. Tous les joueurs doivent utiliser la même face. (Les keshis/ressources avec une bordure verte sont reçus lors de la mise en place.)' },
         count: 'éléments'
       },
       ja: {
         pageTitle: 'Marrakesh リファレンス',
-        tabs: ['すべて', '巻物', 'オアシス', '川タイル', '特殊建物', '新オアシス', '新しい高級品', '新しい食料供給タイル'],
+        tabs: ['すべて', '巻物', 'オアシス', '川タイル', 'Ex1. 特殊建物', 'Ex1. オアシス', 'Ex1. 高級品', 'Ex1. 食料供給タイル', 'Ex1. 表彰タイル', 'Ex2. 高級品（贈り物/小像）', 'Ex2. 交換所タイル', 'Ex2. 巻物', 'Ex2. オアシス', 'Ex2. 専門家'],
         search: '番号・名前・テキストを検索',
         empty: '検索結果がありません。',
         globalEmpty: '検索結果がありません。',
         cols: ['画像', '番号', '名前', 'テキスト'],
         buildingCols: ['画像', '名前', 'テキスト'],
-        sections: { scroll: '巻物', oasis: 'オアシス', river: '川タイル', building: '特殊建物', newOasis: '新オアシス', luxury: '新しい高級品', provision: '新しい食料供給タイル' },
+        sections: { scroll: '巻物', oasis: 'オアシス', river: '川タイル', building: 'Ex1. 特殊建物', newOasis: 'Ex1. オアシス', luxury: 'Ex1. 高級品', provision: 'Ex1. 食料供給タイル', award: 'Ex1. 表彰タイル', ex2Luxury: 'Ex2. 高級品（贈り物/小像）', ex2Exchange: 'Ex2. 交換所タイル', ex2Scroll: 'Ex2. 巻物', ex2Oasis: 'Ex2. オアシス', ex2Expert: 'Ex2. 専門家' },
         sectionNotes: { building: 'ゲーム開始前に、プレイヤーは特殊建物のどちらの面を使用するかを合意します。全員が同じ面を使用しなければなりません。（緑の枠のケシ/資源はゲーム開始時に受け取ります。）' },
         count: '件'
       },
       es: {
         pageTitle: 'Referencia de Marrakesh',
-        tabs: ['Todo', 'Pergaminos', 'Oasis', 'Losetas de río', 'Edificios especiales', 'Nuevos oasis', 'Nuevos bienes de lujo', 'Nuevas losetas de provisión'],
+        tabs: ['Todo', 'Pergaminos', 'Oasis', 'Losetas de río', 'Ex1. Edificios especiales', 'Ex1. Oasis', 'Ex1. Bienes de lujo', 'Ex1. Losetas de provisión', 'Ex1. Losetas de premio', 'Ex2. Bienes de lujo (regalos/estatuillas)', 'Ex2. Losetas de intercambio', 'Ex2. Pergaminos', 'Ex2. Oasis', 'Ex2. Expertos'],
         search: 'Buscar número, nombre o texto',
         empty: 'No se encontraron resultados.',
         globalEmpty: 'No se encontraron resultados.',
         cols: ['Imagen', 'No.', 'Nombre', 'Texto'],
         buildingCols: ['Imagen', 'Nombre', 'Texto'],
-        sections: { scroll: 'Pergaminos', oasis: 'Oasis', river: 'Losetas de río', building: 'Edificios especiales', newOasis: 'Nuevos oasis', luxury: 'Nuevos bienes de lujo', provision: 'Nuevas losetas de provisión' },
+        sections: { scroll: 'Pergaminos', oasis: 'Oasis', river: 'Losetas de río', building: 'Ex1. Edificios especiales', newOasis: 'Ex1. Oasis', luxury: 'Ex1. Bienes de lujo', provision: 'Ex1. Losetas de provisión', award: 'Ex1. Losetas de premio', ex2Luxury: 'Ex2. Bienes de lujo (regalos/estatuillas)', ex2Exchange: 'Ex2. Losetas de intercambio', ex2Scroll: 'Ex2. Pergaminos', ex2Oasis: 'Ex2. Oasis', ex2Expert: 'Ex2. Expertos' },
         sectionNotes: { building: 'Antes de comenzar la partida, los jugadores acuerdan qué cara de los edificios especiales usar. Todos los jugadores deben usar la misma cara. (Los keshis/recursos con borde verde se reciben durante la preparación.)' },
         count: 'elementos'
       }
@@ -435,6 +508,7 @@
     const input = document.getElementById('global-search');
     const tabs = document.querySelectorAll('#section-tabs button');
     const sections = document.querySelectorAll('[data-section]');
+    const noNumberSections = new Set(['building', 'award']);
     const globalEmpty = document.getElementById('global-empty');
     const btnTop = document.getElementById('btn-top');
     let activeSection = 'all';
@@ -465,15 +539,15 @@
     const applyRowLanguage = (lang) => {
       sections.forEach(section => {
         const key = section.dataset.section;
-        const isBuilding = key === 'building';
+        const isNoNumberSection = noNumberSections.has(key);
         section.querySelectorAll('tbody tr').forEach((row, i) => {
           const item = rowsFor(key)[i];
           if (!item) return;
           const localized = itemText(key, item, lang);
           const img = row.querySelector('img');
           if (img) img.alt = `${localized.name} ${item.number}`;
-          row.cells[isBuilding ? 1 : 2].textContent = localized.name;
-          row.cells[isBuilding ? 2 : 3].textContent = localized.content;
+          row.cells[isNoNumberSection ? 1 : 2].textContent = localized.name;
+          row.cells[isNoNumberSection ? 2 : 3].textContent = localized.content;
         });
       });
     };
@@ -481,7 +555,7 @@
     const renderTables = () => {
       sections.forEach(section => {
         const key = section.dataset.section;
-        const isBuilding = key === 'building';
+        const isNoNumberSection = noNumberSections.has(key);
         const tbody = section.querySelector('tbody');
         tbody.textContent = '';
         rowsFor(key).forEach(item => {
@@ -501,7 +575,7 @@
           nameCell.textContent = item.name;
           textCell.textContent = item.content;
           imgCell.appendChild(img);
-          if (isBuilding) {
+          if (isNoNumberSection) {
             row.append(imgCell, nameCell, textCell);
           } else {
             const numberCell = document.createElement('td');
@@ -530,7 +604,7 @@
         const count = section.querySelector('.count-tag');
         const ths = section.querySelectorAll('thead th');
         const note = section.querySelector('[data-section-note]');
-        const cols = key === 'building' ? (t.buildingCols || [t.cols[0], t.cols[2], t.cols[3]]) : t.cols;
+        const cols = noNumberSections.has(key) ? (t.buildingCols || [t.cols[0], t.cols[2], t.cols[3]]) : t.cols;
         if (h2) h2.textContent = t.sections[key];
         if (count) count.textContent = `${rowsFor(key).length}${activeLang === 'ko' || activeLang === 'ja' ? '' : ' '}${t.count}`;
         if (note) note.textContent = t.sectionNotes?.[key] || '';

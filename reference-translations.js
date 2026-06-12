@@ -505,6 +505,426 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "Schwer – Keshi-Austausch mit rundem Start",
         "content": "Zu Beginn jeder Runde führst du 1 Keshi-Tausch nach den Grundspielregeln aus.\n\nHinweis: Saison 1, Runde 1: Du darfst 1 Keshi von deiner Bonusleiste für beanspruchte Oasen mit einem Keshi aus dem allgemeinen Vorrat tauschen. Gelbe, violette, orangefarbene und braune Keshis sind vom Tausch ausgeschlossen. Der eingetauschte Keshi wird auf dasselbe Feld der Bonusleiste gelegt, auf dem der ursprüngliche Keshi lag.\nBei Verwendung der Kamele-Erweiterung:\nWenn du durch diesen Effekt tauschst, darfst du nicht nur mit dem allgemeinen Vorrat tauschen, sondern auch mit einem Keshi in deiner Zuschauer-Spalte auf der Rennstrecke.\nDa dieser Tausch keinen neu erhaltenen Keshi darstellt, bewegt sich dein Kamel dabei nicht vorwärts."
       }
+    },
+    "award": {
+      "A01": {
+        "name": "2 Punkte",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Punkte."
+      },
+      "A02": {
+        "name": "2 Dinar",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Dinar."
+      },
+      "A03": {
+        "name": "2 Wasser",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Wasser."
+      },
+      "A04": {
+        "name": "2 Datteln",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Datteln."
+      },
+      "A05": {
+        "name": "1 beliebige Ressource",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 1 beliebige Ressource."
+      },
+      "A06": {
+        "name": "2 Waren-Keshis einer beliebigen Farbe",
+        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Waren-Keshis einer beliebigen Farbe."
+      },
+      "A07": {
+        "name": "3 Punkte",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 3 Punkte."
+      },
+      "A08": {
+        "name": "4 Dinar",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 4 Dinar."
+      },
+      "A09": {
+        "name": "2 Schritte auf der Palasttreppe vorwärts",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Palasttreppe vorwärts."
+      },
+      "A10": {
+        "name": "2 Schritte auf der Flussleiste vorwärts",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Flussleiste vorwärts."
+      },
+      "A11": {
+        "name": "Wähle eine graue Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: wähle eine graue Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+      },
+      "A12": {
+        "name": "3 beliebige Ressourcen",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 3 beliebige Ressourcen."
+      },
+      "A13": {
+        "name": "2 Punkte + 2 Wasser",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Punkte + 2 Wasser."
+      },
+      "A14": {
+        "name": "2 Schritte auf der Moschee-Treppe vorwärts",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Moschee-Treppe vorwärts."
+      },
+      "A15": {
+        "name": "Erhalte die Belohnung eines beliebigen 2-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich",
+        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: erhalte die Belohnung eines beliebigen 2-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
+      },
+      "A16": {
+        "name": "5 Punkte",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 5 Punkte."
+      },
+      "A17": {
+        "name": "3 Datteln + 3 Wasser",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Datteln + 3 Wasser."
+      },
+      "A18": {
+        "name": "5 beliebige Ressourcen",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 5 beliebige Ressourcen."
+      },
+      "A19": {
+        "name": "Insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+      },
+      "A20": {
+        "name": "Beanspruche 1 Oasenplättchen, ohne Ressourcen zu zahlen",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: beanspruche 1 Oasenplättchen, ohne Ressourcen zu zahlen."
+      },
+      "A21": {
+        "name": "Erhalte die Belohnung eines 3-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: erhalte die Belohnung eines 3-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
+      },
+      "A22": {
+        "name": "3 Dinar + 3 Wasser",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Dinar + 3 Wasser."
+      },
+      "A23": {
+        "name": "3 Dinar + 3 Datteln",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Dinar + 3 Datteln."
+      },
+      "A24": {
+        "name": "Insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+      },
+      "A25": {
+        "name": "Insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+      },
+      "A26": {
+        "name": "3 Waren-Keshis einer beliebigen Farbe",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Waren-Keshis einer beliebigen Farbe."
+      },
+      "A27": {
+        "name": "Wähle eine gelbe Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf",
+        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: wähle eine gelbe Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+      },
+      "A28": {
+        "name": "8 Punkte",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: 8 Punkte."
+      },
+      "A29": {
+        "name": "Den Fluss-Saisonbonus. In der 3. Saison freie Wahl",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: den Fluss-Saisonbonus. In der 3. Saison freie Wahl."
+      },
+      "A30": {
+        "name": "Beanspruche 2 Oasenplättchen, ohne Ressourcen zu zahlen",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: beanspruche 2 Oasenplättchen, ohne Ressourcen zu zahlen."
+      },
+      "A31": {
+        "name": "Insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+      },
+      "A32": {
+        "name": "Wähle ein Luxusgut aus einem Stapel und kaufe es mit einem Rabatt von 3 Waren-Keshis. Mische den Stapel und decke das oberste Plättchen auf",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: wähle ein Luxusgut aus einem Stapel und kaufe es mit einem Rabatt von 3 Waren-Keshis. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+      },
+      "A33": {
+        "name": "Wähle eine rosa Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 2 Datteln. Mische den Stapel und decke das oberste Plättchen auf",
+        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: wähle eine rosa Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 2 Datteln. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+      }
+    },
+    "ex2Luxury": {
+      "선물 01": {
+        "name": "Geschenk – Das teuerste Luxusgut",
+        "content": "Zustand: Kaufen Sie eines der teuersten ausgestellten Luxusgüter.\nBonus: 1 Punkt und 1 Stufe auf der Moscheetreppe."
+      },
+      "선물 02": {
+        "name": "Geschenk – Günstigstes Luxusgut",
+        "content": "Bedingung: Kaufen Sie eines der günstigsten angezeigten Luxusgüter.\nBonus: 1 Punkt und 1 Schritt auf der Flussstrecke."
+      },
+      "선물 03": {
+        "name": "Geschenk – Stapel ganz rechts",
+        "content": "Bedingung: Kaufe ein Luxusgut vom Stapel ganz rechts.\nBonus: 1 Punkt und 1 Wasser."
+      },
+      "선물 04": {
+        "name": "Geschenk – Stapel ganz links",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut vom Stapel ganz links.\nBonus: 1 Punkt und 1 Dattel."
+      },
+      "선물 05": {
+        "name": "Geschenk - Mittelstapel",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut aus dem Mittelstapel.\nBonus: 1 Punkt und 1 Dattel."
+      },
+      "선물 06": {
+        "name": "Geschenk – Niedrigster Stapel",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut aus einem der niedrigsten Stapel.\nBonus: 1 Punkt und 1 Dinar."
+      },
+      "선물 07": {
+        "name": "Geschenk – Höchster Stapel",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut aus einem der höchsten Stapel.\nBonus: 1 Punkt und 1 Dinar."
+      },
+      "선물 08": {
+        "name": "Geschenk – Eigener Typ",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut einer Art, die Sie bereits besitzen.\nBonus: 1 Punkt und 1 Stufe auf der Palasttreppe."
+      },
+      "선물 09": {
+        "name": "Geschenk – Dritter anderer Typ",
+        "content": "Bedingung: Kaufen Sie Ihre dritte andere Art von Luxusgut.\nBonus: 1 Punkt und 1 Schritt auf der Flussstrecke."
+      },
+      "선물 10": {
+        "name": "Geschenk – Stapel gleicher Höhe",
+        "content": "Bedingung: Kaufen Sie ein Luxusgut von einem Stapel mit der gleichen Höhe wie ein anderer Luxusgutstapel.\nBonus: 1 Punkt und 1 Wasser."
+      },
+      "조각상 A": {
+        "name": "Statuetten - Wächter und Tor",
+        "content": "Kaufprämie: 7 Punkte und 1 Dattel oder 7 Punkte und 1 Wasser.\nPaarbonus: Wenn Sie das zweite Plättchen kaufen und das Paar vervollständigen, wählen Sie 5 Mal Belohnungen aus 1 Dattel, 1 Dinar, 1 Wasser oder 1 Punkt."
+      },
+      "조각상 B": {
+        "name": "Statuetten - Frau und Palme",
+        "content": "Kaufprämie: 5 Punkte und 1 Dattel oder 5 Punkte und 1 Wasser.\nPaarbonus: Wenn Sie das zweite Plättchen kaufen und das Paar vervollständigen, wählen Sie viermal Belohnungen aus 1 Dattel, 1 Dinar, 1 Wasser oder 1 Punkt."
+      },
+      "조각상 C": {
+        "name": "Statuetten - Mann und Kamel",
+        "content": "Kaufprämie: 3 Punkte und 1 Dattel oder 3 Punkte und 1 Wasser.\nPaarbonus: Wenn Sie das zweite Plättchen kaufen und das Paar vervollständigen, wählen Sie dreimal Belohnungen aus 1 Dattel, 1 Dinar, 1 Wasser oder 1 Punkt."
+      }
+    },
+    "ex2Exchange": {
+      "10": {
+        "name": "Stadttor und Edelsteinsuche",
+        "content": "Oben: Verliere 8 Punkte und nimm 1 Stadttor vom Feld mit -3 Punkten kostenlos, zusammen mit seinem Keshi. Erhalte 2 Dinar und 1 Wasser.\nUnten: Zahle 3 beliebige Arbeiter-Keshis und suche nach 2 Edelsteinen.\n\nStadttor-Hinweis: Dieses Stadttor bringt 0 Punkte statt Minuspunkte und nur den Keshi selbst. Du musst einen verfügbaren Wächter-Keshi haben.\nEdelstein-Hinweis: Diese Option ist nur mit Modul 2 „Edelsteine“ verfügbar. Durchsuche den Edelsteinvorrat und wähle einen beliebigen Edelstein. Mische den Edelsteinvorrat danach."
+      },
+      "11": {
+        "name": "Großer Ressourcengewinn und Edelsteinsuche",
+        "content": "Oben: Verliere 10 Punkte, um 3 Dinar, 4 Datteln und 4 Wasser zu erhalten.\nUnten: Zahle 3 beliebige Waren-Keshis und suche nach 1 Edelstein.\n\nHinweis: Diese Option ist nur mit Modul 2 „Edelsteine“ verfügbar. Durchsuche den Edelsteinvorrat und wähle einen beliebigen Edelstein. Mische den Edelsteinvorrat danach."
+      },
+      "12": {
+        "name": "Großer Ressourcengewinn und Suche nach zwei Edelsteinen",
+        "content": "Oben: Verliere 12 Punkte, um 4 Dinar, 4 Datteln und 4 Wasser zu erhalten.\nUnten: Zahle 5 beliebige Waren-Keshis und suche nach 2 Edelsteinen.\n\nHinweis: Diese Option ist nur mit Modul 2 „Edelsteine“ verfügbar. Durchsuche den Edelsteinvorrat und wähle einen beliebigen Edelstein. Mische den Edelsteinvorrat danach."
+      },
+      "01": {
+        "name": "Punkte- und Terminaustausch",
+        "content": "Oben: Verliere 2 Punkte, um 2 Wasser zu gewinnen.\nUnten: Zahlen Sie 1 Dattel, um 2 Punkte zu erhalten."
+      },
+      "02": {
+        "name": "Punkte und Wasseraustausch",
+        "content": "Oben: Verliere 2 Punkte, um 2 Datteln zu gewinnen.\nUnten: Zahle 1 Wasser, um 2 Punkte zu erhalten."
+      },
+      "03": {
+        "name": "Punkte- und Dinar-Umtausch",
+        "content": "Oben: Verliere 3 Punkte, um 2 Datteln und 1 Wasser zu erhalten.\nUnten: Zahlen Sie 1 Dinar, um 2 Punkte zu erhalten."
+      },
+      "04": {
+        "name": "Punkte und Zwei-Wasser-Austausch",
+        "content": "Oben: Verlieren Sie 3 Punkte, um 2 Dinar und 1 Dattel zu gewinnen.\nUnten: Zahle 2 Wasser, um 3 Punkte zu erhalten."
+      },
+      "05": {
+        "name": "Ressourcen und Treppenstufe",
+        "content": "Oben: Verliere 4 Punkte, um 1 Dinar, 1 Wasser und 1 Dattel zu erhalten.\nUnten: Zahle 2 Datteln, erhalte 2 Punkte und gehe dann 1 Stufe auf der schwarzen oder weißen Palast-/Moscheetreppe weiter."
+      },
+      "06": {
+        "name": "Dinar und Wasseraustausch",
+        "content": "Oben: Verliere 4 Punkte, um 2 Dinar und 2 Wasser zu gewinnen.\nUnten: Zahlen Sie 2 Dinar, um 4 Punkte zu erhalten."
+      },
+      "07": {
+        "name": "Keshi-Wechselgeld und Warenzahlung",
+        "content": "Oben: Verliere 5 Punkte, ändere 1 Keshi in eine andere Farbe und erhalte dann 1 Dinar, 1 Dattel und 1 Wasser.\nUnten: Geben Sie 2 Warenkeshis aus, um 2 Punkte und 2 Datteln zu erhalten."
+      },
+      "08": {
+        "name": "Treppenstufen und Warenzahlung",
+        "content": "Oben: Verliere 5 Punkte, steige sowohl auf der schwarzen als auch auf der weißen Treppe eine Stufe weiter vor und erhalte dann 1 Dinar, 1 Dattel und 1 Wasser.\nUnten: Geben Sie 2 Warenkeshis aus, um 2 Punkte und 2 Wasser zu erhalten."
+      },
+      "09": {
+        "name": "Stadttor und Waren-Keshi",
+        "content": "Oben: Verliere 8 Punkte und nimm 1 Stadttor vom Feld mit -3 Punkten kostenlos, zusammen mit seinem Keshi. Erhalte 2 Wasser und 1 Dattel.\nUnten: Zahle 3 beliebige Ressourcen, um 3 Punkte und 1 Waren-Keshi zu erhalten.\n\nHinweis: Dieses Stadttor bringt 0 Punkte statt Minuspunkte und nur den Keshi selbst. Du musst einen verfügbaren Wächter-Keshi haben."
+      }
+    },
+    "ex2Scroll": {
+      "11": {
+        "name": "Dinar, Wasser und Punkte",
+        "content": "Voraussetzung: Besitze 3 graue Gelehrten-Keshis und zahle 1 Dattel.\nNimm 1 Dinar und 1 Wasser und erhalte 3 Punkte."
+      },
+      "12": {
+        "name": "Zuschauerbonus",
+        "content": "Voraussetzung: Besitze 3 graue Gelehrten-Keshis und zahle 1 Dattel.\nErhalte 1-mal den Bonus deiner Zuschauerscheibe aus einem der beiden Bereiche mit 3 Zuschauern. Dafür muss dort ein pinker Unterhalter-Keshi eingesetzt sein."
+      },
+      "13": {
+        "name": "Zuschauerbonus ohne Unterhalter",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nErhalte 1-mal den Bonus deiner Zuschauerscheibe aus einem der beiden Bereiche mit 3 Zuschauern. Dafür muss dort kein pinker Unterhalter-Keshi eingesetzt sein."
+      },
+      "14": {
+        "name": "Ressourcen für Versorgung",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nNimm für jedes deiner offenen Versorgungsplättchen 1 passende Ressource aus dem Vorrat und lege sie über das jeweilige Plättchen. Diese Ressourcen dürfen nur für diese Versorgungen genutzt werden. Du darfst diese Schriftrolle in derselben Saison genau 1 weiteres Mal nutzen; danach ist das nicht mehr möglich."
+      },
+      "15": {
+        "name": "Sektoraktion nach Wahl",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nFühre 1 Sektoraktion deiner Wahl aus."
+      },
+      "16": {
+        "name": "Doppel-Keshi tauschen",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nNimm 1 Doppel-Keshi-Plättchen von der Schriftrolle und tausche es gegen 2 farblich passende Keshis aus dem Vorrat. Setze sie in die passenden Sektoren und lege das Plättchen neben den Madrasa-Plan. Bleibt danach nur 1 Doppel-Keshi-Plättchen auf der Schriftrolle, lege alle Plättchen zurück."
+      },
+      "17": {
+        "name": "2 Oasen aktivieren",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nAktiviere 2 entdeckte Oasen, ohne die Kosten zu zahlen. Wüstenstädte zählen nicht."
+      },
+      "18": {
+        "name": "Wasserverkäufer im Souk",
+        "content": "Voraussetzung: Besitze 5 graue Gelehrten-Keshis und zahle 2 Datteln.\nSetze 1 roten Wasserverkäufer-Keshi aus dem Vorrat neben das grüne Zelt im Souk und nimm sofort 3 Wasser. Ab deinem nächsten Zug erhältst du 1 Wasser, wenn du einen Assistenten in den Souk setzt."
+      },
+      "19": {
+        "name": "Ressourcen für Punkte abgeben",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nErhalte 2 Punkte für jede Ressource, die du in den Vorrat zurückgibst, inklusive Edelsteine. Du darfst auf diese Weise höchstens 12 Ressourcen zurückgeben."
+      },
+      "20": {
+        "name": "Luxusgut ohne Waren-Keshis",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nWähle 1 beliebiges Luxusgut aus 1 Luxusgut-Stapel. Die angegebenen Waren-Keshis musst du nicht zahlen. Andere abgebildete Kosten musst du weiterhin zahlen."
+      },
+      "21": {
+        "name": "Wächter und Stadttor",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nNimm 1 Wächter-Keshi aus dem Vorrat. Wähle dann 1 beliebiges Stadttor und lege es zusammen mit dem Wächter-Keshi auf dein Tableau. Erhalte die Punkte des Stadttors sowie mögliche Punkte für farblich passende Platzierung. Danach darfst du 1 beliebigen Keshi aus dem Vorrat nehmen; er muss nicht zur Farbe des Stadttors passen."
+      },
+      "22": {
+        "name": "3 verschiedenfarbige Keshis",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nNimm 3 verschiedenfarbige Keshis aus dem Vorrat und setze sie in die entsprechenden Sektoren."
+      },
+      "23": {
+        "name": "Ressourcenset werten",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nFür ein Set aus 1 Dinar, 1 Wasser und 1 Dattel erhältst du 6 Punkte. Du darfst dies noch 2 weitere Male wiederholen, maximal 18 Punkte."
+      },
+      "24": {
+        "name": "2 Oasen sofort werten",
+        "content": "Voraussetzung: Besitze 7 graue Gelehrten-Keshis und zahle 3 Datteln.\nWerte sofort 2 deiner aktivierten Oasen. Die Oasen bleiben danach liegen und werden am Spielende erneut gewertet."
+      },
+      "73": {
+        "name": "Ziehe 1 Edelstein",
+        "content": "Ziehe 1 Edelstein aus dem Vorrat."
+      },
+      "74": {
+        "name": "1 Edelstein ziehen und tauschen",
+        "content": "Ziehe 1 Edelstein aus dem Vorrat. Danach darfst du 1 deiner bei den Ressourcen liegenden Edelsteine gegen 1 beliebigen Edelstein vom Edelsteinhändler tauschen."
+      },
+      "75": {
+        "name": "Ziehe 2 Edelsteine",
+        "content": "Ziehe 2 Edelsteine ​​aus dem Vorrat."
+      },
+      "76": {
+        "name": "Edelstein ziehen und wählen/tauschen",
+        "content": "Ziehe 1 Edelstein aus dem Vorrat und wähle 1 Edelstein vom Edelsteinhändler. Zusätzlich darfst du 1 deiner bei den Ressourcen liegenden Edelsteine gegen 1 beliebigen Edelstein vom Edelsteinhändler tauschen."
+      },
+      "77": {
+        "name": "Kosten für Ersatzexperten",
+        "content": "Einmal während des Spiels kann es passieren, dass du bei der Einnahme eines Experten 1 Punkt verlierst, anstatt die erforderlichen Ressourcen zu bezahlen."
+      },
+      "78": {
+        "name": "Beauftragen Sie umgehend einen Experten",
+        "content": "Nutzen Sie sofort die Fähigkeit eines angezeigten Experten, ohne Ressourcen zu bezahlen. Dieser Experte bleibt in der Anzeige."
+      },
+      "01/04": {
+        "name": "Keshi-Plättchen tauschen",
+        "content": "Voraussetzung: Besitze 1 grauen Gelehrten-Keshi und zahle 1 Dattel.\nNimm 1 Keshi-Plättchen von der Schriftrolle und tausche es gegen 1 farblich passenden Keshi aus dem Vorrat. Setze den Keshi in den entsprechenden Sektor und lege das Plättchen neben den Madrasa-Plan. Bleibt danach nur 1 Keshi-Plättchen auf der Schriftrolle, lege alle beiseitegelegten Plättchen zurück auf die Schriftrolle."
+      },
+      "02": {
+        "name": "Dinar oder Flussschritt",
+        "content": "Voraussetzung: Besitze 1 grauen Gelehrten-Keshi und zahle 1 Dattel.\nNimm 2 Dinar oder rücke 1 Schritt auf der Flussleiste vor."
+      },
+      "03": {
+        "name": "Wasser oder Treppenschritt",
+        "content": "Voraussetzung: Besitze 1 grauen Gelehrten-Keshi und zahle 1 Dattel.\nNimm 2 Wasser oder rücke 1 Schritt auf der Moschee- oder Palasttreppe vor."
+      },
+      "05": {
+        "name": "Punkte oder Edelstein",
+        "content": "Voraussetzung: Besitze 1 grauen Gelehrten-Keshi und zahle 1 Dattel.\nErhalte 2 Punkte oder ziehe 1 Edelstein aus dem Vorrat. Die Edelstein-Option gilt nur mit Modul 2 „Edelsteine“. "
+      },
+      "06": {
+        "name": "Datteln oder Wasser",
+        "content": "Voraussetzung: Besitze 1 grauen Gelehrten-Keshi und zahle 1 Dattel.\nNimm 3 Datteln oder 2 Wasser."
+      },
+      "07/10": {
+        "name": "Doppel-Waren-Keshi tauschen",
+        "content": "Voraussetzung: Besitze 3 graue Gelehrten-Keshis und zahle 1 Dattel.\nNimm 1 Doppel-Waren-Keshi-Plättchen von der Schriftrolle und tausche es gegen 2 farblich passende Keshis aus dem Vorrat. Setze die Keshis in den Souk und lege das Plättchen neben den Madrasa-Plan. Bleibt danach nur 1 solches Plättchen auf der Schriftrolle, lege alle Plättchen zurück."
+      },
+      "08": {
+        "name": "Ressourcen und Punkte",
+        "content": "Voraussetzung: Besitze 3 graue Gelehrten-Keshis und zahle 1 Dattel.\nNimm 1 Dinar, 1 Wasser und 1 Dattel und erhalte 2 Punkte."
+      },
+      "09": {
+        "name": "Beide Treppen",
+        "content": "Voraussetzung: Besitze 3 graue Gelehrten-Keshis und zahle 1 Dattel.\nRücke je 1 Schritt auf der Moschee- und Palasttreppe vor und erhalte 2 Punkte."
+      }
+    },
+    "ex2Oasis": {
+      "보석 39": {
+        "name": "Wertung der Edelsteinzahl",
+        "content": "Erhalten Sie 1 Punkt für jeden Edelstein, den Sie besitzen, bis zu 15 Punkte."
+      },
+      "보석 40": {
+        "name": "Verschiedene Edelsteinfarben punkten",
+        "content": "Erhalten Sie 3 Punkte für jede Edelsteinfarbe, die Sie besitzen, bis zu 15 Punkte."
+      },
+      "전문가 41": {
+        "name": "Zählbewertung durch Experten",
+        "content": "Erhalten Sie 2 Punkte für jeden Experten, den Sie besitzen, unabhängig davon, ob Sie diesen Experten eingesetzt haben oder nicht."
+      },
+      "전문가 42": {
+        "name": "Die meisten Experten punkten",
+        "content": "Wenn Sie unter allen Spielern die meisten Experten besitzen, erhalten Sie 3 Punkte für jeden Experten, den Sie besitzen. Spieler mit Gleichstand erhalten keine Punkte. Maximal 15 Punkte."
+      },
+      "중고상점 43": {
+        "name": "Wertung für benutzte Plättchen",
+        "content": "Erhalte 2 Punkte für jedes benutzte Plättchen auf deinen Schriftrollen oder Oasen."
+      },
+      "중고상점 44": {
+        "name": "Wertung für benutzte Plättchen-Kombos",
+        "content": "Erhalte 5 Punkte für jede Kombination aus 1 benutzten Plättchen auf einer Schriftrolle und 1 benutzten Plättchen auf einer Oase."
+      }
+    },
+    "ex2Expert": {
+      "E1": {
+        "name": "Wasserverkäufer-Experte",
+        "content": "Dieser Experte ist keinem Sektor zugeordnet. Nutze ihn, wenn sich ein Wasserverkäufer in einem der mit einem Assistenten markierten Sektoren befindet. Nimm 1 roten Wasserverkäufer-Keshi aus dem Vorrat und lege ihn sofort auf ein beliebiges rotes Feld. Danach erhältst du 1 Wasser und 1 Punkt für jeden Wasserverkäufer-Keshi auf deinem Tableau."
+      },
+      "E2": {
+        "name": "Fisch-Experte",
+        "content": "Nutze diesen Experten, wenn du die Fluss-Sektoraktion ausführst. Nimm 1 blauen Fisch-Keshi aus dem Vorrat und lege ihn sofort ein. Danach rückst du für jeden Fisch-Keshi, den du besitzt, 1 Schritt auf dem Tensift-Fluss vor, zusätzlich noch 5 weitere Schritte. Wie üblich darfst du Wasser verwenden, um weitere Schritte zu ziehen."
+      },
+      "E3": {
+        "name": "Experte für Dattelernte",
+        "content": "Nutze diesen Experten, wenn du die Sektoraktion „Dattelhain“ ausführst. Nimm 1 grünen Dattelpflücker-Keshi und setze ihn ein. Danach darf ein Dattelpflücker-Keshi 2 Datteln statt 1 Dattel erhalten; befindet sich in diesem Sektor ein Wasserhändler, darfst du zusätzlich 2 Wasser erhalten."
+      },
+      "E4": {
+        "name": "Experte für Luxusgüter",
+        "content": "Nehmen Sie 1 angezeigtes Luxusgut kostenlos mit. Die einzige Bedingung ist, dass die Expertenfarbe die am häufigsten für dieses Luxusgut erforderliche Waren-Keshi-Farbe sein muss. Unentschieden gelten als Erfüllung der Bedingung. Auch Geschenke und Statuetten können so mitgenommen werden."
+      },
+      "E5": {
+        "name": "Experte für den Hauptplatz",
+        "content": "Erhalten Sie den durch Ihre Sektorenaktion ausgewählten Bonus ein weiteres Mal und zusätzlich jeden der beiden direkt angrenzenden persönlichen Boni einmal."
+      },
+      "E6": {
+        "name": "Moschee-Verbindungs-Experte",
+        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus der Linie, und der Punktebonus direkt an der Moschee-Treppe wird verdoppelt."
+      },
+      "E7": {
+        "name": "Palast-Verbindungs-Experte",
+        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus der Linie, und der Dinarbonus direkt an der Palast-Treppe wird verdoppelt."
+      },
+      "E8": {
+        "name": "Madrasa-Experte",
+        "content": "Nutze diesen Experten, wenn du die Madrasa-Sektoraktion ausführst. Du darfst entweder 1 orangefarbene Schriftrolle wählen oder 2 Schriftrollen, wobei eine pink oder günstiger und die andere gelb oder günstiger sein darf. Du musst die für die Schriftrollen erforderlichen Datteln nicht bezahlen, und für jede Schriftrolle wird nur 1 grauer Gelehrten-Keshi benötigt.\n\nHinweis: Du darfst in diesem Zug weitere Schriftrollen kaufen, hast dabei aber nicht mehr den Vorteil des Experten.\nAchtung: Bis zu 2 graue Gelehrten-Keshis wurden in diesem Zug bereits durch den Experten verwendet."
+      },
+      "E9": {
+        "name": "Stadttor-Experte",
+        "content": "Wähle 2 beliebige Stadttore aus den 4 Werkstattfeldern, sofern du auch 2 Wächter-Keshis hast, und baue sie wie üblich in deine Medina. Für die Stadttore zahlst du keinen Dinar und erhältst 7 Punkte pro Stadttor sowie 1 Keshi in einer beliebigen Farbe statt in der Farbe des Stadttors.\n\nHinweis: Du darfst weitere Stadttore erwerben, wenn du die Anforderungen einschließlich Dinar und Wächter-Keshi erfüllst. Dabei hast du jedoch nicht mehr den Vorteil des Experten."
+      },
+      "E10": {
+        "name": "Oasenexperte",
+        "content": "Aktiviere eine Oase, ohne ihre Kosten zu bezahlen, und werte sie dann sofort."
+      }
     }
   },
   "fr": {
@@ -1012,6 +1432,426 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       "H6": {
         "name": "Difficile - Échange de keshi au début du tour",
         "content": "Au début de chaque manche, effectuez 1 échange de keshi selon les règles du jeu de base.\n\nNote : Saison 1, manche 1 : vous pouvez échanger 1 keshi de votre piste de bonus des oasis revendiquées avec un keshi de la réserve générale. Les keshis jaune, violet, orange et marron sont exclus de cet échange. Le keshi reçu est placé sur la même case de la piste de bonus que le keshi d'origine.\nAvec l'extension Chameaux :\nLorsque vous effectuez cet échange grâce à cet effet, vous pouvez échanger avec la réserve générale, mais aussi avec un keshi de votre colonne de spectateurs sur l'hippodrome.\nComme cet échange ne vous donne pas un nouveau keshi supplémentaire, votre chameau n'avance pas."
+      }
+    },
+    "award": {
+      "A01": {
+        "name": "2 points",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 points."
+      },
+      "A02": {
+        "name": "2 dinars",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 dinars."
+      },
+      "A03": {
+        "name": "2 eaux",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 eaux."
+      },
+      "A04": {
+        "name": "2 dattes",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 dattes."
+      },
+      "A05": {
+        "name": "1 ressource au choix",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 1 ressource au choix."
+      },
+      "A06": {
+        "name": "2 keshis de marchandise d’une même couleur au choix",
+        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 keshis de marchandise d’une même couleur au choix."
+      },
+      "A07": {
+        "name": "3 points",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 3 points."
+      },
+      "A08": {
+        "name": "4 dinars",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 4 dinars."
+      },
+      "A09": {
+        "name": "Avancez de 2 pas sur l’escalier du palais",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur l’escalier du palais."
+      },
+      "A10": {
+        "name": "Avancez de 2 pas sur la piste de rivière",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur la piste de rivière."
+      },
+      "A11": {
+        "name": "Choisissez un parchemin gris dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: choisissez un parchemin gris dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+      },
+      "A12": {
+        "name": "3 ressources au choix",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 3 ressources au choix."
+      },
+      "A13": {
+        "name": "2 points + 2 eaux",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 2 points + 2 eaux."
+      },
+      "A14": {
+        "name": "Avancez de 2 pas sur l’escalier de la mosquée",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur l’escalier de la mosquée."
+      },
+      "A15": {
+        "name": "Gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale, sans keshi rose requis",
+        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale, sans keshi rose requis."
+      },
+      "A16": {
+        "name": "5 points",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 5 points."
+      },
+      "A17": {
+        "name": "3 dattes + 3 eaux",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dattes + 3 eaux."
+      },
+      "A18": {
+        "name": "5 ressources au choix",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 5 ressources au choix."
+      },
+      "A19": {
+        "name": "Avancez de 4 pas au total sur la piste de rivière ou l’escalier de la mosquée",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur la piste de rivière ou l’escalier de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+      },
+      "A20": {
+        "name": "Revendiquez 1 tuile Oasis sans payer de ressources",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: revendiquez 1 tuile Oasis sans payer de ressources."
+      },
+      "A21": {
+        "name": "Gagnez la récompense d’un bonus à 3 spectateurs sur la place principale, sans keshi rose requis",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: gagnez la récompense d’un bonus à 3 spectateurs sur la place principale, sans keshi rose requis."
+      },
+      "A22": {
+        "name": "3 dinars + 3 eaux",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dinars + 3 eaux."
+      },
+      "A23": {
+        "name": "3 dinars + 3 dattes",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dinars + 3 dattes."
+      },
+      "A24": {
+        "name": "Avancez de 4 pas au total sur les escaliers du palais ou de la mosquée",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur les escaliers du palais ou de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+      },
+      "A25": {
+        "name": "Avancez de 4 pas au total sur la piste de rivière ou l’escalier du palais",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur la piste de rivière ou l’escalier du palais.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+      },
+      "A26": {
+        "name": "3 keshis de marchandise d’une couleur au choix",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 keshis de marchandise d’une couleur au choix."
+      },
+      "A27": {
+        "name": "Choisissez un parchemin jaune dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus",
+        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: choisissez un parchemin jaune dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+      },
+      "A28": {
+        "name": "8 points",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: 8 points."
+      },
+      "A29": {
+        "name": "Le bonus de saison de la rivière. Choix libre lors de la 3e saison",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: le bonus de saison de la rivière. Choix libre lors de la 3e saison."
+      },
+      "A30": {
+        "name": "Revendiquez 2 tuiles Oasis sans payer de ressources",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: revendiquez 2 tuiles Oasis sans payer de ressources."
+      },
+      "A31": {
+        "name": "Avancez de 6 pas au total sur les escaliers du palais ou de la mosquée, ou sur la piste de rivière",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: avancez de 6 pas au total sur les escaliers du palais ou de la mosquée, ou sur la piste de rivière.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+      },
+      "A32": {
+        "name": "Choisissez un bien de luxe dans 1 pile et achetez-le avec une réduction de 3 keshis de marchandise. Mélangez la pile et révélez la tuile du dessus",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: choisissez un bien de luxe dans 1 pile et achetez-le avec une réduction de 3 keshis de marchandise. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+      },
+      "A33": {
+        "name": "Choisissez un parchemin rose dans 1 pile, sans tenir compte des keshis gris requis et sans payer 2 dattes. Mélangez la pile et révélez la tuile du dessus",
+        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: choisissez un parchemin rose dans 1 pile, sans tenir compte des keshis gris requis et sans payer 2 dattes. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+      }
+    },
+    "ex2Luxury": {
+      "선물 01": {
+        "name": "Cadeau - Bien de luxe le plus cher",
+        "content": "Condition : Achetez l’un des produits de luxe affichés les plus chers.\nBonus : 1 point et 1 marche sur l'escalier de la mosquée."
+      },
+      "선물 02": {
+        "name": "Cadeau - Bien de luxe le moins cher",
+        "content": "Condition : Achetez l’un des produits de luxe affichés les moins chers.\nBonus : 1 point et 1 pas sur la piste fluviale."
+      },
+      "선물 03": {
+        "name": "Cadeau - Pile la plus à droite",
+        "content": "Condition : Achetez un produit de luxe dans la pile la plus à droite.\nBonus : 1 point et 1 eau."
+      },
+      "선물 04": {
+        "name": "Cadeau - Pile la plus à gauche",
+        "content": "Condition : Achetez un produit de luxe dans la pile la plus à gauche.\nBonus : 1 point et 1 rendez-vous."
+      },
+      "선물 05": {
+        "name": "Cadeau - Pile intermédiaire",
+        "content": "Condition : Achetez un produit de luxe dans la pile du milieu.\nBonus : 1 point et 1 rendez-vous."
+      },
+      "선물 06": {
+        "name": "Cadeau - Pile la plus basse",
+        "content": "Condition : Achetez un produit de luxe dans l’une des piles les plus basses.\nBonus : 1 point et 1 dinar."
+      },
+      "선물 07": {
+        "name": "Cadeau - Pile la plus élevée",
+        "content": "Condition : Achetez un bien de luxe dans l’une des piles les plus élevées.\nBonus : 1 point et 1 dinar."
+      },
+      "선물 08": {
+        "name": "Cadeau - Type possédé",
+        "content": "Condition : Achetez un bien de luxe d’un type que vous possédez déjà.\nBonus : 1 point et 1 marche sur l'escalier du palais."
+      },
+      "선물 09": {
+        "name": "Cadeau - Troisième type différent",
+        "content": "Condition : Achetez votre troisième type différent de bien de luxe.\nBonus : 1 point et 1 pas sur la piste fluviale."
+      },
+      "선물 10": {
+        "name": "Cadeau - Pile de même hauteur",
+        "content": "Condition : Achetez un bien de luxe dans une pile de la même hauteur qu’une autre pile de biens de luxe.\nBonus : 1 point et 1 eau."
+      },
+      "조각상 A": {
+        "name": "Statuettes - Gardien et Portail",
+        "content": "Récompense d'achat : 7 points et 1 datte, ou 7 points et 1 eau.\nBonus de paire : Lorsque vous achetez la deuxième tuile et complétez la paire, choisissez 5 fois les récompenses parmi 1 datte, 1 dinar, 1 eau ou 1 point."
+      },
+      "조각상 B": {
+        "name": "Statuettes - Femme et Palme",
+        "content": "Récompense d'achat : 5 points et 1 datte, ou 5 points et 1 eau.\nBonus de paire : Lorsque vous achetez la deuxième tuile et complétez la paire, choisissez 4 fois les récompenses parmi 1 datte, 1 dinar, 1 eau ou 1 point."
+      },
+      "조각상 C": {
+        "name": "Statuettes - Homme et Chameau",
+        "content": "Récompense d'achat : 3 points et 1 datte, ou 3 points et 1 eau.\nBonus de paire : Lorsque vous achetez la deuxième tuile et complétez la paire, choisissez 3 fois les récompenses parmi 1 datte, 1 dinar, 1 eau ou 1 point."
+      }
+    },
+    "ex2Exchange": {
+      "10": {
+        "name": "Porte de ville et recherche de gemmes",
+        "content": "En haut : perdez 8 points et prenez gratuitement 1 porte de ville de l’emplacement à -3 points, avec son keshi. Gagnez 2 dinars et 1 eau.\nEn bas : payez 3 keshis ouvriers de votre choix et cherchez 2 gemmes.\n\nNote porte de ville : cette porte de ville rapporte 0 point au lieu de points négatifs, et seulement le keshi lui-même. Vous devez avoir un keshi de garde disponible.\nNote gemmes : cette option n’est disponible qu’avec le module 2 « Gemmes ». Fouillez la réserve de gemmes et choisissez une gemme de votre choix. Mélangez ensuite la réserve de gemmes."
+      },
+      "11": {
+        "name": "Gain de ressources important et recherche de pierres précieuses",
+        "content": "En haut : perdez 10 points pour gagner 3 dinars, 4 dattes et 4 eaux.\nEn bas : payez 3 keshis de marchandises de votre choix et cherchez 1 gemme.\n\nNote : cette option n’est disponible qu’avec le module 2 « Gemmes ». Fouillez la réserve de gemmes et choisissez une gemme de votre choix. Mélangez ensuite la réserve de gemmes."
+      },
+      "12": {
+        "name": "Gain de ressources important et recherche de deux gemmes",
+        "content": "En haut : perdez 12 points pour gagner 4 dinars, 4 dattes et 4 eaux.\nEn bas : payez 5 keshis de marchandises de votre choix et cherchez 2 gemmes.\n\nNote : cette option n’est disponible qu’avec le module 2 « Gemmes ». Fouillez la réserve de gemmes et choisissez une gemme de votre choix. Mélangez ensuite la réserve de gemmes."
+      },
+      "01": {
+        "name": "Échange de points et de dattes",
+        "content": "En haut : perdez 2 points pour gagner 2 eaux.\nEn bas : Payez 1 rendez-vous pour gagner 2 points."
+      },
+      "02": {
+        "name": "Points et échange d'eau",
+        "content": "En haut : perdez 2 points pour gagner 2 dattes.\nEn bas : Payez 1 eau pour gagner 2 points."
+      },
+      "03": {
+        "name": "Échange de points et de dinars",
+        "content": "En haut : perdez 3 points pour gagner 2 dattes et 1 eau.\nEn bas : Payez 1 dinar pour gagner 2 points."
+      },
+      "04": {
+        "name": "Points et échange de deux eaux",
+        "content": "En haut : Perdez 3 points pour gagner 2 dinars et 1 datte.\nEn bas : Payez 2 eaux pour gagner 3 points."
+      },
+      "05": {
+        "name": "Ressources et marche d'escalier",
+        "content": "En haut : perdez 4 points pour gagner 1 dinar, 1 eau et 1 datte.\nEn bas : Payez 2 rendez-vous, gagnez 2 points, puis avancez d'1 pas sur l'escalier noir ou blanc du palais/mosquée."
+      },
+      "06": {
+        "name": "Dinars et échange d'eau",
+        "content": "En haut : Perdez 4 points pour gagner 2 dinars et 2 eaux.\nEn bas : Payez 2 dinars pour gagner 4 points."
+      },
+      "07": {
+        "name": "Changement Keshi et paiement des marchandises",
+        "content": "En haut : perdez 5 points, changez 1 keshi en une couleur différente, puis gagnez 1 dinar, 1 datte et 1 eau.\nEn bas : dépensez 2 keshis de marchandises pour gagner 2 points et 2 dattes."
+      },
+      "08": {
+        "name": "Marches d'escalier et paiement des marchandises",
+        "content": "En haut : perdez 5 points, avancez d'1 marche les escaliers noir et blanc, puis gagnez 1 dinar, 1 datte et 1 eau.\nEn bas : dépensez 2 keshis de marchandises pour gagner 2 points et 2 eaux."
+      },
+      "09": {
+        "name": "Porte de ville et keshi de marchandise",
+        "content": "En haut : perdez 8 points et prenez gratuitement 1 porte de ville de l’emplacement à -3 points, avec son keshi. Gagnez 2 eaux et 1 datte.\nEn bas : payez 3 ressources de votre choix pour gagner 3 points et 1 keshi de marchandise.\n\nNote : cette porte de ville rapporte 0 point au lieu de points négatifs, et seulement le keshi lui-même. Vous devez avoir un keshi de garde disponible."
+      }
+    },
+    "ex2Scroll": {
+      "11": {
+        "name": "Dinar, eau et points",
+        "content": "Condition : possédez 3 keshis érudits gris et payez 1 datte.\nPrenez 1 dinar et 1 eau, puis gagnez 3 points."
+      },
+      "12": {
+        "name": "Bonus du disque de spectateurs",
+        "content": "Condition : possédez 3 keshis érudits gris et payez 1 datte.\nRecevez une fois le bonus de votre disque de spectateurs dans l’une des deux sections avec 3 spectateurs. Pour cela, un keshi artiste rose doit y être placé."
+      },
+      "13": {
+        "name": "Bonus sans artiste",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nRecevez une fois le bonus de votre disque de spectateurs dans l’une des deux sections avec 3 spectateurs. Aucun keshi artiste rose n’est nécessaire dans cette section."
+      },
+      "14": {
+        "name": "Ressources de ravitaillement",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nPour chacune de vos tuiles de ravitaillement face visible, prenez la ressource correspondante depuis la réserve et placez-la au-dessus de cette tuile. Ces ressources ne peuvent servir qu’à ces ravitaillements. Vous pouvez utiliser ce parchemin exactement 1 fois de plus pendant la même saison ; ensuite ce n’est plus possible."
+      },
+      "15": {
+        "name": "Action de secteur au choix",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nEffectuez 1 action de secteur de votre choix."
+      },
+      "16": {
+        "name": "Échange de double keshi",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nPrenez 1 tuile double keshi du parchemin et échangez-la contre 2 keshis de la couleur correspondante depuis la réserve. Placez-les dans les secteurs correspondants et mettez la tuile près du plateau madrasa. S’il ne reste ensuite qu’une seule tuile double keshi, remettez toutes les tuiles sur le parchemin."
+      },
+      "17": {
+        "name": "Activer 2 oasis",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nActivez 2 oasis découvertes sans payer les coûts. Les villes du désert ne comptent pas."
+      },
+      "18": {
+        "name": "Marchand d’eau au souk",
+        "content": "Condition : possédez 5 keshis érudits gris et payez 2 dattes.\nPlacez 1 keshi marchand d’eau rouge de la réserve près de la tente verte du souk et prenez immédiatement 3 eaux. À partir de votre prochain tour, vous recevez 1 eau lorsque vous placez un assistant au souk."
+      },
+      "19": {
+        "name": "Rendre des ressources pour des points",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nGagnez 2 points pour chaque ressource que vous rendez à la réserve, gemmes incluses. Vous pouvez rendre au maximum 12 ressources de cette façon."
+      },
+      "20": {
+        "name": "Bien de luxe sans keshis de marchandise",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nChoisissez 1 bien de luxe dans 1 pile de biens de luxe. Vous ne payez pas les keshis de marchandise indiqués. Vous devez toutefois payer les autres coûts éventuellement indiqués."
+      },
+      "21": {
+        "name": "Garde et porte de ville",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nPrenez 1 keshi de garde de la réserve. Puis choisissez 1 porte de ville et placez-la avec le keshi de garde sur votre plateau. Recevez les points de la porte ainsi que les éventuels points de placement de couleur correspondante. Ensuite, vous pouvez prendre 1 keshi de votre choix dans la réserve ; il n’a pas besoin de correspondre à la couleur de la porte."
+      },
+      "22": {
+        "name": "3 keshis de couleurs différentes",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nPrenez 3 keshis de couleurs différentes dans la réserve et placez-les dans les secteurs correspondants."
+      },
+      "23": {
+        "name": "Score de set de ressources",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nPour un set de 1 dinar, 1 eau et 1 datte, gagnez 6 points. Vous pouvez répéter cela 2 fois de plus, maximum 18 points."
+      },
+      "24": {
+        "name": "Marquer 2 oasis immédiatement",
+        "content": "Condition : possédez 7 keshis érudits gris et payez 3 dattes.\nMarquez immédiatement 2 de vos oasis activées. Les oasis restent en place ensuite et seront à nouveau marquées en fin de partie."
+      },
+      "73": {
+        "name": "Piochez 1 gemme",
+        "content": "Piochez 1 gemme de la réserve."
+      },
+      "74": {
+        "name": "Piocher 1 gemme et échanger",
+        "content": "Piochez 1 gemme de la réserve. Ensuite, vous pouvez échanger 1 de vos gemmes placées avec vos ressources contre 1 gemme de votre choix chez le marchand de gemmes."
+      },
+      "75": {
+        "name": "Piochez 2 gemmes",
+        "content": "Piochez 2 gemmes de la réserve."
+      },
+      "76": {
+        "name": "Piocher et choisir/échanger des gemmes",
+        "content": "Piochez 1 gemme de la réserve et choisissez 1 gemme chez le marchand de gemmes. De plus, vous pouvez échanger 1 de vos gemmes placées avec vos ressources contre 1 gemme de votre choix chez le marchand de gemmes."
+      },
+      "77": {
+        "name": "Coût de l'expert de remplacement",
+        "content": "Une fois pendant la partie, en prenant un expert, vous risquez de perdre 1 point au lieu de payer les ressources requises."
+      },
+      "78": {
+        "name": "Faites appel à un expert immédiatement",
+        "content": "Sans payer de ressources, utilisez immédiatement la capacité d'un expert affiché. Cet expert reste affiché."
+      },
+      "01/04": {
+        "name": "Échange de tuile keshi",
+        "content": "Condition : possédez 1 keshi érudit gris et payez 1 datte.\nPrenez 1 tuile keshi du parchemin et échangez-la contre 1 keshi de la couleur correspondante depuis la réserve. Placez le keshi dans le secteur correspondant et mettez la tuile près du plateau madrasa. S’il ne reste ensuite qu’une seule tuile keshi sur le parchemin, remettez toutes les tuiles mises de côté sur le parchemin."
+      },
+      "02": {
+        "name": "Dinar ou rivière",
+        "content": "Condition : possédez 1 keshi érudit gris et payez 1 datte.\nPrenez 2 dinars ou avancez de 1 case sur la piste de rivière."
+      },
+      "03": {
+        "name": "Eau ou escalier",
+        "content": "Condition : possédez 1 keshi érudit gris et payez 1 datte.\nPrenez 2 eaux ou avancez de 1 case sur l’escalier de la mosquée ou du palais."
+      },
+      "05": {
+        "name": "Points ou gemme",
+        "content": "Condition : possédez 1 keshi érudit gris et payez 1 datte.\nGagnez 2 points ou piochez 1 gemme dans la réserve. L’option gemme ne s’applique qu’avec le module 2 « Gemmes ». "
+      },
+      "06": {
+        "name": "Dattes ou eau",
+        "content": "Condition : possédez 1 keshi érudit gris et payez 1 datte.\nPrenez 3 dattes ou 2 eaux."
+      },
+      "07/10": {
+        "name": "Échange de double keshi de marchandise",
+        "content": "Condition : possédez 3 keshis érudits gris et payez 1 datte.\nPrenez 1 tuile double keshi de marchandise du parchemin et échangez-la contre 2 keshis de la couleur correspondante depuis la réserve. Placez les keshis dans le souk et mettez la tuile près du plateau madrasa. S’il ne reste ensuite qu’une seule tuile de ce type, remettez toutes les tuiles sur le parchemin."
+      },
+      "08": {
+        "name": "Ressources et points",
+        "content": "Condition : possédez 3 keshis érudits gris et payez 1 datte.\nPrenez 1 dinar, 1 eau et 1 datte, puis gagnez 2 points."
+      },
+      "09": {
+        "name": "Deux escaliers",
+        "content": "Condition : possédez 3 keshis érudits gris et payez 1 datte.\nAvancez de 1 case sur l’escalier de la mosquée et de 1 case sur l’escalier du palais, puis gagnez 2 points."
+      }
+    },
+    "ex2Oasis": {
+      "보석 39": {
+        "name": "Score du nombre de pierres précieuses",
+        "content": "Gagnez 1 point pour chaque gemme que vous possédez, jusqu'à 15 points."
+      },
+      "보석 40": {
+        "name": "Notation de différentes couleurs de pierres précieuses",
+        "content": "Gagnez 3 points pour chaque couleur de gemme différente que vous possédez, jusqu'à 15 points."
+      },
+      "전문가 41": {
+        "name": "Notation du nombre d'experts",
+        "content": "Gagnez 2 points pour chaque expert que vous possédez, que vous ayez utilisé ou non cet expert."
+      },
+      "전문가 42": {
+        "name": "La plupart des experts notent",
+        "content": "Si vous possédez le plus d'experts parmi tous les joueurs, gagnez 3 points pour chaque expert que vous possédez. Les joueurs à égalité ne marquent aucun point. Maximum 15 points."
+      },
+      "중고상점 43": {
+        "name": "Score des tuiles utilisées",
+        "content": "Gagnez 2 points pour chaque tuile utilisée sur vos parchemins ou vos oasis."
+      },
+      "중고상점 44": {
+        "name": "Score des combinaisons de tuiles utilisées",
+        "content": "Gagnez 5 points pour chaque combinaison de 1 tuile utilisée sur un parchemin et 1 tuile utilisée sur une oasis."
+      }
+    },
+    "ex2Expert": {
+      "E1": {
+        "name": "Expert marchand d’eau",
+        "content": "Cet expert n’est assigné à aucun secteur. Utilisez-le lorsqu’un marchand d’eau se trouve dans l’un des secteurs marqués par un assistant. Prenez 1 keshi marchand d’eau rouge de la réserve et placez-le immédiatement sur n’importe quelle case rouge. Ensuite, recevez 1 eau et 1 point pour chaque keshi marchand d’eau sur votre plateau."
+      },
+      "E2": {
+        "name": "Expert pêcheur",
+        "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur rivière. Prenez 1 keshi pêcheur bleu de la réserve et placez-le immédiatement. Ensuite, pour chaque keshi pêcheur que vous possédez, avancez de 1 case sur la rivière Tensift, puis avancez encore de 5 cases supplémentaires. Comme d’habitude, vous pouvez utiliser de l’eau pour avancer davantage."
+      },
+      "E3": {
+        "name": "Expert cueilleur de dattes",
+        "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur de la palmeraie de dattes. Prenez 1 keshi vert de cueilleur de dattes et déployez-le. Ensuite, un keshi cueilleur de dattes peut recevoir 2 dattes au lieu de 1 ; s'il y a un marchand d'eau dans ce secteur, vous pouvez également gagner 2 eaux supplémentaires."
+      },
+      "E4": {
+        "name": "Expert en produits de luxe",
+        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que la couleur experte soit la couleur keshi la plus courante requise pour ce produit de luxe. Les égalités comptent comme remplissant la condition. Des cadeaux et des statuettes peuvent également être emportés de cette manière."
+      },
+      "E5": {
+        "name": "Expert de la place principale",
+        "content": "Gagnez une fois de plus le bonus sélectionné par votre action de secteur, et gagnez également une fois chacun des deux bonus personnels directement adjacents."
+      },
+      "E6": {
+        "name": "Expert de connexion de la mosquée",
+        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de la ligne, et le bonus de points directement à côté de l’escalier de la mosquée est doublé."
+      },
+      "E7": {
+        "name": "Expert de connexion du palais",
+        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de la ligne, et le bonus de dinars directement à côté de l’escalier du palais est doublé."
+      },
+      "E8": {
+        "name": "Expert madrasa",
+        "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur madrasa. Vous pouvez choisir soit 1 parchemin orange, soit 2 parchemins, dont l’un peut être rose ou moins cher et l’autre jaune ou moins cher. Vous ne payez pas les dattes requises pour les parchemins, et seul 1 keshi érudit gris est nécessaire pour chaque parchemin.\n\nNote : vous pouvez aussi acheter d’autres parchemins pendant ce tour, mais vous ne bénéficiez alors plus de l’avantage de l’expert.\nAttention : jusqu’à 2 keshis érudits gris ont déjà été utilisés par l’expert pendant ce tour."
+      },
+      "E9": {
+        "name": "Expert porte de ville",
+        "content": "Choisissez 2 portes de ville parmi les 4 emplacements de l’atelier, à condition d’avoir aussi 2 keshis de garde, et construisez-les normalement dans votre médina. Vous ne payez aucun dinar pour ces portes, recevez 7 points pour chaque porte et prenez 1 keshi de la couleur de votre choix au lieu de la couleur de la porte.\n\nNote : vous pouvez acquérir d’autres portes de ville si vous remplissez les conditions, y compris les dinars et les keshis de garde. Cependant, vous ne bénéficiez alors plus de l’avantage de l’expert."
+      },
+      "E10": {
+        "name": "Expert des oasis",
+        "content": "Activez une oasis sans payer son coût, puis marquez-la immédiatement."
       }
     }
   },
@@ -1521,6 +2361,426 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "ハード - ラウンドスタートケシ交換",
         "content": "各ラウンドの開始時に、基本ゲームのルールに従ってケシ1個の交換を行います。\n\n注記：シーズン1、ラウンド1：確保したオアシス用のボーナストラックにあるケシ1個を、共通の供給にあるケシ1個と交換できます。ただし、黄色、紫、オレンジ、茶色のケシは交換対象外です。交換して得たケシは、元のケシがあったボーナストラックの同じマスに置きます。\nラクダ拡張を使用する場合：\nこの効果で交換するとき、共通の供給だけでなく、競走路にある自分の観客列のケシとも交換できます。\nただし、この交換は新たにケシを獲得するものではないため、ラクダは進みません。"
       }
+    },
+    "award": {
+      "A01": {
+        "name": "2点",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 2点."
+      },
+      "A02": {
+        "name": "2ディナール",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 2ディナール."
+      },
+      "A03": {
+        "name": "水2個",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 水2個."
+      },
+      "A04": {
+        "name": "ナツメヤシ2個",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: ナツメヤシ2個."
+      },
+      "A05": {
+        "name": "任意の資源1個",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 任意の資源1個."
+      },
+      "A06": {
+        "name": "任意の1色の商品ケシ2個",
+        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 任意の1色の商品ケシ2個."
+      },
+      "A07": {
+        "name": "3点",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 3点."
+      },
+      "A08": {
+        "name": "4ディナール",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 4ディナール."
+      },
+      "A09": {
+        "name": "宮殿の階段を2歩進む",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 宮殿の階段を2歩進む."
+      },
+      "A10": {
+        "name": "川トラックを2歩進む",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 川トラックを2歩進む."
+      },
+      "A11": {
+        "name": "いずれか1つの山から灰色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: いずれか1つの山から灰色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+      },
+      "A12": {
+        "name": "任意の資源3個",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 任意の資源3個."
+      },
+      "A13": {
+        "name": "2点 + 水2個",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 2点 + 水2個."
+      },
+      "A14": {
+        "name": "モスクの階段を2歩進む",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: モスクの階段を2歩進む."
+      },
+      "A15": {
+        "name": "メイン広場の任意の2人観客ボーナス1つの報酬を得る。ピンクのケシは不要",
+        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: メイン広場の任意の2人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
+      },
+      "A16": {
+        "name": "5点",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 5点."
+      },
+      "A17": {
+        "name": "ナツメヤシ3個 + 水3個",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: ナツメヤシ3個 + 水3個."
+      },
+      "A18": {
+        "name": "任意の資源5個",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 任意の資源5個."
+      },
+      "A19": {
+        "name": "川トラックまたはモスクの階段を合計4歩進む",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 川トラックまたはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+      },
+      "A20": {
+        "name": "資源を支払わずにオアシスタイル1枚を獲得する",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 資源を支払わずにオアシスタイル1枚を獲得する."
+      },
+      "A21": {
+        "name": "メイン広場の3人観客ボーナス1つの報酬を得る。ピンクのケシは不要",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: メイン広場の3人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
+      },
+      "A22": {
+        "name": "3ディナール + 水3個",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 3ディナール + 水3個."
+      },
+      "A23": {
+        "name": "3ディナール + ナツメヤシ3個",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 3ディナール + ナツメヤシ3個."
+      },
+      "A24": {
+        "name": "宮殿またはモスクの階段を合計4歩進む",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 宮殿またはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+      },
+      "A25": {
+        "name": "川トラックまたは宮殿の階段を合計4歩進む",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 川トラックまたは宮殿の階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+      },
+      "A26": {
+        "name": "任意の色の商品ケシ3個",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 任意の色の商品ケシ3個."
+      },
+      "A27": {
+        "name": "いずれか1つの山から黄色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: いずれか1つの山から黄色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+      },
+      "A28": {
+        "name": "8点",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 8点."
+      },
+      "A29": {
+        "name": "川の季節ボーナス。第3季節では自由に選択",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 川の季節ボーナス。第3季節では自由に選択."
+      },
+      "A30": {
+        "name": "資源を支払わずにオアシスタイル2枚を獲得する",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 資源を支払わずにオアシスタイル2枚を獲得する."
+      },
+      "A31": {
+        "name": "宮殿の階段、モスクの階段、または川トラックを合計6歩進む",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 宮殿の階段、モスクの階段、または川トラックを合計6歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+      },
+      "A32": {
+        "name": "いずれか1つの山から高級品を1つ選び、商品ケシ3個分の割引で購入する。その山を混ぜ、一番上のタイルを公開する",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: いずれか1つの山から高級品を1つ選び、商品ケシ3個分の割引で購入する。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+      },
+      "A33": {
+        "name": "いずれか1つの山からピンクの巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ2個を支払わない。その山を混ぜ、一番上のタイルを公開する",
+        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: いずれか1つの山からピンクの巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ2個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+      }
+    },
+    "ex2Luxury": {
+      "선물 01": {
+        "name": "ギフト - 最も高価な高級品",
+        "content": "状態: 展示されている最も高価な高級品の 1 つを購入します。\nボーナス: 1 ポイント、モスクの階段を 1 歩進みます。"
+      },
+      "선물 02": {
+        "name": "ギフト - 最安の高級品",
+        "content": "状態: 表示されている最も安い高級品を購入します。\nボーナス: 1 ポイント、川沿いの道を 1 歩進みます。"
+      },
+      "선물 03": {
+        "name": "ギフト - 一番右のスタック",
+        "content": "条件: 一番右のスタックから高級品を購入します。\nボーナス: 1 ポイントと 1 水。"
+      },
+      "선물 04": {
+        "name": "ギフト - 一番左のスタック",
+        "content": "条件: 左端のスタックから高級品を購入します。\nボーナス: 1 ポイントと デーツ1つ。"
+      },
+      "선물 05": {
+        "name": "ギフト - 中間スタック",
+        "content": "条件: 中央スタックから高級品を購入します。\nボーナス: 1 ポイントと デーツ1つ。"
+      },
+      "선물 06": {
+        "name": "ギフト - 最低スタック",
+        "content": "条件: 最下位スタックの 1 つから高級品を購入します。\nボーナス: 1 ポイントと 1 ディナール。"
+      },
+      "선물 07": {
+        "name": "ギフト - 最高スタック",
+        "content": "条件: 最も高いスタックの 1 つから高級品を購入します。\nボーナス: 1 ポイントと 1 ディナール。"
+      },
+      "선물 08": {
+        "name": "ギフト - 所有タイプ",
+        "content": "条件: すでに所有しているタイプの高級品を購入します。\nボーナス: 1 ポイント、宮殿の階段を 1 歩進みます。"
+      },
+      "선물 09": {
+        "name": "ギフト - 3 番目の異なるタイプ",
+        "content": "条件: 3 番目の異なる種類の高級品を購入します。\nボーナス: 1 ポイント、川沿いの道を 1 歩進みます。"
+      },
+      "선물 10": {
+        "name": "ギフト - 同じ高さのスタック",
+        "content": "条件: 別の高級品スタックと同じ高さのスタックから高級品を購入します。\nボーナス: 1 ポイントと 1 水。"
+      },
+      "조각상 A": {
+        "name": "小像 - 守護者と門",
+        "content": "購入特典: 7 ポイントと デーツ1つ、または 7 ポイントと 1 つの水。\nペアボーナス: 2 番目のタイルを購入してペアを完成すると、デーツ1つ、1 ディナール、1 水、または 1 ポイントから報酬を 5 回選択します。"
+      },
+      "조각상 B": {
+        "name": "小像 - 女性と手のひら",
+        "content": "購入特典: 5 ポイントと デーツ1つ、または 5 ポイントと 1 つの水。\nペアボーナス: 2 番目のタイルを購入してペアを完成すると、デーツ1つ、1 ディナール、1 水、または 1 ポイントから報酬を 4 回選択します。"
+      },
+      "조각상 C": {
+        "name": "小像 - 人間とラクダ",
+        "content": "購入特典: 3 ポイントと デーツ1つ、または 3 ポイントと 1 つの水。\nペアボーナス: 2 番目のタイルを購入してペアを完了すると、デーツ1つ、1 ディナール、1 水、または 1 ポイントから報酬を 3 回選択します。"
+      }
+    },
+    "ex2Exchange": {
+      "10": {
+        "name": "城門と宝石探し",
+        "content": "上: 8点を失い、-3点のマスから城門1つを無料で、そのケシと一緒に取ります。2ディナールと水1個を得ます。\n下: 任意の労働者ケシ3個を支払い、宝石2個を探します。\n\n城門の注記: この城門はマイナス点ではなく0点になり、城門そのもののケシだけを得ます。使用するには配置可能な衛兵ケシが必要です。\n宝石の注記: この選択肢はモジュール2「宝石」を使用している場合にのみ利用できます。宝石の供給を確認し、任意の宝石を選びます。その後、宝石の供給を混ぜます。"
+      },
+      "11": {
+        "name": "大量の資源獲得と宝石探索",
+        "content": "上: 10点を失い、3ディナール、デーツ4個、水4個を得ます。\n下: 任意の商品ケシ3個を支払い、宝石1個を探します。\n\n注記: この選択肢はモジュール2「宝石」を使用している場合にのみ利用できます。宝石の供給を確認し、任意の宝石を選びます。その後、宝石の供給を混ぜます。"
+      },
+      "12": {
+        "name": "大量のリソース獲得と 2 つのジェム検索",
+        "content": "上: 12点を失い、4ディナール、デーツ4個、水4個を得ます。\n下: 任意の商品ケシ5個を支払い、宝石2個を探します。\n\n注記: この選択肢はモジュール2「宝石」を使用している場合にのみ利用できます。宝石の供給を確認し、任意の宝石を選びます。その後、宝石の供給を混ぜます。"
+      },
+      "01": {
+        "name": "ポイントと交換日",
+        "content": "上: 2 ポイントを失うと 2 水が得られます。\n下: 1 日分の支払いで 2 ポイントを獲得します。"
+      },
+      "02": {
+        "name": "ポイントと水の交換",
+        "content": "上: 2 ポイントを失うと デーツ2つを獲得します。\n下: 1 水を支払うと 2 ポイントを獲得します。"
+      },
+      "03": {
+        "name": "ポイントとディナールの交換",
+        "content": "上: 3 ポイントを失い、デーツ 2 つと水 1 つを獲得します。\n下: 1 ディナールを支払うと 2 ポイントが獲得できます。"
+      },
+      "04": {
+        "name": "ポイントと二水交換",
+        "content": "上: 3 ポイントを失うと、2 ディナールと デーツ1つが得られます。\n下: 2 水を支払うと 3 ポイントを獲得します。"
+      },
+      "05": {
+        "name": "リソースと階段の段差",
+        "content": "上: 4 ポイントを失うと、1 ディナール、1 水、1 つのナツメヤシを獲得します。\n下: デーツ2つを支払い、2 ポイントを獲得し、黒または白の宮殿/モスクの階段を 1 歩進みます。"
+      },
+      "06": {
+        "name": "ディナールと水の交換",
+        "content": "上: 4 ポイントを失うと、2 ディナールと 2 水が得られます。\n下: 2 ディナールを支払うと 4 ポイントが獲得できます。"
+      },
+      "07": {
+        "name": "ケシチェンジとグッズ支払い",
+        "content": "上: 5 ポイントを失い、1 つのケシを別の色に変更し、その後 1 ディナール、1 つのナツメヤシ、1 つの水を獲得します。\n下: グッズケシを 2 つ使うと、2 ポイントと デーツ2つを獲得できます。"
+      },
+      "08": {
+        "name": "階段の段差と商品のお支払い",
+        "content": "上: 5 ポイントを失い、黒と白の両方の階段を 1 段階進み、1 ディナール、デーツ1つ、および 1 水を獲得します。\n下: 任意の 2 つの財ケシを消費して、2 ポイントと 2 水を獲得します。"
+      },
+      "09": {
+        "name": "城門と商品ケシ",
+        "content": "上: 8点を失い、-3点のマスから城門1つを無料で、そのケシと一緒に取ります。水2個とデーツ1個を得ます。\n下: 任意の資源3個を支払い、3点と商品ケシ1個を得ます。\n\n注記: この城門はマイナス点ではなく0点になり、城門そのもののケシだけを得ます。使用するには配置可能な衛兵ケシが必要です。"
+      }
+    },
+    "ex2Scroll": {
+      "11": {
+        "name": "ディナール、水、点数",
+        "content": "条件: 灰色の学者ケシ3個を持ち、デーツ1個を支払います。\n1ディナールと水1個を得て、3点を得ます。"
+      },
+      "12": {
+        "name": "観客ディスクのボーナス",
+        "content": "条件: 灰色の学者ケシ3個を持ち、デーツ1個を支払います。\n観客が3人いる2つの区画のうち1つから、観客ディスクのボーナスを1回得ます。このためには、その区画にピンクの芸人ケシが置かれている必要があります。"
+      },
+      "13": {
+        "name": "芸人なしの観客ボーナス",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n観客が3人いる2つの区画のうち1つから、観客ディスクのボーナスを1回得ます。その区画にピンクの芸人ケシがなくてもかまいません。"
+      },
+      "14": {
+        "name": "食料供給資源",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n表向きの自分の食料供給タイルごとに、対応する資源1個を供給から取り、そのタイルの上に置きます。これらの資源はその食料供給にのみ使用できます。同じシーズン中にこの巻物を正確にもう1回だけ使用できます。その後は使用できません。"
+      },
+      "15": {
+        "name": "任意のセクターアクション",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n任意のセクターアクション1回を行います。"
+      },
+      "16": {
+        "name": "二重ケシの交換",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n巻物から二重ケシタイル1枚を取り、共通の供給から対応する色のケシ2個と交換します。それらを対応するセクターに置き、タイルはマドラサボードの横に置きます。選択後、二重ケシタイルが1枚だけ残った場合、すべてのタイルを巻物に戻します。"
+      },
+      "17": {
+        "name": "オアシス2枚を有効化",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n発見済みのオアシス2枚を、コストを支払わずに有効化します。砂漠の町は数えません。"
+      },
+      "18": {
+        "name": "スークの水商人",
+        "content": "条件: 灰色の学者ケシ5個を持ち、デーツ2個を支払います。\n供給から赤い水商人ケシ1個を取り、スークの緑のテントの横に置き、ただちに水3個を得ます。次の自分の手番から、スークに助手を置くたびに水1個を得ます。"
+      },
+      "19": {
+        "name": "資源を返して得点",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n供給に戻した資源1個につき2点を得ます。宝石も含みます。この方法で最大12個の資源を戻せます。"
+      },
+      "20": {
+        "name": "商品ケシなしの高級品",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n高級品の山1つから任意の高級品1枚を選びます。示された商品ケシは支払いません。ただし、他に示されたコストがあれば支払う必要があります。"
+      },
+      "21": {
+        "name": "衛兵と城門",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n供給から衛兵ケシ1個を取ります。その後、任意の城門1つを選び、その衛兵ケシと一緒に自分のボードに置きます。城門の点数と、色が一致する配置点を得ます。その後、供給から任意のケシ1個を取れます。このケシは置いた城門の色と一致していなくてもかまいません。"
+      },
+      "22": {
+        "name": "異なる色のケシ3個",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n供給から異なる色のケシ3個を取り、対応するセクターに置きます。"
+      },
+      "23": {
+        "name": "資源セット得点",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n1ディナール、水1個、デーツ1個のセットにつき6点を得ます。これをさらに2回まで繰り返せます。最大18点です。"
+      },
+      "24": {
+        "name": "オアシス2枚を即時得点",
+        "content": "条件: 灰色の学者ケシ7個を持ち、デーツ3個を支払います。\n有効化済みの自分のオアシス2枚をただちに得点します。そのオアシスはそのまま残り、ゲーム終了時に再び得点します。"
+      },
+      "73": {
+        "name": "ジェムを1個引く",
+        "content": "サプライからジェムを 1 つ引き出します。"
+      },
+      "74": {
+        "name": "宝石1個を引いて交換",
+        "content": "供給から宝石1個を引きます。その後、自分の資源と一緒に置かれている宝石1個を、宝石商の任意の宝石1個と交換できます。"
+      },
+      "75": {
+        "name": "宝石を2つ引く",
+        "content": "サプライからジェムを 2 つ引き出します。"
+      },
+      "76": {
+        "name": "宝石を引き、選択/交換する",
+        "content": "供給から宝石1個を引き、宝石商から宝石1個を選びます。さらに、自分の資源と一緒に置かれている宝石1個を、宝石商の任意の宝石1個と交換できます。"
+      },
+      "77": {
+        "name": "代替エキスパートの費用",
+        "content": "ゲーム中に一度、エキスパートを連れて行くと、必要なリソースを支払う代わりに 1 ポイントを失うことがあります。"
+      },
+      "78": {
+        "name": "すぐに専門家に相談してください",
+        "content": "リソースを支払わずに、表示されているエキスパート 1 人の能力をすぐに使用します。その専門家はディスプレイに残ります。"
+      },
+      "01/04": {
+        "name": "ケシタイルの交換",
+        "content": "条件: 灰色の学者ケシ1個を持ち、デーツ1個を支払います。\n巻物からケシタイル1枚を取り、共通の供給から対応する色のケシ1個と交換します。そのケシを対応するセクターに置き、タイルはマドラサボードの横に置きます。選択後、巻物にケシタイルが1枚だけ残った場合、脇に置いたすべてのタイルを巻物に戻します。"
+      },
+      "02": {
+        "name": "ディナールまたは川",
+        "content": "条件: 灰色の学者ケシ1個を持ち、デーツ1個を支払います。\n2ディナールを得るか、川トラックを1歩進みます。"
+      },
+      "03": {
+        "name": "水または階段",
+        "content": "条件: 灰色の学者ケシ1個を持ち、デーツ1個を支払います。\n水2個を得るか、モスクまたは宮殿の階段を1歩進みます。"
+      },
+      "05": {
+        "name": "点数または宝石",
+        "content": "条件: 灰色の学者ケシ1個を持ち、デーツ1個を支払います。\n2点を得るか、供給から宝石1個を引きます。宝石の選択肢はモジュール2「宝石」を使用している場合にのみ適用します。"
+      },
+      "06": {
+        "name": "デーツまたは水",
+        "content": "条件: 灰色の学者ケシ1個を持ち、デーツ1個を支払います。\nデーツ3個または水2個を得ます。"
+      },
+      "07/10": {
+        "name": "二重商品ケシの交換",
+        "content": "条件: 灰色の学者ケシ3個を持ち、デーツ1個を支払います。\n巻物から二重商品ケシタイル1枚を取り、共通の供給から対応する色のケシ2個と交換します。そのケシをスークに置き、タイルはマドラサボードの横に置きます。選択後、そのタイルが1枚だけ残った場合、すべてのタイルを巻物に戻します。"
+      },
+      "08": {
+        "name": "資源と点数",
+        "content": "条件: 灰色の学者ケシ3個を持ち、デーツ1個を支払います。\n1ディナール、水1個、デーツ1個を得て、2点を得ます。"
+      },
+      "09": {
+        "name": "両方の階段",
+        "content": "条件: 灰色の学者ケシ3個を持ち、デーツ1個を支払います。\nモスク階段と宮殿階段をそれぞれ1歩進み、2点を得ます。"
+      }
+    },
+    "ex2Oasis": {
+      "보석 39": {
+        "name": "ジェム数のスコアリング",
+        "content": "所有するジェムごとに 1 ポイント、最大 15 ポイントを獲得します。"
+      },
+      "보석 40": {
+        "name": "さまざまな宝石の色のスコアリング",
+        "content": "所有する宝石の色ごとに 3 ポイント、最大 15 ポイントを獲得します。"
+      },
+      "전문가 41": {
+        "name": "エキスパートカウントスコアリング",
+        "content": "エキスパートを使用したかどうかに関係なく、所有するエキスパートごとに 2 ポイントを獲得します。"
+      },
+      "전문가 42": {
+        "name": "ほとんどの専門家が採点",
+        "content": "全プレイヤーの中で最も多くのエキスパートを所有している場合、所有しているエキスパートごとに 3 ポイントを獲得します。同点のプレイヤーは得点を獲得しません。最大15点。"
+      },
+      "중고상점 43": {
+        "name": "使用済みタイルの得点",
+        "content": "自分の巻物またはオアシス上にある使用済みタイル1枚につき2点を得ます。"
+      },
+      "중고상점 44": {
+        "name": "使用済みタイルの組み合わせ得点",
+        "content": "巻物上の使用済みタイル1枚とオアシス上の使用済みタイル1枚の組み合わせ1組につき5点を得ます。"
+      }
+    },
+    "ex2Expert": {
+      "E1": {
+        "name": "水商人の専門家",
+        "content": "この専門家は特定のセクターに割り当てられていません。助手が置かれているセクターのいずれかに水商人がいるときに使用できます。共通の供給から赤い水商人ケシ1個を取り、任意の赤いマスにただちに置きます。その後、水1個を得て、自分のボード上の水商人ケシ1個につき1点を得ます。"
+      },
+      "E2": {
+        "name": "漁師の専門家",
+        "content": "川セクターのアクションを行うときに使用します。共通の供給から青い漁師ケシ1個を取り、ただちに置きます。その後、自分が持つ漁師ケシ1個につきテンシフト川を1歩進み、さらに追加で5歩進みます。通常どおり、水を使ってさらに進むこともできます。"
+      },
+      "E3": {
+        "name": "デーツ採集者の専門家",
+        "content": "デーツ果樹園セクターのアクションを行うときに使用します。緑のデーツ採集者ケシ1個を取り、配置します。その後、デーツ採集者ケシ1個はデーツ1個の代わりにデーツ2個を受け取れます。そのセクターに水商人がいる場合、追加で水2個も得られます。"
+      },
+      "E4": {
+        "name": "高級品の専門家",
+        "content": "展示されている高級品を1つ無料でお持ち帰りいただけます。唯一の条件は、エキスパートカラーがその高級品に必要な最も一般的な商品ケシカラーでなければならないということです。同点は条件を満たしたものとしてカウントされます。ギフトや小像もこの方法で受け取ることができます。"
+      },
+      "E5": {
+        "name": "メインスクエアエキスパート",
+        "content": "セクターアクションによって選択されたボーナスをさらに 1 回獲得し、直接隣接する 2 つの個人ボーナスもそれぞれ 1 回ずつ獲得します。"
+      },
+      "E6": {
+        "name": "モスク接続の専門家",
+        "content": "接続ボーナスを受け取るときに使用します。その線からボーナスを2つ受け取り、モスク階段のすぐ横にある得点ボーナスが2倍になります。"
+      },
+      "E7": {
+        "name": "宮殿接続の専門家",
+        "content": "接続ボーナスを受け取るときに使用します。その線からボーナスを2つ受け取り、宮殿階段のすぐ横にあるディナールボーナスが2倍になります。"
+      },
+      "E8": {
+        "name": "マドラサの専門家",
+        "content": "マドラサセクターのアクションを行うときに使用します。オレンジの巻物1枚、または巻物2枚を選べます。巻物2枚の場合、一方はピンク以下、もう一方は黄色以下にできます。巻物に必要なデーツは支払わず、各巻物につき灰色の学者ケシ1個だけが必要です。\n\n注記: このターンに追加で巻物を購入することはできますが、その場合はこの専門家の利点を受けられません。\n注意: このターン、この専門家によって灰色の学者ケシを最大2個すでに使用したものとみなします。"
+      },
+      "E9": {
+        "name": "城門の専門家",
+        "content": "工房の4つのマスから任意の城門2つを選びます。ただし衛兵ケシ2個も持っている必要があります。それらを通常どおり自分のメディナに建設します。城門のためのディナールは支払わず、各城門につき7点を得て、城門の色の代わりに任意の色のケシ1個を得ます。\n\n注記: 条件を満たしていれば、ディナールと衛兵ケシを支払ってさらに城門を得ることはできます。ただし、その場合はこの専門家の利点を受けられません。"
+      },
+      "E10": {
+        "name": "オアシスの専門家",
+        "content": "コストを支払わずにオアシスを 1 つアクティブにし、すぐに得点します。"
+      }
     }
   },
   "es": {
@@ -2028,6 +3288,426 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       "H6": {
         "name": "Difícil: intercambio de keshi de inicio redondo",
         "content": "Al comienzo de cada ronda, realiza 1 intercambio de keshi según las reglas del juego base.\n\nNota: Temporada 1, ronda 1: puedes intercambiar 1 keshi de tu pista de bonificación de oasis reclamados con un keshi de la reserva general. Los keshis amarillos, morados, naranjas y marrones quedan excluidos del intercambio. El keshi recibido se coloca en el mismo espacio de la pista de bonificación donde estaba el keshi original.\nSi usas la expansión Camellos:\nAl intercambiar mediante este efecto, puedes intercambiar no solo con la reserva general, sino también con un keshi de tu columna de espectadores en el hipódromo.\nComo este intercambio no cuenta como obtener un nuevo keshi adicional, tu camello no avanza."
+      }
+    },
+    "award": {
+      "A01": {
+        "name": "2 puntos",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 puntos."
+      },
+      "A02": {
+        "name": "2 dinares",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 dinares."
+      },
+      "A03": {
+        "name": "2 aguas",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 aguas."
+      },
+      "A04": {
+        "name": "2 dátiles",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 dátiles."
+      },
+      "A05": {
+        "name": "1 recurso cualquiera",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 1 recurso cualquiera."
+      },
+      "A06": {
+        "name": "2 keshis de mercancía de un mismo color cualquiera",
+        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 keshis de mercancía de un mismo color cualquiera."
+      },
+      "A07": {
+        "name": "3 puntos",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 3 puntos."
+      },
+      "A08": {
+        "name": "4 dinares",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 4 dinares."
+      },
+      "A09": {
+        "name": "Avanza 2 pasos en la escalera del palacio",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en la escalera del palacio."
+      },
+      "A10": {
+        "name": "Avanza 2 pasos en el río",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en el río."
+      },
+      "A11": {
+        "name": "Elige un pergamino gris de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: elige un pergamino gris de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+      },
+      "A12": {
+        "name": "3 recursos cualesquiera",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 3 recursos cualesquiera."
+      },
+      "A13": {
+        "name": "2 puntos + 2 aguas",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 2 puntos + 2 aguas."
+      },
+      "A14": {
+        "name": "Avanza 2 pasos en la escalera de la mezquita",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en la escalera de la mezquita."
+      },
+      "A15": {
+        "name": "Obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal, sin necesitar keshi rosa",
+        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal, sin necesitar keshi rosa."
+      },
+      "A16": {
+        "name": "5 puntos",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 5 puntos."
+      },
+      "A17": {
+        "name": "3 dátiles + 3 aguas",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dátiles + 3 aguas."
+      },
+      "A18": {
+        "name": "5 recursos cualesquiera",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 5 recursos cualesquiera."
+      },
+      "A19": {
+        "name": "Avanza un total de 4 pasos en el río o en la escalera de la mezquita",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en el río o en la escalera de la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+      },
+      "A20": {
+        "name": "Reclama 1 loseta de oasis sin pagar recursos",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: reclama 1 loseta de oasis sin pagar recursos."
+      },
+      "A21": {
+        "name": "Obtén la recompensa de una bonificación de 3 espectadores en la plaza principal, sin necesitar keshi rosa",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: obtén la recompensa de una bonificación de 3 espectadores en la plaza principal, sin necesitar keshi rosa."
+      },
+      "A22": {
+        "name": "3 dinares + 3 aguas",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dinares + 3 aguas."
+      },
+      "A23": {
+        "name": "3 dinares + 3 dátiles",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dinares + 3 dátiles."
+      },
+      "A24": {
+        "name": "Avanza un total de 4 pasos en las escaleras del palacio o la mezquita",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en las escaleras del palacio o la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+      },
+      "A25": {
+        "name": "Avanza un total de 4 pasos en el río o en la escalera del palacio",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en el río o en la escalera del palacio.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+      },
+      "A26": {
+        "name": "3 keshis de mercancía de cualquier color",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 keshis de mercancía de cualquier color."
+      },
+      "A27": {
+        "name": "Elige un pergamino amarillo de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior",
+        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: elige un pergamino amarillo de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+      },
+      "A28": {
+        "name": "8 puntos",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: 8 puntos."
+      },
+      "A29": {
+        "name": "La bonificación de temporada del río. Elección libre en la 3.ª temporada",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: la bonificación de temporada del río. Elección libre en la 3.ª temporada."
+      },
+      "A30": {
+        "name": "Reclama 2 losetas de oasis sin pagar recursos",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: reclama 2 losetas de oasis sin pagar recursos."
+      },
+      "A31": {
+        "name": "Avanza un total de 6 pasos en las escaleras del palacio o la mezquita, o en el río",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: avanza un total de 6 pasos en las escaleras del palacio o la mezquita, o en el río.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+      },
+      "A32": {
+        "name": "Elige un bien de lujo de 1 pila y cómpralo con un descuento de 3 keshis de mercancía. Baraja la pila y revela la loseta superior",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: elige un bien de lujo de 1 pila y cómpralo con un descuento de 3 keshis de mercancía. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+      },
+      "A33": {
+        "name": "Elige un pergamino rosa de 1 pila, ignorando los keshis grises requeridos y sin pagar 2 dátiles. Baraja la pila y revela la loseta superior",
+        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: elige un pergamino rosa de 1 pila, ignorando los keshis grises requeridos y sin pagar 2 dátiles. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+      }
+    },
+    "ex2Luxury": {
+      "선물 01": {
+        "name": "Regalo: el bien de lujo más caro",
+        "content": "Condición: Compre uno de los artículos de lujo exhibidos más caros.\nBonificación: 1 punto y 1 escalón en la escalera de la mezquita."
+      },
+      "선물 02": {
+        "name": "Regalo: el bien de lujo más barato",
+        "content": "Condición: Compre uno de los artículos de lujo exhibidos más baratos.\nBonificación: 1 punto y 1 paso en la pista del río."
+      },
+      "선물 03": {
+        "name": "Regalo: pila situada más a la derecha",
+        "content": "Condición: compre un artículo de lujo de la pila de más a la derecha.\nBono: 1 punto y 1 agua."
+      },
+      "선물 04": {
+        "name": "Regalo: pila situada más a la izquierda",
+        "content": "Condición: compre un artículo de lujo de la pila más a la izquierda.\nBono: 1 punto y 1 dátil."
+      },
+      "선물 05": {
+        "name": "Regalo - Pila intermedia",
+        "content": "Condición: Compre un artículo de lujo de la pila intermedia.\nBono: 1 punto y 1 dátil."
+      },
+      "선물 06": {
+        "name": "Regalo: pila más baja",
+        "content": "Condición: compre un artículo de lujo de una de las pilas más bajas.\nBonificación: 1 punto y 1 dinar."
+      },
+      "선물 07": {
+        "name": "Regalo: pila más alta",
+        "content": "Condición: Compra un artículo de lujo de una de las pilas más altas.\nBonificación: 1 punto y 1 dinar."
+      },
+      "선물 08": {
+        "name": "Regalo - Tipo de propiedad",
+        "content": "Condición: compre un bien de lujo de un tipo que ya posee.\nBonificación: 1 punto y 1 escalón en la escalera del palacio."
+      },
+      "선물 09": {
+        "name": "Regalo - Tercer tipo diferente",
+        "content": "Condición: Compre su tercer tipo diferente de artículo de lujo.\nBonificación: 1 punto y 1 paso en la pista del río."
+      },
+      "선물 10": {
+        "name": "Regalo - Pila de igual altura",
+        "content": "Condición: Compre un artículo de lujo de una pila con la misma altura que otra pila de artículos de lujo.\nBono: 1 punto y 1 agua."
+      },
+      "조각상 A": {
+        "name": "Estatuillas - Guardián y Puerta",
+        "content": "Recompensa por compra: 7 puntos y 1 dátil, o 7 puntos y 1 agua.\nBonificación por par: cuando compras la segunda ficha y completas el par, eliges recompensas 5 veces de 1 dátil, 1 dinar, 1 agua o 1 punto."
+      },
+      "조각상 B": {
+        "name": "Estatuillas - Mujer y Palma",
+        "content": "Recompensa por compra: 5 puntos y 1 dátil, o 5 puntos y 1 agua.\nBonificación por par: cuando compras la segunda ficha y completas el par, eliges recompensas 4 veces de 1 dátil, 1 dinar, 1 agua o 1 punto."
+      },
+      "조각상 C": {
+        "name": "Estatuillas - Hombre y Camello",
+        "content": "Recompensa por compra: 3 puntos y 1 dátil, o 3 puntos y 1 agua.\nBonificación por par: cuando compras la segunda ficha y completas el par, eliges recompensas 3 veces de 1 dátil, 1 dinar, 1 agua o 1 punto."
+      }
+    },
+    "ex2Exchange": {
+      "10": {
+        "name": "Puerta de ciudad y búsqueda de gemas",
+        "content": "Arriba: pierde 8 puntos y toma gratis 1 puerta de ciudad del espacio de -3 puntos, con su keshi. Gana 2 dinares y 1 agua.\nAbajo: paga 3 keshis trabajadores cualesquiera y busca 2 gemas.\n\nNota de puerta de ciudad: esta puerta de ciudad da 0 puntos en lugar de puntos negativos, y solo el keshi de la propia puerta. Debes tener un keshi de guardia disponible.\nNota de gemas: esta opción solo está disponible con el módulo 2 “Gemas”. Busca en el suministro de gemas y elige cualquier gema. Después, mezcla el suministro de gemas."
+      },
+      "11": {
+        "name": "Gran ganancia de recursos y búsqueda de gemas.",
+        "content": "Arriba: pierde 10 puntos para ganar 3 dinares, 4 dátiles y 4 aguas.\nAbajo: paga 3 keshis de mercancía cualesquiera y busca 1 gema.\n\nNota: esta opción solo está disponible con el módulo 2 “Gemas”. Busca en el suministro de gemas y elige cualquier gema. Después, mezcla el suministro de gemas."
+      },
+      "12": {
+        "name": "Gran ganancia de recursos y búsqueda de dos gemas.",
+        "content": "Arriba: pierde 12 puntos para ganar 4 dinares, 4 dátiles y 4 aguas.\nAbajo: paga 5 keshis de mercancía cualesquiera y busca 2 gemas.\n\nNota: esta opción solo está disponible con el módulo 2 “Gemas”. Busca en el suministro de gemas y elige cualquier gema. Después, mezcla el suministro de gemas."
+      },
+      "01": {
+        "name": "Intercambio de puntos y dátiles",
+        "content": "Arriba: Pierde 2 puntos para ganar 2 de agua.\nAbajo: Paga 1 dátil para ganar 2 puntos."
+      },
+      "02": {
+        "name": "Puntos y intercambio de agua.",
+        "content": "Arriba: Pierde 2 puntos para ganar 2 dátiles.\nAbajo: Paga 1 agua para ganar 2 puntos."
+      },
+      "03": {
+        "name": "Cambio de puntos y dinares",
+        "content": "Arriba: Pierde 3 puntos para ganar 2 dátiles y 1 agua.\nAbajo: Paga 1 dinar para ganar 2 puntos."
+      },
+      "04": {
+        "name": "Puntos y intercambio de dos aguas.",
+        "content": "Arriba: Pierde 3 puntos para ganar 2 dinares y 1 dátil.\nAbajo: Paga 2 agua para ganar 3 puntos."
+      },
+      "05": {
+        "name": "Recursos y escalón de escalera.",
+        "content": "Arriba: Pierde 4 puntos para ganar 1 dinar, 1 agua y 1 dátil.\nAbajo: paga 2 dátiles, gana 2 puntos y luego avanza 1 escalón en la escalera blanca o negra del palacio/mezquita."
+      },
+      "06": {
+        "name": "Dinares y cambio de agua.",
+        "content": "Arriba: Pierde 4 puntos para ganar 2 dinares y 2 agua.\nAbajo: Paga 2 dinares para ganar 4 puntos."
+      },
+      "07": {
+        "name": "Cambio de keshi y pago de mercancías.",
+        "content": "Arriba: pierde 5 puntos, cambia 1 keshi a un color diferente y luego gana 1 dinar, 1 dátil y 1 agua.\nAbajo: Gasta 2 bienes keshis para ganar 2 puntos y 2 dátiles."
+      },
+      "08": {
+        "name": "Peldaños de escalera y pago de mercancías.",
+        "content": "Arriba: pierde 5 puntos, avanza 1 escalón las escaleras blanca y negra y luego gana 1 dinar, 1 dátil y 1 agua.\nAbajo: Gasta 2 bienes keshis para ganar 2 puntos y 2 agua."
+      },
+      "09": {
+        "name": "Puerta de ciudad y keshi de mercancía",
+        "content": "Arriba: pierde 8 puntos y toma gratis 1 puerta de ciudad del espacio de -3 puntos, con su keshi. Gana 2 aguas y 1 dátil.\nAbajo: paga 3 recursos cualesquiera para ganar 3 puntos y 1 keshi de mercancía.\n\nNota: esta puerta de ciudad da 0 puntos en lugar de puntos negativos, y solo el keshi de la propia puerta. Debes tener un keshi de guardia disponible."
+      }
+    },
+    "ex2Scroll": {
+      "11": {
+        "name": "Dinar, agua y puntos",
+        "content": "Requisito: tener 3 keshis de erudito grises y pagar 1 dátil.\nToma 1 dinar y 1 agua, y gana 3 puntos."
+      },
+      "12": {
+        "name": "Bonificación del disco de espectadores",
+        "content": "Requisito: tener 3 keshis de erudito grises y pagar 1 dátil.\nRecibe una vez la bonificación de tu disco de espectadores de una de las dos secciones con 3 espectadores. Para ello, debe haber un keshi artista rosa colocado en esa sección."
+      },
+      "13": {
+        "name": "Bonificación sin artista",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nRecibe una vez la bonificación de tu disco de espectadores de una de las dos secciones con 3 espectadores. No necesitas tener un keshi artista rosa colocado allí."
+      },
+      "14": {
+        "name": "Recursos de provisión",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nPor cada una de tus losetas de provisión boca arriba, toma 1 recurso correspondiente del suministro y colócalo encima de esa loseta. Solo puedes usar esos recursos para esas provisiones. Puedes usar este pergamino exactamente 1 vez más durante la misma temporada; después ya no es posible."
+      },
+      "15": {
+        "name": "Acción de sector a elección",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nRealiza 1 acción de sector de tu elección."
+      },
+      "16": {
+        "name": "Intercambio de doble keshi",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nToma 1 loseta de doble keshi del pergamino e intercámbiala por 2 keshis del color correspondiente del suministro. Colócalos en los sectores correspondientes y deja la loseta junto al tablero de madrasa. Si después solo queda 1 loseta de doble keshi, devuelve todas las losetas al pergamino."
+      },
+      "17": {
+        "name": "Activar 2 oasis",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nActiva 2 oasis descubiertos sin pagar los costes. Las ciudades del desierto no cuentan."
+      },
+      "18": {
+        "name": "Vendedor de agua en el zoco",
+        "content": "Requisito: tener 5 keshis de erudito grises y pagar 2 dátiles.\nColoca 1 keshi vendedor de agua rojo del suministro junto a la tienda verde del zoco y toma inmediatamente 3 aguas. Desde tu próximo turno, recibes 1 agua cuando coloques un asistente en el zoco."
+      },
+      "19": {
+        "name": "Devolver recursos por puntos",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nGana 2 puntos por cada recurso que devuelvas al suministro, incluidas gemas. Puedes devolver como máximo 12 recursos de esta forma."
+      },
+      "20": {
+        "name": "Bien de lujo sin keshis de mercancía",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nElige 1 bien de lujo de 1 pila de bienes de lujo. No pagas los keshis de mercancía indicados. Aún debes pagar cualquier otro coste mostrado."
+      },
+      "21": {
+        "name": "Guardia y puerta de ciudad",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nToma 1 keshi de guardia del suministro. Luego elige 1 puerta de ciudad y colócala con el keshi de guardia en tu tablero. Recibes los puntos de la puerta y los posibles puntos por colocación de color coincidente. Después puedes tomar 1 keshi cualquiera del suministro; no tiene que coincidir con el color de la puerta colocada."
+      },
+      "22": {
+        "name": "3 keshis de colores diferentes",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nToma 3 keshis de colores diferentes del suministro y colócalos en los sectores correspondientes."
+      },
+      "23": {
+        "name": "Puntuación de set de recursos",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nPor un set de 1 dinar, 1 agua y 1 dátil, gana 6 puntos. Puedes repetirlo 2 veces más, hasta un máximo de 18 puntos."
+      },
+      "24": {
+        "name": "Puntuar 2 oasis inmediatamente",
+        "content": "Requisito: tener 7 keshis de erudito grises y pagar 3 dátiles.\nPuntúa inmediatamente 2 de tus oasis activados. Los oasis permanecen en su lugar y se puntúan de nuevo al final de la partida."
+      },
+      "73": {
+        "name": "Dibuja 1 gema",
+        "content": "Saca 1 gema del suministro."
+      },
+      "74": {
+        "name": "Saca 1 gema e intercambia",
+        "content": "Saca 1 gema del suministro. Luego puedes intercambiar 1 de tus gemas que esté con tus recursos por cualquier 1 gema del comerciante de gemas."
+      },
+      "75": {
+        "name": "Dibuja 2 gemas",
+        "content": "Saca 2 gemas del suministro."
+      },
+      "76": {
+        "name": "Saca y elige/intercambia gemas",
+        "content": "Saca 1 gema del suministro y elige 1 gema del comerciante de gemas. Además, puedes intercambiar 1 de tus gemas que esté con tus recursos por cualquier 1 gema del comerciante de gemas."
+      },
+      "77": {
+        "name": "Costo experto sustituto",
+        "content": "Una vez durante el juego, al elegir un experto, puedes perder 1 punto en lugar de pagar los recursos requeridos."
+      },
+      "78": {
+        "name": "Utilice un experto inmediatamente",
+        "content": "Sin pagar recursos, utiliza inmediatamente la habilidad de 1 experto mostrado. Ese experto permanece en la pantalla."
+      },
+      "01/04": {
+        "name": "Intercambio de loseta keshi",
+        "content": "Requisito: tener 1 keshi de erudito gris y pagar 1 dátil.\nToma 1 loseta keshi del pergamino e intercámbiala por 1 keshi del color correspondiente del suministro. Coloca el keshi en el sector correspondiente y deja la loseta junto al tablero de madrasa. Si después solo queda 1 loseta keshi en el pergamino, devuelve todas las losetas apartadas al pergamino."
+      },
+      "02": {
+        "name": "Dinar o río",
+        "content": "Requisito: tener 1 keshi de erudito gris y pagar 1 dátil.\nToma 2 dinares o avanza 1 paso en la pista del río."
+      },
+      "03": {
+        "name": "Agua o escalera",
+        "content": "Requisito: tener 1 keshi de erudito gris y pagar 1 dátil.\nToma 2 aguas o avanza 1 paso en la escalera de la mezquita o del palacio."
+      },
+      "05": {
+        "name": "Puntos o gema",
+        "content": "Requisito: tener 1 keshi de erudito gris y pagar 1 dátil.\nGana 2 puntos o roba 1 gema del suministro. La opción de gema solo se aplica si juegas con el módulo 2 “Gemas”."
+      },
+      "06": {
+        "name": "Dátiles o agua",
+        "content": "Requisito: tener 1 keshi de erudito gris y pagar 1 dátil.\nToma 3 dátiles o 2 aguas."
+      },
+      "07/10": {
+        "name": "Intercambio de doble keshi de mercancía",
+        "content": "Requisito: tener 3 keshis de erudito grises y pagar 1 dátil.\nToma 1 loseta de doble keshi de mercancía del pergamino e intercámbiala por 2 keshis del color correspondiente del suministro. Coloca los keshis en el zoco y deja la loseta junto al tablero de madrasa. Si después solo queda 1 loseta de este tipo, devuelve todas las losetas al pergamino."
+      },
+      "08": {
+        "name": "Recursos y puntos",
+        "content": "Requisito: tener 3 keshis de erudito grises y pagar 1 dátil.\nToma 1 dinar, 1 agua y 1 dátil, y gana 2 puntos."
+      },
+      "09": {
+        "name": "Ambas escaleras",
+        "content": "Requisito: tener 3 keshis de erudito grises y pagar 1 dátil.\nAvanza 1 paso en la escalera de la mezquita y 1 paso en la del palacio, y gana 2 puntos."
+      }
+    },
+    "ex2Oasis": {
+      "보석 39": {
+        "name": "Puntuación del recuento de gemas",
+        "content": "Gana 1 punto por cada gema que poseas, hasta 15 puntos."
+      },
+      "보석 40": {
+        "name": "Puntuación de diferentes colores de gemas.",
+        "content": "Gana 3 puntos por cada color de gema diferente que poseas, hasta 15 puntos."
+      },
+      "전문가 41": {
+        "name": "Puntuación de recuento de expertos",
+        "content": "Gana 2 puntos por cada experto que poseas, ya sea que hayas utilizado ese experto o no."
+      },
+      "전문가 42": {
+        "name": "La mayoría de los expertos puntuando",
+        "content": "Si tienes la mayor cantidad de expertos entre todos los jugadores, gana 3 puntos por cada experto que tengas. Los jugadores empatados no obtienen puntos. Máximo 15 puntos."
+      },
+      "중고상점 43": {
+        "name": "Puntuación de losetas usadas",
+        "content": "Gana 2 puntos por cada loseta usada en tus pergaminos u oasis."
+      },
+      "중고상점 44": {
+        "name": "Puntuación de combinaciones de losetas usadas",
+        "content": "Gana 5 puntos por cada combinación de 1 loseta usada en un pergamino y 1 loseta usada en un oasis."
+      }
+    },
+    "ex2Expert": {
+      "E1": {
+        "name": "Experto vendedor de agua",
+        "content": "Este experto no está asignado a un sector. Úsalo cuando haya un vendedor de agua en uno de los sectores marcados con un asistente. Toma 1 keshi vendedor de agua rojo del suministro y colócalo inmediatamente en cualquier espacio rojo. Después, recibe 1 agua y 1 punto por cada keshi vendedor de agua en tu tablero."
+      },
+      "E2": {
+        "name": "Experto pescador",
+        "content": "Usa este experto cuando realices la acción del sector del río. Toma 1 keshi pescador azul del suministro y colócalo inmediatamente. Después, por cada keshi pescador que tengas, avanza 1 paso en el río Tensift, y además avanza 5 pasos adicionales. Como siempre, puedes usar agua para avanzar más pasos."
+      },
+      "E3": {
+        "name": "Experto recolector de dátiles",
+        "content": "Utiliza este experto cuando realices la acción del sector del palmeral de dátiles. Toma 1 keshi recolector de dátiles verde y despliégalo. Después, un keshi recolector de dátiles puede recibir 2 dátiles en lugar de 1; si hay un mercader de agua en ese sector, también puedes ganar 2 aguas adicionales."
+      },
+      "E4": {
+        "name": "Buen experto en lujo",
+        "content": "Llévate 1 artículo de lujo expuesto gratis. La única condición es que el color experto debe ser el color keshi más común de los bienes requeridos para ese bien de lujo. Los empates cuentan como cumplimiento de la condición. También se pueden llevar regalos y estatuillas por esta vía."
+      },
+      "E5": {
+        "name": "Experto en plaza principal",
+        "content": "Obtén la bonificación seleccionada por la acción de tu sector una vez más y también obtén cada una de las dos bonificaciones personales directamente adyacentes una vez."
+      },
+      "E6": {
+        "name": "Experto de conexión de la mezquita",
+        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de la línea, y la bonificación de puntos situada directamente junto a la escalera de la mezquita se duplica."
+      },
+      "E7": {
+        "name": "Experto de conexión del palacio",
+        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de la línea, y la bonificación de dinares situada directamente junto a la escalera del palacio se duplica."
+      },
+      "E8": {
+        "name": "Experto madrasa",
+        "content": "Usa este experto cuando realices la acción del sector madrasa. Puedes elegir 1 pergamino naranja, o 2 pergaminos, de los cuales uno puede ser rosa o más barato y el otro amarillo o más barato. No pagas los dátiles requeridos por los pergaminos y solo necesitas 1 keshi erudito gris por cada pergamino.\n\nNota: también puedes comprar pergaminos adicionales este turno, pero entonces ya no tendrás la ventaja del experto.\nAtención: hasta 2 keshis eruditos grises ya han sido usados por el experto en este turno."
+      },
+      "E9": {
+        "name": "Experto de puertas de ciudad",
+        "content": "Elige 2 puertas de ciudad cualesquiera de los 4 espacios del taller, siempre que también tengas 2 keshis de guardia, y constrúyelas como de costumbre en tu medina. No pagas dinares por esas puertas, recibes 7 puntos por cada puerta y tomas 1 keshi de cualquier color en lugar del color de la puerta.\n\nNota: puedes adquirir más puertas de ciudad si cumples los requisitos, incluidos dinares y keshis de guardia. Sin embargo, al hacerlo ya no tienes la ventaja del experto."
+      },
+      "E10": {
+        "name": "Experto en oasis",
+        "content": "Activa un oasis sin pagar su coste y luego puntúalo inmediatamente."
       }
     }
   }
