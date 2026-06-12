@@ -172,6 +172,7 @@
     .ref-img {
       width: 160px;
       max-height: 240px;
+      max-width: 100%;
       object-fit: contain;
       border: 1px solid var(--border);
       border-radius: 8px;
@@ -222,21 +223,53 @@
     }
     @media (max-width: 720px) {
       .layout { gap: 12px; }
-      .card { padding: 12px 10px; }
-      .col-image { width: 120px; }
-      .ref-img { width: 110px; max-height: 180px; }
-      [data-section="river"] .ref-img { width: 150px; max-height: 90px; }
-      [data-section="building"] .ref-img { width: 140px; max-height: 120px; }
+      body { padding: 4px 8px 28px; overflow-x: hidden; }
+      .page-top { padding-bottom: 8px; }
+      .page-title { font-size: 19px; }
+      .filter-tabs { gap: 6px; }
+      .filter-tabs button { padding: 7px 9px; font-size: 12px; border-radius: 8px; white-space: normal; overflow-wrap: anywhere; }
+      .page-top-row { gap: 8px; }
+      .search-bar input { padding: 10px 12px; font-size: 14px; }
+      .card { padding: 10px 6px; border-radius: 12px; }
+      .card h2 { font-size: 16px; }
+      .table-wrap { overflow-x: visible; }
+      table { table-layout: fixed; }
+      thead { font-size: 11px; }
+      th, td { padding: 6px 4px; font-size: 14px; line-height: 1.42; overflow-wrap: anywhere; word-break: break-word; }
+      .col-image { width: 58px; }
+      .col-number { width: 44px; white-space: normal; }
+      .col-name { width: 64px; min-width: 0; }
+      .col-text { min-width: 0; width: auto; white-space: pre-line; }
+      .ref-img { width: 54px; max-height: 96px; border-radius: 6px; }
+      [data-section="river"] .ref-img { width: 54px; max-height: 42px; }
+      [data-section="building"] .ref-img { width: 58px; max-height: 58px; }
       [data-section="provision"] .ref-img,
       [data-section="award"] .ref-img,
-      [data-section="luxury"] .ref-img { width: 110px; max-height: 110px; }
+      [data-section="luxury"] .ref-img { width: 54px; max-height: 54px; }
       [data-section="ex2Luxury"] .ref-img,
       [data-section="ex2Exchange"] .ref-img,
       [data-section="ex2Scroll"] .ref-img,
       [data-section="ex2Oasis"] .ref-img,
-      [data-section="ex2Expert"] .ref-img { width: 120px; max-height: 160px; }
-      .col-name { min-width: 150px; }
-      .col-text { min-width: 260px; }
+      [data-section="ex2Expert"] .ref-img { width: 54px; max-height: 78px; }
+    }
+    @media (max-width: 390px) {
+      body { padding-left: 5px; padding-right: 5px; }
+      .card { padding-left: 4px; padding-right: 4px; }
+      th, td { padding-left: 3px; padding-right: 3px; font-size: 14px; }
+      .col-image { width: 50px; }
+      .col-number { width: 38px; }
+      .col-name { width: 56px; }
+      .ref-img { width: 46px; max-height: 84px; }
+      [data-section="river"] .ref-img { width: 46px; max-height: 36px; }
+      [data-section="building"] .ref-img { width: 50px; max-height: 52px; }
+      [data-section="provision"] .ref-img,
+      [data-section="award"] .ref-img,
+      [data-section="luxury"] .ref-img { width: 46px; max-height: 46px; }
+      [data-section="ex2Luxury"] .ref-img,
+      [data-section="ex2Exchange"] .ref-img,
+      [data-section="ex2Scroll"] .ref-img,
+      [data-section="ex2Oasis"] .ref-img,
+      [data-section="ex2Expert"] .ref-img { width: 46px; max-height: 68px; }
     }
   </style>
 </head>
