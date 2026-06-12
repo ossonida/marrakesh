@@ -878,200 +878,200 @@ window.referenceData = {
     {
       "number": "A01",
       "image": "img/reference/camel-award-01-2-points.png",
-      "name": "2점",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 2점."
+      "name": "2점을 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 2점을 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A02",
       "image": "img/reference/camel-award-02-2-dinar.png",
-      "name": "2디나르",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 2디나르."
+      "name": "2디나르를 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 2디나르를 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A03",
       "image": "img/reference/camel-award-03-2-water.png",
-      "name": "물 2개",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 물 2개."
+      "name": "물 2개를 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 물 2개를 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A04",
       "image": "img/reference/camel-award-04-2-dates.png",
-      "name": "대추야자 2개",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 대추야자 2개."
+      "name": "대추야자 2개를 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 대추야자 2개를 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A05",
       "image": "img/reference/camel-award-05-any-resource.png",
-      "name": "원하는 자원 1개",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 원하는 자원 1개."
+      "name": "원하는 자원 1개를 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 원하는 자원 1개를 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A06",
       "image": "img/reference/camel-award-06-2-goods-keshi.png",
-      "name": "한 가지 색의 상품 케시 2개",
-      "content": "비용: 왼쪽 위에 표시된 색 케시 1개를 버립니다. 또는 오른쪽 위에 표시된 색 케시 1개와 낙타 배설물 타일 1개를 버립니다.\n보상: 한 가지 색의 상품 케시 2개."
+      "name": "한 가지 색의 상품 케시 2개를 얻습니다",
+      "content": "왼쪽: 왼쪽 위 색 케시 1개를 버리고 한 가지 색의 상품 케시 2개를 얻습니다.\n오른쪽: 오른쪽 위 색 케시 1개를 버리고 낙타 배설물 타일 1개를 버립니다."
     },
     {
       "number": "A07",
       "image": "img/reference/camel-award-07-3-points.png",
-      "name": "3점",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 3점."
+      "name": "3점을 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 3점을 얻습니다."
     },
     {
       "number": "A08",
       "image": "img/reference/camel-award-08-4-dinar.png",
-      "name": "4디나르",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 4디나르."
+      "name": "4디나르를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 4디나르를 얻습니다."
     },
     {
       "number": "A09",
       "image": "img/reference/camel-award-09-palace-2.png",
-      "name": "궁전 계단 2칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 궁전 계단 2칸 전진."
+      "name": "궁전 계단에서 2칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 궁전 계단에서 2칸 전진합니다."
     },
     {
       "number": "A10",
       "image": "img/reference/camel-award-10-river-2.png",
-      "name": "강 트랙 2칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 강 트랙 2칸 전진."
+      "name": "강 트랙에서 2칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 강 트랙에서 2칸 전진합니다."
     },
     {
       "number": "A11",
       "image": "img/reference/camel-award-11-gray-scroll.png",
       "name": "스택 1개에서 회색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 스택 1개에서 회색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 보상을 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 스택 1개에서 회색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 효과를 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
     },
     {
       "number": "A12",
       "image": "img/reference/camel-award-12-any-3-resources.png",
-      "name": "원하는 자원 3개",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 원하는 자원 3개."
+      "name": "원하는 자원 3개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 원하는 자원 3개를 얻습니다."
     },
     {
       "number": "A13",
       "image": "img/reference/camel-award-13-2-points-2-water.png",
-      "name": "2점 + 물 2개",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 2점 + 물 2개."
+      "name": "2점과 물 2개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 2점과 물 2개를 얻습니다."
     },
     {
       "number": "A14",
       "image": "img/reference/camel-award-14-mosque-2.png",
-      "name": "모스크 계단 2칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 모스크 계단 2칸 전진."
+      "name": "모스크 계단에서 2칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 모스크 계단에서 2칸 전진합니다."
     },
     {
       "number": "A15",
       "image": "img/reference/camel-award-15-two-spectator.png",
       "name": "메인 광장의 2명의 관중 보너스 중 원하는 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다",
-      "content": "비용: 표시된 색 케시 1개와 원하는 색 케시 1개, 총 2개를 버립니다.\n보상: 메인 광장의 2명의 관중 보너스 중 원하는 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다."
+      "content": "조건: 표시된 색 케시 1개와 원하는 색 케시 1개를 버립니다.\n보상: 메인 광장의 2명의 관중 보너스 중 원하는 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다."
     },
     {
       "number": "A16",
       "image": "img/reference/camel-award-16-5-points.png",
-      "name": "5점",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 5점."
+      "name": "5점을 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 5점을 얻습니다."
     },
     {
       "number": "A17",
       "image": "img/reference/camel-award-17-3-dates-3-water.png",
-      "name": "대추야자 3개 + 물 3개",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 대추야자 3개 + 물 3개."
+      "name": "대추야자 3개와 물 3개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 대추야자 3개와 물 3개를 얻습니다."
     },
     {
       "number": "A18",
       "image": "img/reference/camel-award-18-any-5-resources.png",
-      "name": "원하는 자원 5개",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 원하는 자원 5개."
+      "name": "원하는 자원 5개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 원하는 자원 5개를 얻습니다."
     },
     {
       "number": "A19",
       "image": "img/reference/camel-award-19-river-or-mosque-4.png",
-      "name": "강 트랙 또는 모스크 계단에서 총 4칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 강 트랙 또는 모스크 계단에서 총 4칸 전진.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
+      "name": "강 트랙 또는 모스크 계단에서 총 4칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 강 트랙 또는 모스크 계단에서 총 4칸 전진합니다.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
     },
     {
       "number": "A20",
       "image": "img/reference/camel-award-20-claim-1-oasis.png",
       "name": "자원을 지불하지 않고 오아시스 타일 1개를 점유합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 자원을 지불하지 않고 오아시스 타일 1개를 점유합니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 자원을 지불하지 않고 오아시스 타일 1개를 점유합니다."
     },
     {
       "number": "A21",
       "image": "img/reference/camel-award-21-three-spectator.png",
       "name": "메인 광장의 3명의 관중 보너스 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 메인 광장의 3명의 관중 보너스 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 메인 광장의 3명의 관중 보너스 1개 보상을 얻습니다. 분홍색 케시는 필요하지 않습니다."
     },
     {
       "number": "A22",
       "image": "img/reference/camel-award-22-3-dinar-3-water.png",
-      "name": "3디나르 + 물 3개",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 3디나르 + 물 3개."
+      "name": "3디나르와 물 3개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 3디나르와 물 3개를 얻습니다."
     },
     {
       "number": "A23",
       "image": "img/reference/camel-award-23-3-dinar-3-dates.png",
-      "name": "3디나르 + 대추야자 3개",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 3디나르 + 대추야자 3개."
+      "name": "3디나르와 대추야자 3개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 3디나르와 대추야자 3개를 얻습니다."
     },
     {
       "number": "A24",
       "image": "img/reference/camel-award-24-palace-or-mosque-4.png",
-      "name": "궁전 또는 모스크 계단에서 총 4칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 궁전 또는 모스크 계단에서 총 4칸 전진.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
+      "name": "궁전 또는 모스크 계단에서 총 4칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 궁전 또는 모스크 계단에서 총 4칸 전진합니다.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
     },
     {
       "number": "A25",
       "image": "img/reference/camel-award-25-river-or-palace-4.png",
-      "name": "강 트랙 또는 궁전 계단에서 총 4칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 강 트랙 또는 궁전 계단에서 총 4칸 전진.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
+      "name": "강 트랙 또는 궁전 계단에서 총 4칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 강 트랙 또는 궁전 계단에서 총 4칸 전진합니다.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
     },
     {
       "number": "A26",
       "image": "img/reference/camel-award-26-3-goods-keshi.png",
-      "name": "원하는 색의 상품 케시 3개",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 원하는 색의 상품 케시 3개."
+      "name": "원하는 색의 상품 케시 3개를 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 원하는 색의 상품 케시 3개를 얻습니다."
     },
     {
       "number": "A27",
       "image": "img/reference/camel-award-27-yellow-scroll.png",
       "name": "스택 1개에서 노란색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개, 총 3개를 버립니다.\n보상: 스택 1개에서 노란색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 보상을 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 2개를 버립니다.\n보상: 스택 1개에서 노란색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 1개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 효과를 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
     },
     {
       "number": "A28",
       "image": "img/reference/camel-award-28-8-points.png",
-      "name": "8점",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 8점."
+      "name": "8점을 얻습니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 8점을 얻습니다."
     },
     {
       "number": "A29",
       "image": "img/reference/camel-award-29-river-season-bonus.png",
-      "name": "강 시즌 보너스. 3시즌에는 자유롭게 선택합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 강 시즌 보너스. 3시즌에는 자유롭게 선택합니다."
+      "name": "강 시즌 보너스를 얻습니다. 3시즌에는 자유롭게 선택합니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 강 시즌 보너스를 얻습니다. 3시즌에는 자유롭게 선택합니다."
     },
     {
       "number": "A30",
       "image": "img/reference/camel-award-30-claim-2-oases.png",
       "name": "자원을 지불하지 않고 오아시스 타일 2개를 점유합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 자원을 지불하지 않고 오아시스 타일 2개를 점유합니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 자원을 지불하지 않고 오아시스 타일 2개를 점유합니다."
     },
     {
       "number": "A31",
       "image": "img/reference/camel-award-31-advance-6.png",
-      "name": "궁전 계단, 모스크 계단 또는 강 트랙에서 총 6칸 전진",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 궁전 계단, 모스크 계단 또는 강 트랙에서 총 6칸 전진.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
+      "name": "궁전 계단, 모스크 계단 또는 강 트랙에서 총 6칸 전진합니다",
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 궁전 계단, 모스크 계단 또는 강 트랙에서 총 6칸 전진합니다.\n\n각주: 표시된 숫자는 총 이동 칸 수입니다. 표시된 계단 및/또는 강 트랙의 말들 사이에 나누어 이동할 수 있습니다."
     },
     {
       "number": "A32",
       "image": "img/reference/camel-award-32-luxury-discount.png",
       "name": "스택 1개에서 사치품 1개를 선택하고 상품 케시 3개 할인으로 구매합니다. 그 스택을 섞고 맨 위 타일을 공개합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 스택 1개에서 사치품 1개를 선택하고 상품 케시 3개 할인으로 구매합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 보상을 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 스택 1개에서 사치품 1개를 선택하고 상품 케시 3개 할인으로 구매합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 효과를 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
     },
     {
       "number": "A33",
       "image": "img/reference/camel-award-33-pink-scroll.png",
       "name": "스택 1개에서 분홍색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 2개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다",
-      "content": "비용: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개, 총 4개를 버립니다.\n보상: 스택 1개에서 분홍색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 2개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 보상을 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
+      "content": "조건: 표시된 색 케시 1개와 서로 다른 원하는 색 케시 3개를 버립니다.\n보상: 스택 1개에서 분홍색 두루마리 1개를 선택합니다. 회색 케시 요구 조건을 무시하고 대추야자 2개를 지불하지 않습니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n각주: 여러 플레이어가 이 효과를 얻으려 한다면, 낙타가 더 앞서 있는 플레이어부터 처리합니다. 동률이면 턴 순서대로 처리합니다."
     }
   ],
   "ex2Luxury": [
@@ -2079,136 +2079,136 @@ window.referenceLocaleData = {
     },
     "award": {
       "A01": {
-        "name": "2 points",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: 2 points."
+        "name": "Gain 2 points",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain 2 points.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A02": {
-        "name": "2 dinar",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: 2 dinar."
+        "name": "Gain 2 dinar",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain 2 dinar.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A03": {
-        "name": "2 water",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: 2 water."
+        "name": "Gain 2 water",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain 2 water.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A04": {
-        "name": "2 dates",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: 2 dates."
+        "name": "Gain 2 dates",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain 2 dates.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A05": {
-        "name": "Any 1 resource",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: any 1 resource."
+        "name": "Gain any 1 resource",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain any 1 resource.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A06": {
-        "name": "2 goods keshis in any one color",
-        "content": "Cost: Discard 1 keshi of the color depicted on the top left, or discard 1 keshi of the color depicted on the top right and 1 camel dung tile.\nBenefit: 2 goods keshis in any one color."
+        "name": "Gain 2 goods keshis in any one color",
+        "content": "Left: Discard 1 keshi of the color shown on the top left to Gain 2 goods keshis in any one color.\nRight: Discard 1 keshi of the color shown on the top right to discard 1 camel dung tile."
       },
       "A07": {
-        "name": "3 points",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: 3 points."
+        "name": "Gain 3 points",
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Gain 3 points."
       },
       "A08": {
-        "name": "4 dinar",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: 4 dinar."
+        "name": "Gain 4 dinar",
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Gain 4 dinar."
       },
       "A09": {
         "name": "Advance 2 steps on the palace staircase",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: advance 2 steps on the palace staircase."
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Advance 2 steps on the palace staircase."
       },
       "A10": {
         "name": "Advance 2 steps on the river track",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: advance 2 steps on the river track."
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Advance 2 steps on the river track."
       },
       "A11": {
         "name": "Select a gray scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: select a gray scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Select a gray scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
       },
       "A12": {
-        "name": "Any 3 resources",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: any 3 resources."
+        "name": "Gain any 3 resources",
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Gain any 3 resources."
       },
       "A13": {
-        "name": "2 points + 2 water",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: 2 points + 2 water."
+        "name": "Gain 2 points + 2 water",
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Gain 2 points + 2 water."
       },
       "A14": {
         "name": "Advance 2 steps on the mosque staircase",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: advance 2 steps on the mosque staircase."
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Advance 2 steps on the mosque staircase."
       },
       "A15": {
-        "name": "Gain the reward of any 2-spectator bonus on the main square (no pink keshi required)",
-        "content": "Cost: Discard 2 keshis: 1 of the depicted color and 1 of any color.\nBenefit: gain the reward of any 2-spectator bonus on the main square (no pink keshi required)."
+        "name": "Gain the reward of any 2-spectator bonus on the main square. No pink keshi required",
+        "content": "Condition: Discard 1 keshi of the depicted color and 1 keshi of any color.\nReward: Gain the reward of any 2-spectator bonus on the main square. No pink keshi required."
       },
       "A16": {
-        "name": "5 points",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: 5 points."
+        "name": "Gain 5 points",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain 5 points."
       },
       "A17": {
-        "name": "3 dates + 3 water",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: 3 dates + 3 water."
+        "name": "Gain 3 dates + 3 water",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain 3 dates + 3 water."
       },
       "A18": {
-        "name": "Any 5 resources",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: any 5 resources."
+        "name": "Gain any 5 resources",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain any 5 resources."
       },
       "A19": {
         "name": "Advance 4 steps on the river track or on the mosque staircase",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: advance 4 steps on the river track or on the mosque staircase.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Advance 4 steps on the river track or on the mosque staircase.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
       },
       "A20": {
         "name": "Claim 1 oasis tile without paying any resources",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: claim 1 oasis tile without paying any resources."
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Claim 1 oasis tile without paying any resources."
       },
       "A21": {
-        "name": "Gain the reward of a 3-spectator bonus on the main square (no pink keshi required)",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: gain the reward of a 3-spectator bonus on the main square (no pink keshi required)."
+        "name": "Gain the reward of a 3-spectator bonus on the main square. No pink keshi required",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain the reward of a 3-spectator bonus on the main square. No pink keshi required."
       },
       "A22": {
-        "name": "3 dinar + 3 water",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: 3 dinar + 3 water."
+        "name": "Gain 3 dinar + 3 water",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain 3 dinar + 3 water."
       },
       "A23": {
-        "name": "3 dinar + 3 dates",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: 3 dinar + 3 dates."
+        "name": "Gain 3 dinar + 3 dates",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain 3 dinar + 3 dates."
       },
       "A24": {
         "name": "Advance 4 steps on the palace or mosque staircases",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: advance 4 steps on the palace or mosque staircases.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Advance 4 steps on the palace or mosque staircases.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
       },
       "A25": {
         "name": "Advance 4 steps on the river track or palace staircase",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: advance 4 steps on the river track or palace staircase.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Advance 4 steps on the river track or palace staircase.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
       },
       "A26": {
-        "name": "3 goods keshis in any color",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: 3 goods keshis in any color."
+        "name": "Gain 3 goods keshis in any color",
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Gain 3 goods keshis in any color."
       },
       "A27": {
         "name": "Select a yellow scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile",
-        "content": "Cost: Discard 3 keshis: 1 of the depicted color and 2 of 2 different colors of your choice.\nBenefit: select a yellow scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
+        "content": "Condition: Discard 1 keshi of the depicted color and 2 keshis of 2 different colors of your choice.\nReward: Select a yellow scroll from 1 of the stacks, ignoring the required gray keshis and without paying 1 date. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
       },
       "A28": {
-        "name": "8 points",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: 8 points."
+        "name": "Gain 8 points",
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Gain 8 points."
       },
       "A29": {
-        "name": "The river season bonus (free choice in the 3rd season)",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: the river season bonus (free choice in the 3rd season)."
+        "name": "Gain the river season bonus. Free choice in the 3rd season",
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Gain the river season bonus. Free choice in the 3rd season."
       },
       "A30": {
         "name": "Claim 2 oasis tiles without paying any resources",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: claim 2 oasis tiles without paying any resources."
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Claim 2 oasis tiles without paying any resources."
       },
       "A31": {
         "name": "Advance 6 steps on the palace or mosque staircases or on the river track",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: advance 6 steps on the palace or mosque staircases or on the river track.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Advance 6 steps on the palace or mosque staircases or on the river track.\n\nNote: The number shown is the total number of steps. You may split them among your pawns on the depicted staircases and/or river track."
       },
       "A32": {
         "name": "Select a luxury good from 1 of the stacks, and buy it with a discount of 3 goods keshis. Shuffle the stack and reveal the top tile",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: select a luxury good from 1 of the stacks, and buy it with a discount of 3 goods keshis. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Select a luxury good from 1 of the stacks, and buy it with a discount of 3 goods keshis. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
       },
       "A33": {
         "name": "Select a pink scroll from 1 of the stacks, ignoring the required gray keshis and without paying 2 dates. Shuffle the stack and reveal the top tile",
-        "content": "Cost: Discard 4 keshis: 1 of the depicted color and 3 of 3 different colors of your choice.\nBenefit: select a pink scroll from 1 of the stacks, ignoring the required gray keshis and without paying 2 dates. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
+        "content": "Condition: Discard 1 keshi of the depicted color and 3 keshis of 3 different colors of your choice.\nReward: Select a pink scroll from 1 of the stacks, ignoring the required gray keshis and without paying 2 dates. Shuffle the stack and reveal the top tile.\n\nNote: If multiple players want to gain this benefit, start with the player whose camel is farther ahead. In case of tie, proceed in turn order."
       }
     },
     "ex2Luxury": {

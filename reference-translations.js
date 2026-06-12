@@ -508,136 +508,136 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
     },
     "award": {
       "A01": {
-        "name": "2 Punkte",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Punkte."
+        "name": "Erhalte 2 Punkte",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 2 Punkte.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A02": {
-        "name": "2 Dinar",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Dinar."
+        "name": "Erhalte 2 Dinar",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 2 Dinar.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A03": {
-        "name": "2 Wasser",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Wasser."
+        "name": "Erhalte 2 Wasser",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 2 Wasser.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A04": {
-        "name": "2 Datteln",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Datteln."
+        "name": "Erhalte 2 Datteln",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 2 Datteln.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A05": {
-        "name": "1 beliebige Ressource",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 1 beliebige Ressource."
+        "name": "Erhalte 1 beliebige Ressource",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 1 beliebige Ressource.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A06": {
-        "name": "2 Waren-Keshis einer beliebigen Farbe",
-        "content": "Kosten: Wirf 1 Keshi der oben links abgebildeten Farbe ab, oder wirf 1 Keshi der oben rechts abgebildeten Farbe und 1 Kameldung-Plättchen ab.\nBelohnung: 2 Waren-Keshis einer beliebigen Farbe."
+        "name": "Erhalte 2 Waren-Keshis einer beliebigen Farbe",
+        "content": "Links: Wirf 1 Keshi der oben links gezeigten Farbe ab, um Folgendes zu erhalten: Erhalte 2 Waren-Keshis einer beliebigen Farbe.\nRechts: Wirf 1 Keshi der oben rechts gezeigten Farbe ab, um 1 Kameldung-Plättchen abzuwerfen."
       },
       "A07": {
-        "name": "3 Punkte",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 3 Punkte."
+        "name": "Erhalte 3 Punkte",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Erhalte 3 Punkte."
       },
       "A08": {
-        "name": "4 Dinar",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 4 Dinar."
+        "name": "Erhalte 4 Dinar",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Erhalte 4 Dinar."
       },
       "A09": {
-        "name": "2 Schritte auf der Palasttreppe vorwärts",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Palasttreppe vorwärts."
+        "name": "Gehe 2 Schritte auf der Palasttreppe vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Gehe 2 Schritte auf der Palasttreppe vorwärts."
       },
       "A10": {
-        "name": "2 Schritte auf der Flussleiste vorwärts",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Flussleiste vorwärts."
+        "name": "Gehe 2 Schritte auf der Flussleiste vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Gehe 2 Schritte auf der Flussleiste vorwärts."
       },
       "A11": {
         "name": "Wähle eine graue Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: wähle eine graue Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Wähle eine graue Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
       },
       "A12": {
-        "name": "3 beliebige Ressourcen",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 3 beliebige Ressourcen."
+        "name": "Erhalte 3 beliebige Ressourcen",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Erhalte 3 beliebige Ressourcen."
       },
       "A13": {
-        "name": "2 Punkte + 2 Wasser",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Punkte + 2 Wasser."
+        "name": "Erhalte 2 Punkte + 2 Wasser",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Erhalte 2 Punkte + 2 Wasser."
       },
       "A14": {
-        "name": "2 Schritte auf der Moschee-Treppe vorwärts",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: 2 Schritte auf der Moschee-Treppe vorwärts."
+        "name": "Gehe 2 Schritte auf der Moschee-Treppe vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Gehe 2 Schritte auf der Moschee-Treppe vorwärts."
       },
       "A15": {
         "name": "Erhalte die Belohnung eines beliebigen 2-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich",
-        "content": "Kosten: Wirf 2 Keshis ab: 1 der abgebildeten Farbe und 1 beliebiger Farbe.\nBelohnung: erhalte die Belohnung eines beliebigen 2-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 1 Keshi beliebiger Farbe ab.\nBelohnung: Erhalte die Belohnung eines beliebigen 2-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
       },
       "A16": {
-        "name": "5 Punkte",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 5 Punkte."
+        "name": "Erhalte 5 Punkte",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 5 Punkte."
       },
       "A17": {
-        "name": "3 Datteln + 3 Wasser",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Datteln + 3 Wasser."
+        "name": "Erhalte 3 Datteln + 3 Wasser",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 3 Datteln + 3 Wasser."
       },
       "A18": {
-        "name": "5 beliebige Ressourcen",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 5 beliebige Ressourcen."
+        "name": "Erhalte 5 beliebige Ressourcen",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 5 beliebige Ressourcen."
       },
       "A19": {
-        "name": "Insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+        "name": "Gehe insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Gehe insgesamt 4 Schritte auf der Flussleiste oder der Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
       },
       "A20": {
         "name": "Beanspruche 1 Oasenplättchen, ohne Ressourcen zu zahlen",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: beanspruche 1 Oasenplättchen, ohne Ressourcen zu zahlen."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Beanspruche 1 Oasenplättchen, ohne Ressourcen zu zahlen."
       },
       "A21": {
         "name": "Erhalte die Belohnung eines 3-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: erhalte die Belohnung eines 3-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte die Belohnung eines 3-Zuschauer-Bonus auf dem Hauptplatz. Kein rosa Keshi erforderlich."
       },
       "A22": {
-        "name": "3 Dinar + 3 Wasser",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Dinar + 3 Wasser."
+        "name": "Erhalte 3 Dinar + 3 Wasser",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 3 Dinar + 3 Wasser."
       },
       "A23": {
-        "name": "3 Dinar + 3 Datteln",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Dinar + 3 Datteln."
+        "name": "Erhalte 3 Dinar + 3 Datteln",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 3 Dinar + 3 Datteln."
       },
       "A24": {
-        "name": "Insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+        "name": "Gehe insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Gehe insgesamt 4 Schritte auf der Palast- oder Moschee-Treppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
       },
       "A25": {
-        "name": "Insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+        "name": "Gehe insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Gehe insgesamt 4 Schritte auf der Flussleiste oder der Palasttreppe vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
       },
       "A26": {
-        "name": "3 Waren-Keshis einer beliebigen Farbe",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: 3 Waren-Keshis einer beliebigen Farbe."
+        "name": "Erhalte 3 Waren-Keshis einer beliebigen Farbe",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 3 Waren-Keshis einer beliebigen Farbe."
       },
       "A27": {
         "name": "Wähle eine gelbe Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf",
-        "content": "Kosten: Wirf 3 Keshis ab: 1 der abgebildeten Farbe und 2 in 2 verschiedenen Farben deiner Wahl.\nBelohnung: wähle eine gelbe Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 2 Keshis in 2 verschiedenen Farben deiner Wahl ab.\nBelohnung: Wähle eine gelbe Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 1 Dattel. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
       },
       "A28": {
-        "name": "8 Punkte",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: 8 Punkte."
+        "name": "Erhalte 8 Punkte",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte 8 Punkte."
       },
       "A29": {
-        "name": "Den Fluss-Saisonbonus. In der 3. Saison freie Wahl",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: den Fluss-Saisonbonus. In der 3. Saison freie Wahl."
+        "name": "Erhalte den Fluss-Saisonbonus. In der 3. Saison freie Wahl",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Erhalte den Fluss-Saisonbonus. In der 3. Saison freie Wahl."
       },
       "A30": {
         "name": "Beanspruche 2 Oasenplättchen, ohne Ressourcen zu zahlen",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: beanspruche 2 Oasenplättchen, ohne Ressourcen zu zahlen."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Beanspruche 2 Oasenplättchen, ohne Ressourcen zu zahlen."
       },
       "A31": {
-        "name": "Insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
+        "name": "Gehe insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts",
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Gehe insgesamt 6 Schritte auf der Palast- oder Moschee-Treppe oder auf der Flussleiste vorwärts.\n\nHinweis: Die angezeigte Zahl ist die gesamte Schrittzahl. Du darfst sie auf deine Figuren auf den abgebildeten Treppen und/oder der Flussleiste aufteilen."
       },
       "A32": {
         "name": "Wähle ein Luxusgut aus einem Stapel und kaufe es mit einem Rabatt von 3 Waren-Keshis. Mische den Stapel und decke das oberste Plättchen auf",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: wähle ein Luxusgut aus einem Stapel und kaufe es mit einem Rabatt von 3 Waren-Keshis. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Wähle ein Luxusgut aus einem Stapel und kaufe es mit einem Rabatt von 3 Waren-Keshis. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
       },
       "A33": {
         "name": "Wähle eine rosa Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 2 Datteln. Mische den Stapel und decke das oberste Plättchen auf",
-        "content": "Kosten: Wirf 4 Keshis ab: 1 der abgebildeten Farbe und 3 in 3 verschiedenen Farben deiner Wahl.\nBelohnung: wähle eine rosa Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 2 Datteln. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
+        "content": "Bedingung: Wirf 1 Keshi der abgebildeten Farbe und 3 Keshis in 3 verschiedenen Farben deiner Wahl ab.\nBelohnung: Wähle eine rosa Schriftrolle aus einem Stapel, ignoriere die erforderlichen grauen Keshis und zahle keine 2 Datteln. Mische den Stapel und decke das oberste Plättchen auf.\n\nHinweis: Wenn mehrere Spieler diesen Vorteil erhalten möchten, beginnt der Spieler, dessen Kamel weiter vorn ist. Bei Gleichstand wird in Zugreihenfolge fortgefahren."
       }
     },
     "ex2Luxury": {
@@ -1436,136 +1436,136 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
     },
     "award": {
       "A01": {
-        "name": "2 points",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 points."
+        "name": "Gagnez 2 points",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 2 points.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A02": {
-        "name": "2 dinars",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 dinars."
+        "name": "Gagnez 2 dinars",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 2 dinars.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A03": {
-        "name": "2 eaux",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 eaux."
+        "name": "Gagnez 2 eaux",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 2 eaux.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A04": {
-        "name": "2 dattes",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 dattes."
+        "name": "Gagnez 2 dattes",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 2 dattes.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A05": {
-        "name": "1 ressource au choix",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 1 ressource au choix."
+        "name": "Gagnez 1 ressource au choix",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 1 ressource au choix.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A06": {
-        "name": "2 keshis de marchandise d’une même couleur au choix",
-        "content": "Coût : défaussez 1 keshi de la couleur indiquée en haut à gauche, ou défaussez 1 keshi de la couleur indiquée en haut à droite et 1 tuile de crotte de chameau.\nBénéfice: 2 keshis de marchandise d’une même couleur au choix."
+        "name": "Gagnez 2 keshis de marchandise d’une même couleur au choix",
+        "content": "Gauche: Défaussez 1 keshi de la couleur indiquée en haut à gauche pour obtenir : Gagnez 2 keshis de marchandise d’une même couleur au choix.\nDroite: Défaussez 1 keshi de la couleur indiquée en haut à droite pour défausser 1 tuile de crotte de chameau."
       },
       "A07": {
-        "name": "3 points",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 3 points."
+        "name": "Gagnez 3 points",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Gagnez 3 points."
       },
       "A08": {
-        "name": "4 dinars",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 4 dinars."
+        "name": "Gagnez 4 dinars",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Gagnez 4 dinars."
       },
       "A09": {
         "name": "Avancez de 2 pas sur l’escalier du palais",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur l’escalier du palais."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Avancez de 2 pas sur l’escalier du palais."
       },
       "A10": {
         "name": "Avancez de 2 pas sur la piste de rivière",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur la piste de rivière."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Avancez de 2 pas sur la piste de rivière."
       },
       "A11": {
         "name": "Choisissez un parchemin gris dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: choisissez un parchemin gris dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Choisissez un parchemin gris dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
       },
       "A12": {
-        "name": "3 ressources au choix",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 3 ressources au choix."
+        "name": "Gagnez 3 ressources au choix",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Gagnez 3 ressources au choix."
       },
       "A13": {
-        "name": "2 points + 2 eaux",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: 2 points + 2 eaux."
+        "name": "Gagnez 2 points + 2 eaux",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Gagnez 2 points + 2 eaux."
       },
       "A14": {
         "name": "Avancez de 2 pas sur l’escalier de la mosquée",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: avancez de 2 pas sur l’escalier de la mosquée."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Avancez de 2 pas sur l’escalier de la mosquée."
       },
       "A15": {
-        "name": "Gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale, sans keshi rose requis",
-        "content": "Coût : défaussez 2 keshis : 1 de la couleur indiquée et 1 de n’importe quelle couleur.\nBénéfice: gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale, sans keshi rose requis."
+        "name": "Gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale. Aucun keshi rose requis",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 1 keshi de n’importe quelle couleur.\nRécompense: Gagnez la récompense d’un bonus à 2 spectateurs de votre choix sur la place principale. Aucun keshi rose requis."
       },
       "A16": {
-        "name": "5 points",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 5 points."
+        "name": "Gagnez 5 points",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 5 points."
       },
       "A17": {
-        "name": "3 dattes + 3 eaux",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dattes + 3 eaux."
+        "name": "Gagnez 3 dattes + 3 eaux",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 3 dattes + 3 eaux."
       },
       "A18": {
-        "name": "5 ressources au choix",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 5 ressources au choix."
+        "name": "Gagnez 5 ressources au choix",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 5 ressources au choix."
       },
       "A19": {
         "name": "Avancez de 4 pas au total sur la piste de rivière ou l’escalier de la mosquée",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur la piste de rivière ou l’escalier de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Avancez de 4 pas au total sur la piste de rivière ou l’escalier de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
       },
       "A20": {
         "name": "Revendiquez 1 tuile Oasis sans payer de ressources",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: revendiquez 1 tuile Oasis sans payer de ressources."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Revendiquez 1 tuile Oasis sans payer de ressources."
       },
       "A21": {
-        "name": "Gagnez la récompense d’un bonus à 3 spectateurs sur la place principale, sans keshi rose requis",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: gagnez la récompense d’un bonus à 3 spectateurs sur la place principale, sans keshi rose requis."
+        "name": "Gagnez la récompense d’un bonus à 3 spectateurs sur la place principale. Aucun keshi rose requis",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez la récompense d’un bonus à 3 spectateurs sur la place principale. Aucun keshi rose requis."
       },
       "A22": {
-        "name": "3 dinars + 3 eaux",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dinars + 3 eaux."
+        "name": "Gagnez 3 dinars + 3 eaux",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 3 dinars + 3 eaux."
       },
       "A23": {
-        "name": "3 dinars + 3 dattes",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 dinars + 3 dattes."
+        "name": "Gagnez 3 dinars + 3 dattes",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 3 dinars + 3 dattes."
       },
       "A24": {
         "name": "Avancez de 4 pas au total sur les escaliers du palais ou de la mosquée",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur les escaliers du palais ou de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Avancez de 4 pas au total sur les escaliers du palais ou de la mosquée.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
       },
       "A25": {
         "name": "Avancez de 4 pas au total sur la piste de rivière ou l’escalier du palais",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: avancez de 4 pas au total sur la piste de rivière ou l’escalier du palais.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Avancez de 4 pas au total sur la piste de rivière ou l’escalier du palais.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
       },
       "A26": {
-        "name": "3 keshis de marchandise d’une couleur au choix",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: 3 keshis de marchandise d’une couleur au choix."
+        "name": "Gagnez 3 keshis de marchandise d’une couleur au choix",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Gagnez 3 keshis de marchandise d’une couleur au choix."
       },
       "A27": {
         "name": "Choisissez un parchemin jaune dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus",
-        "content": "Coût : défaussez 3 keshis : 1 de la couleur indiquée et 2 de 2 couleurs différentes de votre choix.\nBénéfice: choisissez un parchemin jaune dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 2 keshis de 2 couleurs différentes de votre choix.\nRécompense: Choisissez un parchemin jaune dans 1 pile, sans tenir compte des keshis gris requis et sans payer 1 datte. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
       },
       "A28": {
-        "name": "8 points",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: 8 points."
+        "name": "Gagnez 8 points",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Gagnez 8 points."
       },
       "A29": {
-        "name": "Le bonus de saison de la rivière. Choix libre lors de la 3e saison",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: le bonus de saison de la rivière. Choix libre lors de la 3e saison."
+        "name": "Gagnez le bonus de saison de la rivière. Choix libre lors de la 3e saison",
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Gagnez le bonus de saison de la rivière. Choix libre lors de la 3e saison."
       },
       "A30": {
         "name": "Revendiquez 2 tuiles Oasis sans payer de ressources",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: revendiquez 2 tuiles Oasis sans payer de ressources."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Revendiquez 2 tuiles Oasis sans payer de ressources."
       },
       "A31": {
         "name": "Avancez de 6 pas au total sur les escaliers du palais ou de la mosquée, ou sur la piste de rivière",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: avancez de 6 pas au total sur les escaliers du palais ou de la mosquée, ou sur la piste de rivière.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Avancez de 6 pas au total sur les escaliers du palais ou de la mosquée, ou sur la piste de rivière.\n\nNote : le nombre indiqué est le nombre total de pas. Vous pouvez les répartir entre vos pions sur les escaliers indiqués et/ou la piste de rivière."
       },
       "A32": {
         "name": "Choisissez un bien de luxe dans 1 pile et achetez-le avec une réduction de 3 keshis de marchandise. Mélangez la pile et révélez la tuile du dessus",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: choisissez un bien de luxe dans 1 pile et achetez-le avec une réduction de 3 keshis de marchandise. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Choisissez un bien de luxe dans 1 pile et achetez-le avec une réduction de 3 keshis de marchandise. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
       },
       "A33": {
         "name": "Choisissez un parchemin rose dans 1 pile, sans tenir compte des keshis gris requis et sans payer 2 dattes. Mélangez la pile et révélez la tuile du dessus",
-        "content": "Coût : défaussez 4 keshis : 1 de la couleur indiquée et 3 de 3 couleurs différentes de votre choix.\nBénéfice: choisissez un parchemin rose dans 1 pile, sans tenir compte des keshis gris requis et sans payer 2 dattes. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
+        "content": "Condition: Défaussez 1 keshi de la couleur indiquée et 3 keshis de 3 couleurs différentes de votre choix.\nRécompense: Choisissez un parchemin rose dans 1 pile, sans tenir compte des keshis gris requis et sans payer 2 dattes. Mélangez la pile et révélez la tuile du dessus.\n\nNote : si plusieurs joueurs veulent obtenir ce bénéfice, commencez par celui dont le chameau est le plus avancé. En cas d’égalité, procédez dans l’ordre du tour."
       }
     },
     "ex2Luxury": {
@@ -2364,136 +2364,136 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
     },
     "award": {
       "A01": {
-        "name": "2点",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 2点."
+        "name": "2点を得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、2点を得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A02": {
-        "name": "2ディナール",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 2ディナール."
+        "name": "2ディナールを得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、2ディナールを得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A03": {
-        "name": "水2個",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 水2個."
+        "name": "水2個を得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、水2個を得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A04": {
-        "name": "ナツメヤシ2個",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: ナツメヤシ2個."
+        "name": "ナツメヤシ2個を得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、ナツメヤシ2個を得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A05": {
-        "name": "任意の資源1個",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 任意の資源1個."
+        "name": "任意の資源1個を得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、任意の資源1個を得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A06": {
-        "name": "任意の1色の商品ケシ2個",
-        "content": "コスト: 左上に示された色のケシ1個を捨てる。または、右上に示された色のケシ1個とラクダの糞タイル1枚を捨てる。\n報酬: 任意の1色の商品ケシ2個."
+        "name": "任意の1色の商品ケシ2個を得る",
+        "content": "左: 左上に示された色のケシ1個を捨て、任意の1色の商品ケシ2個を得る。\n右: 右上に示された色のケシ1個を捨て、ラクダの糞タイル1枚を捨てる。"
       },
       "A07": {
-        "name": "3点",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 3点."
+        "name": "3点を得る",
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 3点を得る."
       },
       "A08": {
-        "name": "4ディナール",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 4ディナール."
+        "name": "4ディナールを得る",
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 4ディナールを得る."
       },
       "A09": {
         "name": "宮殿の階段を2歩進む",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 宮殿の階段を2歩進む."
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 宮殿の階段を2歩進む."
       },
       "A10": {
         "name": "川トラックを2歩進む",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 川トラックを2歩進む."
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 川トラックを2歩進む."
       },
       "A11": {
         "name": "いずれか1つの山から灰色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: いずれか1つの山から灰色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: いずれか1つの山から灰色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
       },
       "A12": {
-        "name": "任意の資源3個",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 任意の資源3個."
+        "name": "任意の資源3個を得る",
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 任意の資源3個を得る."
       },
       "A13": {
-        "name": "2点 + 水2個",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: 2点 + 水2個."
+        "name": "2点 + 水2個を得る",
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: 2点 + 水2個を得る."
       },
       "A14": {
         "name": "モスクの階段を2歩進む",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: モスクの階段を2歩進む."
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: モスクの階段を2歩進む."
       },
       "A15": {
         "name": "メイン広場の任意の2人観客ボーナス1つの報酬を得る。ピンクのケシは不要",
-        "content": "コスト: 示された色のケシ1個と任意の色のケシ1個、合計2個を捨てる。\n報酬: メイン広場の任意の2人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
+        "content": "条件: 示された色のケシ1個と任意の色のケシ1個を捨てる。\n報酬: メイン広場の任意の2人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
       },
       "A16": {
-        "name": "5点",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 5点."
+        "name": "5点を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 5点を得る."
       },
       "A17": {
-        "name": "ナツメヤシ3個 + 水3個",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: ナツメヤシ3個 + 水3個."
+        "name": "ナツメヤシ3個 + 水3個を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: ナツメヤシ3個 + 水3個を得る."
       },
       "A18": {
-        "name": "任意の資源5個",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 任意の資源5個."
+        "name": "任意の資源5個を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 任意の資源5個を得る."
       },
       "A19": {
         "name": "川トラックまたはモスクの階段を合計4歩進む",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 川トラックまたはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 川トラックまたはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
       },
       "A20": {
         "name": "資源を支払わずにオアシスタイル1枚を獲得する",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 資源を支払わずにオアシスタイル1枚を獲得する."
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 資源を支払わずにオアシスタイル1枚を獲得する."
       },
       "A21": {
         "name": "メイン広場の3人観客ボーナス1つの報酬を得る。ピンクのケシは不要",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: メイン広場の3人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: メイン広場の3人観客ボーナス1つの報酬を得る。ピンクのケシは不要."
       },
       "A22": {
-        "name": "3ディナール + 水3個",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 3ディナール + 水3個."
+        "name": "3ディナール + 水3個を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 3ディナール + 水3個を得る."
       },
       "A23": {
-        "name": "3ディナール + ナツメヤシ3個",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 3ディナール + ナツメヤシ3個."
+        "name": "3ディナール + ナツメヤシ3個を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 3ディナール + ナツメヤシ3個を得る."
       },
       "A24": {
         "name": "宮殿またはモスクの階段を合計4歩進む",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 宮殿またはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 宮殿またはモスクの階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
       },
       "A25": {
         "name": "川トラックまたは宮殿の階段を合計4歩進む",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 川トラックまたは宮殿の階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 川トラックまたは宮殿の階段を合計4歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
       },
       "A26": {
-        "name": "任意の色の商品ケシ3個",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: 任意の色の商品ケシ3個."
+        "name": "任意の色の商品ケシ3個を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: 任意の色の商品ケシ3個を得る."
       },
       "A27": {
         "name": "いずれか1つの山から黄色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個、合計3個を捨てる。\n報酬: いずれか1つの山から黄色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる2色のケシ2個を捨てる。\n報酬: いずれか1つの山から黄色の巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ1個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
       },
       "A28": {
-        "name": "8点",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 8点."
+        "name": "8点を得る",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: 8点を得る."
       },
       "A29": {
-        "name": "川の季節ボーナス。第3季節では自由に選択",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 川の季節ボーナス。第3季節では自由に選択."
+        "name": "川の季節ボーナスを得る。第3季節では自由に選択",
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: 川の季節ボーナスを得る。第3季節では自由に選択."
       },
       "A30": {
         "name": "資源を支払わずにオアシスタイル2枚を獲得する",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 資源を支払わずにオアシスタイル2枚を獲得する."
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: 資源を支払わずにオアシスタイル2枚を獲得する."
       },
       "A31": {
         "name": "宮殿の階段、モスクの階段、または川トラックを合計6歩進む",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: 宮殿の階段、モスクの階段、または川トラックを合計6歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: 宮殿の階段、モスクの階段、または川トラックを合計6歩進む.\n\n注: 表示された数字は合計歩数です。示された階段および/または川トラック上の自分のコマに分けて進められます。"
       },
       "A32": {
         "name": "いずれか1つの山から高級品を1つ選び、商品ケシ3個分の割引で購入する。その山を混ぜ、一番上のタイルを公開する",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: いずれか1つの山から高級品を1つ選び、商品ケシ3個分の割引で購入する。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: いずれか1つの山から高級品を1つ選び、商品ケシ3個分の割引で購入する。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
       },
       "A33": {
         "name": "いずれか1つの山からピンクの巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ2個を支払わない。その山を混ぜ、一番上のタイルを公開する",
-        "content": "コスト: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個、合計4個を捨てる。\n報酬: いずれか1つの山からピンクの巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ2個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
+        "content": "条件: 示された色のケシ1個と、任意の互いに異なる3色のケシ3個を捨てる。\n報酬: いずれか1つの山からピンクの巻物を1枚選ぶ。必要な灰色ケシを無視し、ナツメヤシ2個を支払わない。その山を混ぜ、一番上のタイルを公開する.\n\n注: 複数のプレイヤーがこの利益を得ようとする場合、ラクダがより前にいるプレイヤーから処理します。同点の場合は手番順に処理します。"
       }
     },
     "ex2Luxury": {
@@ -3292,136 +3292,136 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
     },
     "award": {
       "A01": {
-        "name": "2 puntos",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 puntos."
+        "name": "Gana 2 puntos",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 2 puntos.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A02": {
-        "name": "2 dinares",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 dinares."
+        "name": "Gana 2 dinares",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 2 dinares.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A03": {
-        "name": "2 aguas",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 aguas."
+        "name": "Gana 2 aguas",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 2 aguas.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A04": {
-        "name": "2 dátiles",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 dátiles."
+        "name": "Gana 2 dátiles",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 2 dátiles.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A05": {
-        "name": "1 recurso cualquiera",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 1 recurso cualquiera."
+        "name": "Gana 1 recurso cualquiera",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 1 recurso cualquiera.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A06": {
-        "name": "2 keshis de mercancía de un mismo color cualquiera",
-        "content": "Coste: descarta 1 keshi del color mostrado arriba a la izquierda, o descarta 1 keshi del color mostrado arriba a la derecha y 1 loseta de excremento de camello.\nBeneficio: 2 keshis de mercancía de un mismo color cualquiera."
+        "name": "Gana 2 keshis de mercancía de un mismo color cualquiera",
+        "content": "Izquierda: Descarta 1 keshi del color mostrado arriba a la izquierda para obtener: Gana 2 keshis de mercancía de un mismo color cualquiera.\nDerecha: Descarta 1 keshi del color mostrado arriba a la derecha para descartar 1 loseta de excremento de camello."
       },
       "A07": {
-        "name": "3 puntos",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 3 puntos."
+        "name": "Gana 3 puntos",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Gana 3 puntos."
       },
       "A08": {
-        "name": "4 dinares",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 4 dinares."
+        "name": "Gana 4 dinares",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Gana 4 dinares."
       },
       "A09": {
         "name": "Avanza 2 pasos en la escalera del palacio",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en la escalera del palacio."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Avanza 2 pasos en la escalera del palacio."
       },
       "A10": {
         "name": "Avanza 2 pasos en el río",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en el río."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Avanza 2 pasos en el río."
       },
       "A11": {
         "name": "Elige un pergamino gris de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: elige un pergamino gris de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Elige un pergamino gris de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
       },
       "A12": {
-        "name": "3 recursos cualesquiera",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 3 recursos cualesquiera."
+        "name": "Gana 3 recursos cualesquiera",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Gana 3 recursos cualesquiera."
       },
       "A13": {
-        "name": "2 puntos + 2 aguas",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: 2 puntos + 2 aguas."
+        "name": "Gana 2 puntos + 2 aguas",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Gana 2 puntos + 2 aguas."
       },
       "A14": {
         "name": "Avanza 2 pasos en la escalera de la mezquita",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: avanza 2 pasos en la escalera de la mezquita."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Avanza 2 pasos en la escalera de la mezquita."
       },
       "A15": {
-        "name": "Obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal, sin necesitar keshi rosa",
-        "content": "Coste: descarta 2 keshis: 1 del color mostrado y 1 de cualquier color.\nBeneficio: obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal, sin necesitar keshi rosa."
+        "name": "Obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal. No se necesita keshi rosa",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 1 keshi de cualquier color.\nRecompensa: Obtén la recompensa de cualquier bonificación de 2 espectadores en la plaza principal. No se necesita keshi rosa."
       },
       "A16": {
-        "name": "5 puntos",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 5 puntos."
+        "name": "Gana 5 puntos",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 5 puntos."
       },
       "A17": {
-        "name": "3 dátiles + 3 aguas",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dátiles + 3 aguas."
+        "name": "Gana 3 dátiles + 3 aguas",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 3 dátiles + 3 aguas."
       },
       "A18": {
-        "name": "5 recursos cualesquiera",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 5 recursos cualesquiera."
+        "name": "Gana 5 recursos cualesquiera",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 5 recursos cualesquiera."
       },
       "A19": {
         "name": "Avanza un total de 4 pasos en el río o en la escalera de la mezquita",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en el río o en la escalera de la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Avanza un total de 4 pasos en el río o en la escalera de la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
       },
       "A20": {
         "name": "Reclama 1 loseta de oasis sin pagar recursos",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: reclama 1 loseta de oasis sin pagar recursos."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Reclama 1 loseta de oasis sin pagar recursos."
       },
       "A21": {
-        "name": "Obtén la recompensa de una bonificación de 3 espectadores en la plaza principal, sin necesitar keshi rosa",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: obtén la recompensa de una bonificación de 3 espectadores en la plaza principal, sin necesitar keshi rosa."
+        "name": "Obtén la recompensa de una bonificación de 3 espectadores en la plaza principal. No se necesita keshi rosa",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Obtén la recompensa de una bonificación de 3 espectadores en la plaza principal. No se necesita keshi rosa."
       },
       "A22": {
-        "name": "3 dinares + 3 aguas",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dinares + 3 aguas."
+        "name": "Gana 3 dinares + 3 aguas",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 3 dinares + 3 aguas."
       },
       "A23": {
-        "name": "3 dinares + 3 dátiles",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 dinares + 3 dátiles."
+        "name": "Gana 3 dinares + 3 dátiles",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 3 dinares + 3 dátiles."
       },
       "A24": {
         "name": "Avanza un total de 4 pasos en las escaleras del palacio o la mezquita",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en las escaleras del palacio o la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Avanza un total de 4 pasos en las escaleras del palacio o la mezquita.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
       },
       "A25": {
         "name": "Avanza un total de 4 pasos en el río o en la escalera del palacio",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: avanza un total de 4 pasos en el río o en la escalera del palacio.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Avanza un total de 4 pasos en el río o en la escalera del palacio.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
       },
       "A26": {
-        "name": "3 keshis de mercancía de cualquier color",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: 3 keshis de mercancía de cualquier color."
+        "name": "Gana 3 keshis de mercancía de cualquier color",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Gana 3 keshis de mercancía de cualquier color."
       },
       "A27": {
         "name": "Elige un pergamino amarillo de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior",
-        "content": "Coste: descarta 3 keshis: 1 del color mostrado y 2 de 2 colores diferentes a tu elección.\nBeneficio: elige un pergamino amarillo de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 2 keshis de 2 colores diferentes a tu elección.\nRecompensa: Elige un pergamino amarillo de 1 pila, ignorando los keshis grises requeridos y sin pagar 1 dátil. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
       },
       "A28": {
-        "name": "8 puntos",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: 8 puntos."
+        "name": "Gana 8 puntos",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Gana 8 puntos."
       },
       "A29": {
-        "name": "La bonificación de temporada del río. Elección libre en la 3.ª temporada",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: la bonificación de temporada del río. Elección libre en la 3.ª temporada."
+        "name": "Gana la bonificación de temporada del río. Elección libre en la 3.ª temporada",
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Gana la bonificación de temporada del río. Elección libre en la 3.ª temporada."
       },
       "A30": {
         "name": "Reclama 2 losetas de oasis sin pagar recursos",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: reclama 2 losetas de oasis sin pagar recursos."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Reclama 2 losetas de oasis sin pagar recursos."
       },
       "A31": {
         "name": "Avanza un total de 6 pasos en las escaleras del palacio o la mezquita, o en el río",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: avanza un total de 6 pasos en las escaleras del palacio o la mezquita, o en el río.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Avanza un total de 6 pasos en las escaleras del palacio o la mezquita, o en el río.\n\nNota: el número indicado es el número total de pasos. Puedes repartirlos entre tus peones en las escaleras indicadas y/o en el río."
       },
       "A32": {
         "name": "Elige un bien de lujo de 1 pila y cómpralo con un descuento de 3 keshis de mercancía. Baraja la pila y revela la loseta superior",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: elige un bien de lujo de 1 pila y cómpralo con un descuento de 3 keshis de mercancía. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Elige un bien de lujo de 1 pila y cómpralo con un descuento de 3 keshis de mercancía. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
       },
       "A33": {
         "name": "Elige un pergamino rosa de 1 pila, ignorando los keshis grises requeridos y sin pagar 2 dátiles. Baraja la pila y revela la loseta superior",
-        "content": "Coste: descarta 4 keshis: 1 del color mostrado y 3 de 3 colores diferentes a tu elección.\nBeneficio: elige un pergamino rosa de 1 pila, ignorando los keshis grises requeridos y sin pagar 2 dátiles. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
+        "content": "Condición: Descarta 1 keshi del color mostrado y 3 keshis de 3 colores diferentes a tu elección.\nRecompensa: Elige un pergamino rosa de 1 pila, ignorando los keshis grises requeridos y sin pagar 2 dátiles. Baraja la pila y revela la loseta superior.\n\nNota: si varios jugadores quieren obtener este beneficio, empieza el jugador cuyo camello esté más adelantado. En caso de empate, continúa en orden de turno."
       }
     },
     "ex2Luxury": {
