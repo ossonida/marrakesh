@@ -248,9 +248,9 @@ window.referenceData = {
     {
       "section": "스크롤",
       "number": "58",
-      "name": "고급 스크롤 획득",
+      "name": "7개 요구 스크롤 획득",
       "image": "img/reference/scroll-58.png",
-      "content": "대추야자 1개를 내고, 조건이 정확히 스크롤 7개인 스크롤 1개를 진열대에서 가져옵니다. 이 조건은 무시합니다."
+      "content": "대추야자 1개를 내고, 조건이 정확히 회색 학자 케시 7개인 스크롤 1개를 진열대에서 가져옵니다. 이 조건은 무시합니다."
     },
     {
       "section": "스크롤",
@@ -1693,8 +1693,8 @@ window.referenceLocaleData = {
         "content": "Place a water vendor from the common supply next to the green tent in the \"souk\" and gain 3 water immediately.\nFrom your next turn on, get 1 water for this water vendor for each assistant placed in the \"souk\" when you perform the \"souk\" sector action."
       },
       "58": {
-        "name": "Take a 7-scroll tile",
-        "content": "Pay 1 date and take 1 scroll from the display that requires exactly 7 scrolls, ignoring this requirement."
+        "name": "Take a 7-scholar-keshi scroll",
+        "content": "Pay 1 date and take 1 scroll from the display that requires exactly 7 scholar keshis, ignoring this requirement."
       },
       "59": {
         "name": "Staircase connection bonuses",

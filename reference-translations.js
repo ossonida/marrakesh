@@ -122,8 +122,8 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "content": "Setze einen Wasserverkäufer aus dem allgemeinen Vorrat neben das grüne Zelt im „Souk“ und erhalte sofort 3 Wasser.\nAb deinem nächsten Zug erhältst du für diesen Wasserverkäufer 1 Wasser für jeden Assistenten im „Souk“, wenn du die Sektoraktion „Souk“ ausführst."
       },
       "58": {
-        "name": "Hochwertige Schriftrolle nehmen",
-        "content": "Zahle 1 Dattel und nimm 1 Schriftrolle aus der Auslage, die genau 7 Schriftrollen verlangt; diese Bedingung ignorierst du."
+        "name": "Schriftrolle mit 7-Gelehrten-Keshi-Bedingung nehmen",
+        "content": "Zahle 1 Dattel und nimm 1 Schriftrolle aus der Auslage, die genau 7 Gelehrten-Keshis verlangt; diese Bedingung ignorierst du."
       },
       "59": {
         "name": "Verbindungsboni der Treppen",
@@ -1050,8 +1050,8 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "content": "Placez un vendeur d'eau de la réserve commune à côté de la tente verte dans le \"souk\" et gagnez immédiatement 3 eaux.\nDès votre prochain tour, obtenez 1 eau pour ce vendeur d'eau pour chaque assistant placé dans le \"souk\" lorsque vous effectuez l'action secteur \"souk\"."
       },
       "58": {
-        "name": "Prenez une tuile à 7 rouleaux",
-        "content": "Payez 1 datte et prenez 1 parchemin de l'écran qui nécessite exactement 7 parchemins, en ignorant cette exigence."
+        "name": "Prendre un parchemin à condition de 7 keshis érudits",
+        "content": "Payez 1 datte et prenez 1 parchemin de l’étalage qui requiert exactement 7 keshis érudits, en ignorant cette condition."
       },
       "59": {
         "name": "Bonus de connexion d'escalier",
@@ -1978,8 +1978,8 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "content": "「スーク」の緑のテントの隣にある共通の供給源から水売りを配置し、すぐに水を3つ獲得します。\n次のターンから、「スーク」セクターアクションを実行するときに、「スーク」に配置されているアシスタント1人につき、この水販売業者の水を1つ入手します。"
       },
       "58": {
-        "name": "7 スクロール タイルを取得します",
-        "content": "デーツ1つを支払い、正確に 7 スクロールを必要とする表示から 1 スクロールを受け取りますが、この要件は無視されます。"
+        "name": "学者ケシ7個条件の巻物を獲得",
+        "content": "ナツメヤシ1個を支払い、ちょうど学者ケシ7個を必要とする巻物1枚を公開列から取ります。この条件は無視します。"
       },
       "59": {
         "name": "階段接続ボーナス",
@@ -2906,8 +2906,8 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "content": "Coloca un vendedor de agua del suministro común al lado de la tienda verde en el \"zoco\" y gana 3 de agua inmediatamente.\nDesde tu próximo turno, obtén 1 agua para este vendedor de agua por cada asistente colocado en el \"zoco\" cuando realices la acción del sector \"zoco\"."
       },
       "58": {
-        "name": "Toma un mosaico de 7 desplazamientos",
-        "content": "Paga 1 dátil y toma 1 pergamino del display que requiere exactamente 7 pergaminos, ignorando este requisito."
+        "name": "Toma un pergamino que requiere 7 keshis de erudito",
+        "content": "Paga 1 dátil y toma 1 pergamino del expositor que requiere exactamente 7 keshis de erudito, ignorando ese requisito."
       },
       "59": {
         "name": "Bonificaciones de conexión de escaleras",
