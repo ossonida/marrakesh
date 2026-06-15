@@ -65,6 +65,24 @@
     }
     .page-top-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: nowrap; }
     .page-title { margin: 0 0 10px; font-size: 26px; font-weight: 600; letter-spacing: -0.3px; flex: 1 1 auto; min-width: 0; }
+    .top-actions { display: inline-flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+    .coffee-banner {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 33px;
+      padding: 8px 12px;
+      border: 1px solid rgba(251, 191, 36, 0.48);
+      border-radius: 10px;
+      background: rgba(251, 191, 36, 0.12);
+      color: #fde68a;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .coffee-banner:hover { border-color: rgba(251, 191, 36, 0.78); background: rgba(251, 191, 36, 0.18); color: #fef3c7; }
     .lang-switch { position: relative; z-index: 120; flex-shrink: 0; }
     .lang-switch button {
       border: 1px solid var(--border);
@@ -297,6 +315,9 @@
       .filter-tabs { gap: 6px; }
       .filter-tabs button { padding: 7px 9px; font-size: 12px; border-radius: 8px; white-space: normal; overflow-wrap: anywhere; }
       .page-top-row { gap: 8px; }
+      .top-actions { gap: 6px; }
+      .coffee-banner { min-height: 33px; padding: 7px 9px; font-size: 13px; }
+      .lang-switch button { padding: 7px 9px; }
       .search-bar input { padding: 10px 12px; font-size: 14px; }
       .card { padding: 10px 6px; border-radius: 12px; }
       .card h2 { font-size: 16px; }
@@ -328,6 +349,7 @@
     @media (max-width: 390px) {
       body { padding-left: 5px; padding-right: 5px; }
       .card { padding-left: 4px; padding-right: 4px; }
+      .coffee-banner { font-size: 12px; padding-left: 7px; padding-right: 7px; }
       th, td { padding-left: 3px; padding-right: 3px; font-size: 14px; }
       .col-image { width: 50px; }
       .col-number { width: 38px; }
@@ -357,24 +379,27 @@
       </a>
       <div class="page-top-row">
         <h1 class="page-title" id="page-title">Marrakesh 레퍼런스</h1>
-        <div class="lang-switch" id="lang-switch">
-          <button type="button" aria-haspopup="listbox" aria-expanded="false" id="lang-button">
-            <span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span>
-            <span class="lang-caret">▾</span>
-          </button>
-          <div class="lang-menu" role="listbox" aria-label="Language">
-            <button type="button" data-lang="en"><span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span></button>
-            <button type="button" data-lang="ko"><span class="lang-label"><img class="lang-icon" data-lang="ko" src="img/flag-kr.svg" alt="Korea flag" aria-hidden="true"><span class="lang-code">KR</span></span></button>
-            <button type="button" data-lang="de"><span class="lang-label"><img class="lang-icon" data-lang="de" src="img/flag-de.svg" alt="Germany flag" aria-hidden="true"><span class="lang-code">DE</span></span></button>
-            <button type="button" data-lang="fr"><span class="lang-label"><img class="lang-icon" data-lang="fr" src="img/flag-fr.svg" alt="France flag" aria-hidden="true"><span class="lang-code">FR</span></span></button>
-            <button type="button" data-lang="ja"><span class="lang-label"><img class="lang-icon" data-lang="ja" src="img/flag-jp.svg" alt="Japan flag" aria-hidden="true"><span class="lang-code">JP</span></span></button>
-            <button type="button" data-lang="es"><span class="lang-label"><img class="lang-icon" data-lang="es" src="img/flag-es.svg" alt="Spain flag" aria-hidden="true"><span class="lang-code">ES</span></span></button>
+        <div class="top-actions">
+          <a class="coffee-banner" href="https://github.com/sponsors/ossonida" target="_blank" rel="noopener noreferrer">☕ Coffee</a>
+          <div class="lang-switch" id="lang-switch">
+            <button type="button" aria-haspopup="listbox" aria-expanded="false" id="lang-button">
+              <span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span>
+              <span class="lang-caret">▾</span>
+            </button>
+            <div class="lang-menu" role="listbox" aria-label="Language">
+              <button type="button" data-lang="en"><span class="lang-label"><img class="lang-icon" data-lang="en" src="img/flag-us.svg" alt="US flag" aria-hidden="true"><span class="lang-code">EN</span></span></button>
+              <button type="button" data-lang="ko"><span class="lang-label"><img class="lang-icon" data-lang="ko" src="img/flag-kr.svg" alt="Korea flag" aria-hidden="true"><span class="lang-code">KR</span></span></button>
+              <button type="button" data-lang="de"><span class="lang-label"><img class="lang-icon" data-lang="de" src="img/flag-de.svg" alt="Germany flag" aria-hidden="true"><span class="lang-code">DE</span></span></button>
+              <button type="button" data-lang="fr"><span class="lang-label"><img class="lang-icon" data-lang="fr" src="img/flag-fr.svg" alt="France flag" aria-hidden="true"><span class="lang-code">FR</span></span></button>
+              <button type="button" data-lang="ja"><span class="lang-label"><img class="lang-icon" data-lang="ja" src="img/flag-jp.svg" alt="Japan flag" aria-hidden="true"><span class="lang-code">JP</span></span></button>
+              <button type="button" data-lang="es"><span class="lang-label"><img class="lang-icon" data-lang="es" src="img/flag-es.svg" alt="Spain flag" aria-hidden="true"><span class="lang-code">ES</span></span></button>
+            </div>
           </div>
         </div>
       </div>
       <div class="filter-tabs" id="section-tabs">
         <button type="button" data-show="all" class="is-active">전체</button>
-        <button type="button" data-show="scroll">스크롤</button>
+        <button type="button" data-show="scroll">두루마리</button>
         <button type="button" data-show="oasis">오아시스</button>
         <button type="button" data-show="river">강타일</button>
         <button type="button" data-show="building">Ex1.특수건물</button>
@@ -384,7 +409,7 @@
         <button type="button" data-show="award">Ex1.시상타일</button>
         <button type="button" data-show="ex2Luxury">Ex2.사치품(선물/조각상)</button>
         <button type="button" data-show="ex2Exchange">Ex2.교환소타일</button>
-        <button type="button" data-show="ex2Scroll">Ex2.스크롤</button>
+        <button type="button" data-show="ex2Scroll">Ex2.두루마리</button>
         <button type="button" data-show="ex2Oasis">Ex2.오아시스</button>
         <button type="button" data-show="ex2Expert">Ex2.전문가</button>
       </div>
@@ -396,7 +421,7 @@
     <div id="global-empty" class="empty hide" style="text-align:center;">검색 결과가 없습니다.</div>
 
     <section class="card" data-section="scroll">
-      <div class="card-header"><h2>스크롤</h2><span class="count-tag">0개</span></div>
+      <div class="card-header"><h2>두루마리</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-text">내용</th></tr></thead>
@@ -506,7 +531,7 @@
     </section>
 
     <section class="card" data-section="ex2Scroll">
-      <div class="card-header"><h2>Ex2.스크롤</h2><span class="count-tag">0개</span></div>
+      <div class="card-header"><h2>Ex2.두루마리</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
           <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-text">내용</th></tr></thead>
@@ -560,7 +585,7 @@
     const baseSectionLabels = {
       ko: {
         pageTitle: 'Marrakesh 레퍼런스',
-        tabs: ['전체', '스크롤', '오아시스', '강타일', 'Ex1.특수건물', 'Ex1.오아시스', 'Ex1.사치품', 'Ex1.식량공급타일', 'Ex1.시상타일', 'Ex2.사치품(선물/조각상)', 'Ex2.교환소타일', 'Ex2.스크롤', 'Ex2.오아시스', 'Ex2.전문가'],
+        tabs: ['전체', '두루마리', '오아시스', '강타일', 'Ex1.특수건물', 'Ex1.오아시스', 'Ex1.사치품', 'Ex1.식량공급타일', 'Ex1.시상타일', 'Ex2.사치품(선물/조각상)', 'Ex2.교환소타일', 'Ex2.두루마리', 'Ex2.오아시스', 'Ex2.전문가'],
         search: '타일번호·이름·내용을 입력하세요',
         empty: '검색 결과가 없습니다.',
         globalEmpty: '검색 결과가 없습니다.',
@@ -568,7 +593,7 @@
         buildingCols: ['이미지', '이름', '내용'],
         noNameCols: ['이미지', '타일번호', '내용'],
         awardCols: ['이미지', '내용'],
-        sections: { scroll: '스크롤', oasis: '오아시스', river: '강타일', building: 'Ex1.특수건물', newOasis: 'Ex1.오아시스', luxury: 'Ex1.사치품', provision: 'Ex1.식량공급타일', award: 'Ex1.시상타일', ex2Luxury: 'Ex2.사치품(선물/조각상)', ex2Exchange: 'Ex2.교환소타일', ex2Scroll: 'Ex2.스크롤', ex2Oasis: 'Ex2.오아시스', ex2Expert: 'Ex2.전문가' },
+        sections: { scroll: '두루마리', oasis: '오아시스', river: '강타일', building: 'Ex1.특수건물', newOasis: 'Ex1.오아시스', luxury: 'Ex1.사치품', provision: 'Ex1.식량공급타일', award: 'Ex1.시상타일', ex2Luxury: 'Ex2.사치품(선물/조각상)', ex2Exchange: 'Ex2.교환소타일', ex2Scroll: 'Ex2.두루마리', ex2Oasis: 'Ex2.오아시스', ex2Expert: 'Ex2.전문가' },
         sectionNotes: { building: '게임 시작 전에, 플레이어들은 특수 건물의 어느 면을 사용할지 합의합니다. 모든 플레이어는 같은 면을 사용해야 합니다. (초록색 테두리 케시/자원은 게임 시작시 받는 것)' },
         count: '개'
       },

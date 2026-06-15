@@ -1,350 +1,350 @@
 window.referenceData = {
   "scroll": [
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "01-12",
       "name": "케시 즉시 배치",
       "image": "img/reference/scroll-01-12.png",
       "content": "표시된 케시를 공용 공급처에서 가져와 규칙에 따라 즉시 배치합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "13-16",
       "name": "계단 문턱 보너스",
       "image": "img/reference/scroll-13-16.png",
       "content": "궁전 또는 모스크 계단의 문턱을 넘을 때마다 문턱에 인쇄된 디나르에 더해 표시된 보너스를 얻습니다.\n13: 물 1개, 14: 대추야자 1개, 15: 디나르 1개, 16: 강 트랙 1칸."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "17",
       "name": "급류 통과 보너스",
       "image": "img/reference/scroll-17.png",
       "content": "강 트랙의 급류를 넘을 때마다 표시된 보너스를 즉시 1회 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "18",
       "name": "교환 사무소 추가 자원",
       "image": "img/reference/scroll-18.png",
       "content": "교환 사무소를 사용할 때마다 원하는 자원 1개를 추가로 얻습니다. 자원은 디나르, 대추야자, 물 중 하나입니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "19",
       "name": "물 2개",
       "image": "img/reference/scroll-19.png",
       "content": "공용 공급처에서 물 2개를 즉시 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "20",
       "name": "디나르 2개",
       "image": "img/reference/scroll-20.png",
       "content": "공용 공급처에서 디나르 2개를 즉시 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "21",
       "name": "대추야자 3개",
       "image": "img/reference/scroll-21.png",
       "content": "공용 공급처에서 대추야자 3개를 즉시 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "22",
       "name": "무료 성문 페널티 면제",
       "image": "img/reference/scroll-22.png",
       "content": "왼쪽 작업장에서 성문을 0디나르로 구매해도 점수를 잃지 않습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "23-25",
       "name": "대추야자 과수원 선택 보상",
       "image": "img/reference/scroll-23-25.png",
       "content": "“대추야자 과수원” 섹터 행동을 할 때, 각 케시마다 대추야자 1개 대신 다른 보상을 받을 수 있습니다.\n23: 물 1개, 24: 디나르 1개, 25: 점수 1점."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "26-27",
       "name": "계단 추가 이동 구매",
       "image": "img/reference/scroll-26-27.png",
       "content": "궁전 또는 모스크 계단에서 전진할 때 대추야자 또는 물을 써서 추가 전진할 수 있습니다.\n26: 대추야자 1개 = 1칸, 27: 물 1개 = 1칸."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "28",
       "name": "시즌 점수 급류 보너스",
       "image": "img/reference/scroll-28.png",
       "content": "각 시즌 점수 계산 시작 시, 자신이 넘은 급류마다 보너스를 하나씩 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "29",
       "name": "메인 광장 추가 점수",
       "image": "img/reference/scroll-29.png",
       "content": "“메인 광장” 섹터 행동을 할 때 행동 끝에 추가 점수를 얻습니다.\n점수는 2점 칸을 바라보는 관중 수에 따라 정해집니다. 그 칸에 엔터테이너 케시가 배치되어 있을 필요는 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "30",
       "name": "케시 1개 선택 배치",
       "image": "img/reference/scroll-30.png",
       "content": "원하는 케시 1개를 공용 공급처에서 가져와 규칙에 따라 즉시 배치합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "31",
       "name": "관중 +1",
       "image": "img/reference/scroll-31.png",
       "content": "이제부터 자신의 관중 디스크 각 구역에 관중이 1명씩 더 있는 것으로 봅니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "32",
       "name": "성문 할인",
       "image": "img/reference/scroll-32.png",
       "content": "성문을 구매할 때 디나르 1개를 덜 냅니다.\n성문 가격이 0디나르가 되어도 공용 공급처에서 디나르를 받지는 않습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "33",
       "name": "디나르 비용 대체",
       "image": "img/reference/scroll-33.png",
       "content": "이제부터 비용으로 디나르를 내야 할 때 대추야자와 물을 대신 낼 수 있습니다. 단, 반대로 디나르를 대추야자나 물 비용 대신 낼 수는 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "34",
       "name": "수크 사치품 다중 구매",
       "image": "img/reference/scroll-34.png",
       "content": "“수크” 섹터 행동을 할 때, 비용을 낼 수 있다면 조수 1명으로 사치품을 여러 개 구매할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "35",
       "name": "물장수 강화",
       "image": "img/reference/scroll-35.png",
       "content": "물장수마다 물 1개 대신 물 2개를 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "36",
       "name": "성문 구매 시 케시 선택",
       "image": "img/reference/scroll-36.png",
       "content": "성문을 구매할 때 공용 공급처에서 원하는 케시 1개를 가져올 수 있습니다. 더 이상 성문의 색과 일치할 필요가 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "37-42",
       "name": "표시 케시 2개 수크 배치",
       "image": "img/reference/scroll-37-42.png",
       "content": "표시된 케시 2개를 모두 공용 공급처에서 가져와 규칙에 따라 “수크”에 즉시 배치합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "43",
       "name": "케시 2개 선택 배치",
       "image": "img/reference/scroll-43.png",
       "content": "원하는 케시 2개를 공용 공급처에서 가져와 규칙에 따라 즉시 배치합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "44",
       "name": "시민 부양 비용 완화",
       "image": "img/reference/scroll-44.png",
       "content": "시즌 끝에 시민을 부양할 때 디나르 1개를 낼 수 있습니다. 그렇게 하면 각 부양 타일마다 원하는 자원 1개만 내면 됩니다.\n이 자원은 부양 타일에 표시된 자원일 필요가 없습니다. 디나르는 모든 타일에 대해 한 번만 냅니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "45",
       "name": "오아시스 점유 비용 완화",
       "image": "img/reference/scroll-45.png",
       "content": "이제부터 오아시스를 점유할 때 원하는 자원 1개만 냅니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "46",
       "name": "수크 교환 사무소 반복 사용",
       "image": "img/reference/scroll-46.png",
       "content": "“수크” 섹터 행동을 할 때, 조수 1명으로 감당 가능한 만큼 교환 사무소를 여러 번 사용할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "47",
       "name": "관중 3명 구역 보너스",
       "image": "img/reference/scroll-47.png",
       "content": "관중이 3명인 관중 디스크 구역을 모두 확인하고, 그 구역이 바라보는 보너스를 각각 3배로 즉시 얻습니다. 해당 구역에 엔터테이너 케시가 있을 필요는 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "48",
       "name": "계단 추가 1칸",
       "image": "img/reference/scroll-48.png",
       "content": "궁전 또는 모스크 계단에서 이동할 때마다 추가로 1칸 더 이동할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "49",
       "name": "모스크 최종칸 이후 2점",
       "image": "img/reference/scroll-49.png",
       "content": "모스크 계단의 최종 칸에 도달한 뒤에는 추가 이동 1칸마다 1점 대신 2점을 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "50",
       "name": "물장수 점수 추가",
       "image": "img/reference/scroll-50.png",
       "content": "섹터 행동을 수행할 때 물장수 케시로 물 1개를 받는 것에 더해 점수 2점을 받습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "51",
       "name": "메인 광장 1명의 관중이 있는 구역 보너스",
       "image": "img/reference/scroll-51.png",
       "content": "“메인 광장” 섹터 행동을 할 때, 행동 끝에 1명의 관중이 있는 구역이 바라보는 모든 보너스를 얻습니다. 이 보너스는 추가 보너스이며 엔터테이너 케시가 배치되어 있을 필요는 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "52",
       "name": "궁전 최종칸 이후 2점",
       "image": "img/reference/scroll-52.png",
       "content": "궁전 계단의 최종 칸에 도달한 뒤에는 추가 이동 1칸마다 1점 대신 2점을 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "53",
       "name": "섹터 행동 1회",
       "image": "img/reference/scroll-53.png",
       "content": "원하는 섹터 행동 1개를 즉시 수행할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "54",
       "name": "엔터테이너 인접 배치 보너스",
       "image": "img/reference/scroll-54.png",
       "content": "엔터테이너 케시를 “메인 광장”에 배치할 때, 해당 배치 보너스에 더해 양옆 인접 구역의 배치 보너스도 얻습니다. 인접 구역에 엔터테이너 케시가 있을 필요는 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "55",
       "name": "양쪽 계단 3칸",
       "image": "img/reference/scroll-55.png",
       "content": "궁전 계단과 모스크 계단에서 각각 즉시 3칸 전진합니다. 해당 보너스를 모두 얻으며, 어느 계단을 먼저 전진할지는 선택합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "56",
       "name": "강 최종칸 이후 2점",
       "image": "img/reference/scroll-56.png",
       "content": "어부가 강 트랙의 부두, 즉 최종 칸에 도달한 뒤에는 추가 이동 1칸마다 1점 대신 2점을 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "57",
       "name": "수크 물장수 배치",
       "image": "img/reference/scroll-57.png",
       "content": "공용 공급처에서 물장수 1개를 가져와 “수크”의 초록 텐트 옆에 놓고 물 3개를 즉시 얻습니다.\n다음 턴부터 “수크” 섹터 행동에서 조수마다 이 물장수로 물 1개를 얻습니다. 교환 사무소를 사용하거나 사치품 1개를 획득하거나 새 상품 케시 1개를 받을 때 적용합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "58",
-      "name": "7개 요구 스크롤 획득",
+      "name": "7개 요구 두루마리 획득",
       "image": "img/reference/scroll-58.png",
-      "content": "대추야자 1개를 내고, 조건이 정확히 회색 학자 케시 7개인 스크롤 1개를 진열대에서 가져옵니다. 이 조건은 무시합니다."
+      "content": "대추야자 1개를 내고, 조건이 정확히 회색 학자 케시 7개인 두루마리 1개를 진열대에서 가져옵니다. 이 조건은 무시합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "59",
       "name": "계단 연결선 보너스",
       "image": "img/reference/scroll-59.png",
       "content": "궁전 계단과 모스크 계단에 있는 자신의 두 말 사이 연결선의 모든 보너스를 즉시 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "60",
       "name": "급류 보너스 2배",
       "image": "img/reference/scroll-60.png",
       "content": "강 트랙의 급류 보너스를 받을 때마다 1회 대신 2회 받습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "61",
       "name": "탑 바닥 케시 2개 획득",
       "image": "img/reference/scroll-61.png",
       "content": "“케시 획득 및 배치” 단계마다 탑 바닥에서 원하는 케시 2개를 항상 가져올 수 있습니다. 같은 색도 가능합니다.\n예외: 케시가 1개만 남았거나 배치할 수 있는 공간이 부족하면 1개만 가져올 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "62",
       "name": "발견한 오아시스 3개 무료 점유",
       "image": "img/reference/scroll-62.png",
       "content": "자신이 발견한, 앞면으로 공개된 오아시스 3개를 비용 없이 즉시 점유합니다.\n주의: 이 타일로 사막마을은 점유할 수 없습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "63",
       "name": "연결 보너스 2개",
       "image": "img/reference/scroll-63.png",
       "content": "궁전 또는 모스크 계단의 문턱을 넘어 연결 보너스를 받을 때마다 1개 대신 서로 다른 보너스 2개를 받습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "64",
       "name": "케시 배치 후 섹터 행동",
       "image": "img/reference/scroll-64.png",
       "content": "원하는 케시 1개를 공용 공급처에서 가져와 규칙에 따라 즉시 배치합니다. 그다음 그 케시를 배치한 섹터의 섹터 행동을 수행합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "65",
       "name": "메인 광장 2회 수행",
       "image": "img/reference/scroll-65.png",
       "content": "이제부터 “메인 광장” 섹터 행동을 항상 연속으로 2회 수행합니다. 관중 디스크를 회전하고 보너스를 선택한 뒤, 한 번 더 회전하고 보너스를 다시 선택합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "66",
       "name": "성문 구매 시 케시 2개",
       "image": "img/reference/scroll-66.png",
       "content": "성문을 구매할 때마다 해당 색의 케시를 1개 대신 2개 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "67",
       "name": "케시 3개 선택 배치",
       "image": "img/reference/scroll-67.png",
       "content": "원하는 케시 3개를 공용 공급처에서 가져와 규칙에 따라 즉시 배치합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "68",
       "name": "오아시스 발견 즉시 점수",
       "image": "img/reference/scroll-68.png",
       "content": "오아시스를 발견해 앞면으로 뒤집을 때마다 그 오아시스를 즉시 한 번 점수화하고, 게임 종료 점수 계산에서도 다시 점수화합니다. 오아시스는 사하라에 앞면으로 남겨 두며, 나중에 점유할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "69",
       "name": "라운드 끝 급류 전체 보너스",
       "image": "img/reference/scroll-69.png",
       "content": "라운드 끝에 자신이 넘은 급류 중 1개가 아니라, 넘은 모든 급류의 보너스를 얻습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "70",
       "name": "메인 광장 전체 보너스",
       "image": "img/reference/scroll-70.png",
       "content": "“메인 광장”에 배치한 자신의 모든 케시 보너스를 즉시 얻습니다. 각 보너스는 그 칸을 바라보는 관중 수만큼 곱합니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "71",
       "name": "점유 오아시스 즉시 점수",
       "image": "img/reference/scroll-71.png",
       "content": "자신이 점유한 오아시스 1개를 즉시 점수화합니다. 그 오아시스는 계속 점유 상태로 남고, 게임 종료 시 다시 점수화할 수 있습니다."
     },
     {
-      "section": "스크롤",
+      "section": "두루마리",
       "number": "72",
       "name": "자원 반납 점수",
       "image": "img/reference/scroll-72.png",
@@ -383,9 +383,9 @@ window.referenceData = {
     {
       "section": "오아시스",
       "number": "22-23",
-      "name": "사치품/스크롤 점수",
+      "name": "사치품/두루마리 점수",
       "image": "img/reference/oasis-22-23.png",
-      "content": "기본 3점에 더해, 자신의 사치품마다 1점(22) 또는 자신의 스크롤마다 1점(23)을 얻습니다. 해당 항목이 없어도 3점은 얻습니다."
+      "content": "기본 3점에 더해, 자신의 사치품마다 1점(22) 또는 자신의 두루마리마다 1점(23)을 얻습니다. 해당 항목이 없어도 3점은 얻습니다."
     },
     {
       "section": "오아시스",
@@ -446,9 +446,9 @@ window.referenceData = {
     {
       "section": "오아시스",
       "number": "사막마을 03",
-      "name": "스크롤 총점",
+      "name": "두루마리 총점",
       "image": "img/reference/oasis-town-03.png",
-      "content": "자신이 획득한 스크롤마다 2점을 얻습니다."
+      "content": "자신이 획득한 두루마리마다 2점을 얻습니다."
     },
     {
       "section": "오아시스",
@@ -495,9 +495,9 @@ window.referenceData = {
     {
       "section": "오아시스",
       "number": "사막마을 10",
-      "name": "스크롤 무료 획득",
+      "name": "두루마리 무료 획득",
       "image": "img/reference/oasis-town-10.png",
-      "content": "이 사막마을 10-12번은 게임 종료 점수 계산을 하지 않습니다. 점유할 때 즉시 보너스 행동을 수행합니다.\n진열대에서 원하는 스크롤 1개를 가져옵니다. 조건을 충족할 필요도, 대추야자를 낼 필요도 없습니다."
+      "content": "이 사막마을 10-12번은 게임 종료 점수 계산을 하지 않습니다. 점유할 때 즉시 보너스 행동을 수행합니다.\n진열대에서 원하는 두루마리 1개를 가져옵니다. 조건을 충족할 필요도, 대추야자를 낼 필요도 없습니다."
     },
     {
       "section": "오아시스",
@@ -655,7 +655,7 @@ window.referenceData = {
       "number": "B2",
       "name": "도서관",
       "image": "img/reference/camel-building-library.png",
-      "content": "시즌 1 시작 시: 공개된 노란색 스크롤/타일 중 1개를 선택합니다. 노란색 타일의 회색 케시 요구 조건은 충족하지 않아도 되지만, 대추야자 1개는 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n시즌 2 시작 시: 공개된 분홍색 스크롤/타일 중 1개를 선택합니다. 필요한 회색 케시를 보유해야 하며, 대추야자 2개를 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n시즌 3 시작 시: 공개된 주황색 스크롤/타일 중 1개를 선택합니다. 필요한 회색 케시를 보유해야 하며, 대추야자 3개를 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다."
+      "content": "시즌 1 시작 시: 공개된 노란색 두루마리/타일 중 1개를 선택합니다. 노란색 타일의 회색 케시 요구 조건은 충족하지 않아도 되지만, 대추야자 1개는 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n시즌 2 시작 시: 공개된 분홍색 두루마리/타일 중 1개를 선택합니다. 필요한 회색 케시를 보유해야 하며, 대추야자 2개를 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다.\n\n시즌 3 시작 시: 공개된 주황색 두루마리/타일 중 1개를 선택합니다. 필요한 회색 케시를 보유해야 하며, 대추야자 3개를 지불해야 합니다. 그 스택을 섞고 맨 위 타일을 공개합니다."
     },
     {
       "section": "특수건물",
@@ -1255,196 +1255,196 @@ window.referenceData = {
   ],
   "ex2Scroll": [
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "01/04",
       "name": "케시 타일 교환",
       "image": "img/reference/ex2-scroll-01-04.png",
-      "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n스크롤에서 케시 타일 1개를 가져와, 같은 색상의 케시 1개와 공용 공급처에서 교환합니다. 그 케시는 해당 구역에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 스크롤에 케시 타일이 1개만 남으면, 따로 둔 모든 타일을 스크롤에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
+      "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n두루마리에서 케시 타일 1개를 가져와, 같은 색상의 케시 1개와 공용 공급처에서 교환합니다. 그 케시는 해당 구역에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 두루마리에 케시 타일이 1개만 남으면, 따로 둔 모든 타일을 두루마리에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "02",
       "name": "디나르 또는 강 전진",
       "image": "img/reference/ex2-scroll-02.png",
       "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n디나르 2개를 얻거나, 강 트랙에서 1칸 전진합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "03",
       "name": "물 또는 계단 전진",
       "image": "img/reference/ex2-scroll-03.png",
       "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n물 2개를 얻거나, 모스크 또는 궁전 계단에서 1칸 전진합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "05",
       "name": "점수 또는 보석",
       "image": "img/reference/ex2-scroll-05.png",
       "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n2점을 얻거나, 공급처에서 보석 1개를 뽑습니다. 보석은 모듈 2 “보석”을 사용할 때만 적용합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "06",
       "name": "대추야자 또는 물",
       "image": "img/reference/ex2-scroll-06.png",
       "content": "요구: 회색 학자 케시 1개를 보유하고 대추야자 1개를 지불합니다.\n대추야자 3개 또는 물 2개를 얻습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "07/10",
       "name": "이중 상품 케시 교환",
       "image": "img/reference/ex2-scroll-07-10.png",
-      "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n스크롤에서 이중 상품 케시 타일 1개를 가져와, 같은 색상의 케시 2개와 공용 공급처에서 교환합니다. 그 케시들은 수크에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 스크롤에 이중 상품 케시 타일이 1개만 남으면, 모든 타일을 스크롤에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
+      "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n두루마리에서 이중 상품 케시 타일 1개를 가져와, 같은 색상의 케시 2개와 공용 공급처에서 교환합니다. 그 케시들은 수크에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 두루마리에 이중 상품 케시 타일이 1개만 남으면, 모든 타일을 두루마리에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "08",
       "name": "자원과 점수",
       "image": "img/reference/ex2-scroll-08.png",
       "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n디나르 1개, 물 1개, 대추야자 1개를 얻고 2점을 얻습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "09",
       "name": "양쪽 계단 전진",
       "image": "img/reference/ex2-scroll-09.png",
       "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n모스크 계단과 궁전 계단에서 각각 1칸 전진하고 2점을 얻습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "11",
       "name": "디나르/물/점수",
       "image": "img/reference/ex2-scroll-11.png",
       "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n디나르 1개와 물 1개를 얻고 3점을 얻습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "12",
       "name": "관중 원반 보너스",
       "image": "img/reference/ex2-scroll-12.png",
       "content": "요구: 회색 학자 케시 3개를 보유하고 대추야자 1개를 지불합니다.\n관중 3명이 있는 두 구역 중 하나에서 관중 원반 보너스를 1회 얻습니다. 이 보너스를 얻으려면 해당 구역에 분홍색 엔터테이너 케시가 배치되어 있어야 합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "13",
       "name": "관중 원반 보너스 강화",
       "image": "img/reference/ex2-scroll-13.png",
       "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n관중 3명이 있는 두 구역 중 하나에서 관중 원반 보너스를 1회 얻습니다. 이때 해당 구역에 분홍색 엔터테이너 케시가 없어도 됩니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "14",
       "name": "식량공급 자원 배치",
       "image": "img/reference/ex2-scroll-14.png",
-      "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n앞면으로 놓인 자신의 식량공급 타일마다 해당 자원 1개를 공용 공급처에서 가져와 그 식량공급 타일 위에 놓습니다. 이 자원은 해당 식량공급 타일에만 사용할 수 있습니다. 같은 시즌 안에 이 스크롤을 정확히 1번 더 선택해 사용할 수 있으며, 그러면 각 식량공급 타일 위에 자원 2개가 놓입니다. 그 이후에는 더 이상 사용할 수 없습니다."
+      "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n앞면으로 놓인 자신의 식량공급 타일마다 해당 자원 1개를 공용 공급처에서 가져와 그 식량공급 타일 위에 놓습니다. 이 자원은 해당 식량공급 타일에만 사용할 수 있습니다. 같은 시즌 안에 이 두루마리을 정확히 1번 더 선택해 사용할 수 있으며, 그러면 각 식량공급 타일 위에 자원 2개가 놓입니다. 그 이후에는 더 이상 사용할 수 없습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "15",
       "name": "원하는 구역 액션",
       "image": "img/reference/ex2-scroll-15.png",
       "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n원하는 구역 액션 1개를 수행합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "16",
       "name": "이중 케시 교환",
       "image": "img/reference/ex2-scroll-16.png",
-      "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n스크롤에서 이중 케시 타일 1개를 가져와, 같은 색상의 케시 2개와 공용 공급처에서 교환합니다. 그 케시들은 해당하는 구역에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 스크롤에 이중 케시 타일이 1개만 남으면, 모든 타일을 스크롤에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
+      "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n두루마리에서 이중 케시 타일 1개를 가져와, 같은 색상의 케시 2개와 공용 공급처에서 교환합니다. 그 케시들은 해당하는 구역에 배치하고, 가져온 타일은 마드라사 보드 옆에 둡니다. 선택 후 두루마리에 이중 케시 타일이 1개만 남으면, 모든 타일을 두루마리에 되돌려 전체 선택지를 다시 사용할 수 있게 합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "17",
       "name": "오아시스 2개 활성화",
       "image": "img/reference/ex2-scroll-17.png",
       "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n발견된 오아시스 2개를 비용 없이 활성화합니다. 사막마을은 포함되지 않습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "18",
       "name": "수크 물장수 배치",
       "image": "img/reference/ex2-scroll-18.png",
       "content": "요구: 회색 학자 케시 5개를 보유하고 대추야자 2개를 지불합니다.\n공용 공급처에서 빨간 물장수 케시 1개를 가져와 수크의 초록색 천막 옆에 놓고, 즉시 물 3개를 얻습니다. 다음 턴부터 수크에 조수를 놓을 때 물 1개를 얻습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "19",
       "name": "자원 반납 점수",
       "image": "img/reference/ex2-scroll-19.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n자원을 공용 공급처로 반납할 때마다 자원 1개당 2점을 얻습니다. 보석도 포함됩니다. 이런 식으로 최대 12개의 자원을 반납할 수 있습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "20",
       "name": "사치품 무료 획득",
       "image": "img/reference/ex2-scroll-20.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n사치품 더미 1개에서 원하는 사치품 1개를 선택합니다. 표시된 상품 케시는 지불하지 않습니다. 단, 그 밖에 표시된 다른 비용이 있다면 지불해야 합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "21",
       "name": "경비원과 성문 건설",
       "image": "img/reference/ex2-scroll-21.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n공용 공급처에서 경비원 케시 1개를 가져옵니다. 그 후 원하는 성문 1개를 선택해, 그 경비원 케시와 함께 자신의 플레이어 보드에 놓습니다. 성문 점수와 보드 색상 일치 배치 점수를 얻습니다. 그런 다음 공용 공급처에서 원하는 케시 1개를 가져올 수 있습니다. 이 케시는 배치한 성문의 색상과 일치하지 않아도 됩니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "22",
       "name": "서로 다른 색 케시 3개",
       "image": "img/reference/ex2-scroll-22.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n공용 공급처에서 서로 다른 색상의 케시 3개를 가져와 해당 구역에 배치합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "23",
       "name": "자원 세트 점수",
       "image": "img/reference/ex2-scroll-23.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n디나르 1개, 물 1개, 대추야자 1개 세트를 지불할 때마다 6점을 얻습니다. 이 효과는 추가로 2번 더 반복할 수 있습니다. 최대 18점입니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "24",
       "name": "오아시스 2개 즉시 점수",
       "image": "img/reference/ex2-scroll-24.png",
       "content": "요구: 회색 학자 케시 7개를 보유하고 대추야자 3개를 지불합니다.\n활성화된 오아시스 2개를 즉시 점수 계산합니다. 그 오아시스들은 그대로 남아 있으며, 게임 종료 시 다시 점수 계산합니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "73",
       "name": "보석 1개 뽑기",
       "image": "img/reference/ex2-scroll-73.png",
       "content": "공급처에서 보석 1개를 뽑습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "74",
       "name": "보석 1개 뽑기 및 교환",
       "image": "img/reference/ex2-scroll-74.png",
       "content": "공급처에서 보석 1개를 뽑습니다. 그 후 자신의 자원 보드에 놓인 보석 1개를 보석상 보드의 원하는 보석 1개와 교환할 수 있습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "75",
       "name": "보석 2개 뽑기",
       "image": "img/reference/ex2-scroll-75.png",
       "content": "공급처에서 보석 2개를 뽑습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "76",
       "name": "보석 뽑기와 보석상 선택",
       "image": "img/reference/ex2-scroll-76.png",
       "content": "공급처에서 보석 1개를 뽑고, 보석상 보드에서 보석 1개를 선택해 가져옵니다. 추가로 자신의 자원 보드에 놓인 보석 1개를 보석상 보드의 원하는 보석 1개와 교환할 수 있습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "77",
       "name": "전문가 비용 대체",
       "image": "img/reference/ex2-scroll-77.png",
       "content": "게임 중 한 번, 전문가를 가져올 때 자원을 지불하는 대신 1점을 잃고 전문가 1명을 가져올 수 있습니다."
     },
     {
-      "section": "Ex2.스크롤",
+      "section": "Ex2.두루마리",
       "number": "78",
       "name": "전문가 즉시 사용",
       "image": "img/reference/ex2-scroll-78.png",
