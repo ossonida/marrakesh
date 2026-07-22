@@ -1,8 +1,7 @@
 # These are supported funding model platforms
 
-github: [ossonida]
-thanks_dev: ossonida
-coffee: ['t.ly/gBJMG']
+github: ossonida
+custom: ['t.ly/gBJMG']
 ko_fi: ossonida
 
 
