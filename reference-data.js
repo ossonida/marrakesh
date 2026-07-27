@@ -1515,7 +1515,7 @@ window.referenceData = {
       "number": "E3",
       "name": "대추야자 채집꾼 전문가",
       "image": "img/reference/ex2-expert-date-picker.png",
-      "content": "대추야자 과원 구역 액션을 수행할 때 사용합니다. 초록색 대추야자 채집꾼 케시 1개를 가져와 배치합니다. 이후 대추야자 채집꾼 케시 하나가 대추야자 1개 대신 2개를 받게 할 수 있고, 해당 구역에 물 상인이 있으면 물 2개도 추가로 받을 수 있습니다."
+      "content": "대추야자 과원 구역 액션을 수행할 때 사용합니다. 초록색 대추야자 채집꾼 케시 1개를 가져와 배치합니다. 이후 대추야자 채집꾼 케시 하나가 대추야자 1개 대신 2개를 받게 할 수 있고, 해당 구역에 물장수 케시가 있으면 물 2개도 추가로 받을 수 있습니다."
     },
     {
       "section": "Ex2.전문가",
@@ -1536,14 +1536,14 @@ window.referenceData = {
       "number": "E6",
       "name": "모스크 연결 보너스 전문가",
       "image": "img/reference/ex2-expert-mosque.png",
-      "content": "연결 보너스를 받을 때 사용할 수 있습니다. 해당 선에서 보너스 2개를 받고, 모스크 계단 옆의 점수 보너스가 즉시 두 배가 됩니다."
+      "content": "연결 보너스를 받을 때 사용할 수 있습니다. 해당 선에서 보너스 2개를 받고, 모스크 계단 옆의 점수 보너스를 두 배로 받습니다."
     },
     {
       "section": "Ex2.전문가",
       "number": "E7",
       "name": "궁전 연결 보너스 전문가",
       "image": "img/reference/ex2-expert-palace.png",
-      "content": "연결 보너스를 받을 때 사용할 수 있습니다. 해당 선에서 보너스 2개를 받고, 궁전 계단 옆의 디나르 보너스가 즉시 두 배가 됩니다."
+      "content": "연결 보너스를 받을 때 사용할 수 있습니다. 해당 선에서 보너스 2개를 받고, 궁전 계단 옆의 디나르 보너스를 두 배로 받습니다."
     },
     {
       "section": "Ex2.전문가",
@@ -2462,15 +2462,15 @@ window.referenceLocaleData = {
       },
       "E2": {
         "name": "Fish expert",
-        "content": "Use this expert when you perform the river sector action. Take 1 blue fish keshi from the supply and place it immediately. Afterwards, for each fish keshi you own, move 1 step on the Tensift river, and an additional 5 more steps. As always, you may use water to move further steps."
+        "content": "Use this expert when you perform the river sector action. Take 1 blue fish keshi from the supply and place it immediately. Afterwards, for each fish keshi you own, move 1 step on the Tensift river, then move 5 additional steps. As always, you may use water to move further steps."
       },
       "E3": {
         "name": "Date picker expert",
-        "content": "Use this expert when you perform the date grove sector action. Take 1 green date picker keshi and deploy it. Then one date picker keshi may receive 2 dates instead of 1; if there is a water merchant in that sector, you may also gain 2 additional water."
+        "content": "Use this expert when you perform the date grove sector action. Take 1 green date picker keshi and deploy it. Then one date picker keshi may receive 2 dates instead of 1; if there is a water vendor keshi in that sector, you may also gain 2 additional water."
       },
       "E4": {
         "name": "Luxury good expert",
-        "content": "Take 1 displayed luxury good for free. The only condition is that the expert color must be the most common goods-keshi color required for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
+        "content": "Take 1 displayed luxury good for free. The only condition is that the expert's color must be the goods-keshi color required most often for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
       },
       "E5": {
         "name": "Main square expert",
@@ -2478,11 +2478,11 @@ window.referenceLocaleData = {
       },
       "E6": {
         "name": "Mosque connection expert",
-        "content": "Use this expert when you receive a connection bonus. You get 2 bonuses from the line and the points bonus directly at the mosque stairs doubles."
+        "content": "Use this expert when you receive a connection bonus. You receive 2 bonuses from that line, and the point bonus next to the mosque stairs is doubled."
       },
       "E7": {
         "name": "Palace connection expert",
-        "content": "Use this expert when you receive a connection bonus. You get 2 bonuses from the line and the dinar bonus directly at the palace stairs doubles."
+        "content": "Use this expert when you receive a connection bonus. You receive 2 bonuses from that line, and the dinar bonus next to the palace stairs is doubled."
       },
       "E8": {
         "name": "Madrasa expert",

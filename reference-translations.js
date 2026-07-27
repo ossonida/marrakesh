@@ -891,27 +891,27 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E2": {
         "name": "Fisch-Experte",
-        "content": "Nutze diesen Experten, wenn du die Fluss-Sektoraktion ausführst. Nimm 1 blauen Fisch-Keshi aus dem Vorrat und lege ihn sofort ein. Danach rückst du für jeden Fisch-Keshi, den du besitzt, 1 Schritt auf dem Tensift-Fluss vor, zusätzlich noch 5 weitere Schritte. Wie üblich darfst du Wasser verwenden, um weitere Schritte zu ziehen."
+        "content": "Nutze diesen Experten, wenn du die Fluss-Sektoraktion ausführst. Nimm 1 blauen Fisch-Keshi aus dem Vorrat und setze ihn sofort ein. Danach rückst du für jeden Fisch-Keshi, den du besitzt, 1 Schritt auf dem Tensift-Fluss vor und anschließend 5 weitere Schritte. Wie üblich darfst du Wasser verwenden, um weitere Schritte zu ziehen."
       },
       "E3": {
         "name": "Experte für Dattelernte",
-        "content": "Nutze diesen Experten, wenn du die Sektoraktion „Dattelhain“ ausführst. Nimm 1 grünen Dattelpflücker-Keshi und setze ihn ein. Danach darf ein Dattelpflücker-Keshi 2 Datteln statt 1 Dattel erhalten; befindet sich in diesem Sektor ein Wasserhändler, darfst du zusätzlich 2 Wasser erhalten."
+        "content": "Nutze diesen Experten, wenn du die Sektoraktion „Dattelhain“ ausführst. Nimm 1 grünen Dattelpflücker-Keshi und setze ihn ein. Danach darf ein Dattelpflücker-Keshi 2 Datteln statt 1 Dattel erhalten; befindet sich in diesem Sektor ein Wasserverkäufer-Keshi, darfst du zusätzlich 2 Wasser erhalten."
       },
       "E4": {
         "name": "Experte für Luxusgüter",
-        "content": "Nehmen Sie 1 angezeigtes Luxusgut kostenlos mit. Die einzige Bedingung ist, dass die Expertenfarbe die am häufigsten für dieses Luxusgut erforderliche Waren-Keshi-Farbe sein muss. Unentschieden gelten als Erfüllung der Bedingung. Auch Geschenke und Statuetten können so mitgenommen werden."
+        "content": "Nimm 1 ausliegendes Luxusgut kostenlos. Die einzige Bedingung ist, dass die Farbe des Experten die für dieses Luxusgut am häufigsten benötigte Waren-Keshi-Farbe ist. Gleichstände erfüllen die Bedingung. Auch Geschenke und Statuetten können so genommen werden."
       },
       "E5": {
         "name": "Experte für den Hauptplatz",
-        "content": "Erhalten Sie den durch Ihre Sektorenaktion ausgewählten Bonus ein weiteres Mal und zusätzlich jeden der beiden direkt angrenzenden persönlichen Boni einmal."
+        "content": "Erhalte den durch deine Sektoraktion ausgewählten Bonus ein weiteres Mal und zusätzlich jeden der beiden direkt angrenzenden persönlichen Boni einmal."
       },
       "E6": {
         "name": "Moschee-Verbindungs-Experte",
-        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus der Linie, und der Punktebonus direkt an der Moschee-Treppe wird verdoppelt."
+        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus dieser Linie, und der Punktebonus neben der Moschee-Treppe wird verdoppelt."
       },
       "E7": {
         "name": "Palast-Verbindungs-Experte",
-        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus der Linie, und der Dinarbonus direkt an der Palast-Treppe wird verdoppelt."
+        "content": "Nutze diesen Experten, wenn du einen Verbindungsbonus erhältst. Du erhältst 2 Boni aus dieser Linie, und der Dinarbonus neben der Palast-Treppe wird verdoppelt."
       },
       "E8": {
         "name": "Madrasa-Experte",
@@ -1823,11 +1823,11 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E3": {
         "name": "Expert cueilleur de dattes",
-        "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur de la palmeraie de dattes. Prenez 1 keshi vert de cueilleur de dattes et déployez-le. Ensuite, un keshi cueilleur de dattes peut recevoir 2 dattes au lieu de 1 ; s'il y a un marchand d'eau dans ce secteur, vous pouvez également gagner 2 eaux supplémentaires."
+        "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur de la palmeraie de dattes. Prenez 1 keshi vert de cueilleur de dattes et déployez-le. Ensuite, un keshi cueilleur de dattes peut recevoir 2 dattes au lieu de 1 ; s'il y a un keshi marchand d’eau dans ce secteur, vous pouvez également gagner 2 eaux supplémentaires."
       },
       "E4": {
         "name": "Expert en produits de luxe",
-        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que la couleur experte soit la couleur keshi la plus courante requise pour ce produit de luxe. Les égalités comptent comme remplissant la condition. Des cadeaux et des statuettes peuvent également être emportés de cette manière."
+        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que la couleur de l’expert soit la couleur de keshi marchandise la plus demandée pour ce bien de luxe. Les égalités remplissent la condition. Les cadeaux et les statuettes peuvent aussi être pris de cette manière."
       },
       "E5": {
         "name": "Expert de la place principale",
@@ -1835,11 +1835,11 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E6": {
         "name": "Expert de connexion de la mosquée",
-        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de la ligne, et le bonus de points directement à côté de l’escalier de la mosquée est doublé."
+        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de cette ligne, et le bonus de points à côté de l’escalier de la mosquée est doublé."
       },
       "E7": {
         "name": "Expert de connexion du palais",
-        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de la ligne, et le bonus de dinars directement à côté de l’escalier du palais est doublé."
+        "content": "Utilisez cet expert lorsque vous recevez un bonus de connexion. Vous recevez 2 bonus de cette ligne, et le bonus de dinars à côté de l’escalier du palais est doublé."
       },
       "E8": {
         "name": "Expert madrasa",
@@ -2751,23 +2751,23 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E3": {
         "name": "デーツ採集者の専門家",
-        "content": "デーツ果樹園セクターのアクションを行うときに使用します。緑のデーツ採集者ケシ1個を取り、配置します。その後、デーツ採集者ケシ1個はデーツ1個の代わりにデーツ2個を受け取れます。そのセクターに水商人がいる場合、追加で水2個も得られます。"
+        "content": "デーツ果樹園セクターのアクションを行うときに使用します。緑のデーツ採集者ケシ1個を取り、配置します。その後、デーツ採集者ケシ1個はデーツ1個の代わりにデーツ2個を受け取れます。そのセクターに水商人ケシがある場合、追加で水2個も得られます。"
       },
       "E4": {
         "name": "高級品の専門家",
-        "content": "展示されている高級品を1つ無料でお持ち帰りいただけます。唯一の条件は、エキスパートカラーがその高級品に必要な最も一般的な商品ケシカラーでなければならないということです。同点は条件を満たしたものとしてカウントされます。ギフトや小像もこの方法で受け取ることができます。"
+        "content": "公開されている高級品1つを無料で取ります。条件は、その専門家の色が、その高級品で最も多く必要な商品ケシの色であることだけです。同数の場合も条件を満たします。贈り物や小像もこの方法で取ることができます。"
       },
       "E5": {
-        "name": "メインスクエアエキスパート",
-        "content": "セクターアクションによって選択されたボーナスをさらに 1 回獲得し、直接隣接する 2 つの個人ボーナスもそれぞれ 1 回ずつ獲得します。"
+        "name": "メイン広場の専門家",
+        "content": "セクターアクションで選んだボーナスを追加で1回得て、さらにその両隣の個人ボーナスもそれぞれ1回ずつ得ます。"
       },
       "E6": {
         "name": "モスク接続の専門家",
-        "content": "接続ボーナスを受け取るときに使用します。その線からボーナスを2つ受け取り、モスク階段のすぐ横にある得点ボーナスが2倍になります。"
+        "content": "接続ボーナスを受け取るときに使用します。その列からボーナスを2つ受け取り、モスク階段の横にある得点ボーナスを2倍で得ます。"
       },
       "E7": {
         "name": "宮殿接続の専門家",
-        "content": "接続ボーナスを受け取るときに使用します。その線からボーナスを2つ受け取り、宮殿階段のすぐ横にあるディナールボーナスが2倍になります。"
+        "content": "接続ボーナスを受け取るときに使用します。その列からボーナスを2つ受け取り、宮殿階段の横にあるディナールボーナスを2倍で得ます。"
       },
       "E8": {
         "name": "マドラサの専門家",
@@ -2779,7 +2779,7 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E10": {
         "name": "オアシスの専門家",
-        "content": "コストを支払わずにオアシスを 1 つアクティブにし、すぐに得点します。"
+        "content": "コストを支払わずにオアシス1つを活性化し、ただちに得点します。"
       }
     }
   },
@@ -3679,11 +3679,11 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E3": {
         "name": "Experto recolector de dátiles",
-        "content": "Utiliza este experto cuando realices la acción del sector del palmeral de dátiles. Toma 1 keshi recolector de dátiles verde y despliégalo. Después, un keshi recolector de dátiles puede recibir 2 dátiles en lugar de 1; si hay un mercader de agua en ese sector, también puedes ganar 2 aguas adicionales."
+        "content": "Utiliza este experto cuando realices la acción del sector del palmeral de dátiles. Toma 1 keshi recolector de dátiles verde y despliégalo. Después, un keshi recolector de dátiles puede recibir 2 dátiles en lugar de 1; si hay un keshi vendedor de agua en ese sector, también puedes ganar 2 aguas adicionales."
       },
       "E4": {
-        "name": "Buen experto en lujo",
-        "content": "Llévate 1 artículo de lujo expuesto gratis. La única condición es que el color experto debe ser el color keshi más común de los bienes requeridos para ese bien de lujo. Los empates cuentan como cumplimiento de la condición. También se pueden llevar regalos y estatuillas por esta vía."
+        "name": "Experto en bienes de lujo",
+        "content": "Toma gratis 1 bien de lujo expuesto. La única condición es que el color del experto sea el color de keshi de mercancía más requerido para ese bien de lujo. Los empates cumplen la condición. Los regalos y las estatuillas también pueden tomarse de esta forma."
       },
       "E5": {
         "name": "Experto en plaza principal",
@@ -3691,11 +3691,11 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
       },
       "E6": {
         "name": "Experto de conexión de la mezquita",
-        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de la línea, y la bonificación de puntos situada directamente junto a la escalera de la mezquita se duplica."
+        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de esa línea, y la bonificación de puntos junto a la escalera de la mezquita se duplica."
       },
       "E7": {
         "name": "Experto de conexión del palacio",
-        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de la línea, y la bonificación de dinares situada directamente junto a la escalera del palacio se duplica."
+        "content": "Usa este experto cuando recibas una bonificación de conexión. Recibes 2 bonificaciones de esa línea, y la bonificación de dinares junto a la escalera del palacio se duplica."
       },
       "E8": {
         "name": "Experto madrasa",
