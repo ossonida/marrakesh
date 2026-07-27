@@ -1519,10 +1519,24 @@ window.referenceData = {
     },
     {
       "section": "Ex2.전문가",
-      "number": "E4",
-      "name": "사치품 전문가",
+      "number": "E4a",
+      "name": "사치품 전문가(보라색)",
       "image": "img/reference/ex2-expert-luxury.png",
-      "content": "공개된 사치품 1개를 비용 없이 가져올 수 있습니다. 조건은 그 사치품 구매 비용에서 해당 전문가 색상의 상품 케시가 가장 많이 필요해야 한다는 것입니다. 동률도 조건을 충족합니다. 선물과 조각상 사치품도 이 효과로 가져올 수 있습니다."
+      "content": "공개된 사치품 1개를 비용 없이 가져올 수 있습니다. 조건은 그 사치품 구매 비용에서 보라색 상품 케시가 가장 많이 필요해야 한다는 것입니다. 동률도 조건을 충족합니다. 선물과 조각상 사치품도 이 효과로 가져올 수 있습니다."
+    },
+    {
+      "section": "Ex2.전문가",
+      "number": "E4b",
+      "name": "사치품 전문가(노란색)",
+      "image": "img/reference/ex2-expert-luxury.png",
+      "content": "공개된 사치품 1개를 비용 없이 가져올 수 있습니다. 조건은 그 사치품 구매 비용에서 노란색 상품 케시가 가장 많이 필요해야 한다는 것입니다. 동률도 조건을 충족합니다. 선물과 조각상 사치품도 이 효과로 가져올 수 있습니다."
+    },
+    {
+      "section": "Ex2.전문가",
+      "number": "E4c",
+      "name": "사치품 전문가(주황색)",
+      "image": "img/reference/ex2-expert-luxury.png",
+      "content": "공개된 사치품 1개를 비용 없이 가져올 수 있습니다. 조건은 그 사치품 구매 비용에서 주황색 상품 케시가 가장 많이 필요해야 한다는 것입니다. 동률도 조건을 충족합니다. 선물과 조각상 사치품도 이 효과로 가져올 수 있습니다."
     },
     {
       "section": "Ex2.전문가",
@@ -2468,9 +2482,17 @@ window.referenceLocaleData = {
         "name": "Date picker expert",
         "content": "Use this expert when you perform the date grove sector action. Take 1 green date picker keshi and deploy it. Then one date picker keshi may receive 2 dates instead of 1; if there is a water vendor keshi in that sector, you may also gain 2 additional water."
       },
-      "E4": {
-        "name": "Luxury good expert",
-        "content": "Take 1 displayed luxury good for free. The only condition is that the expert's color must be the goods-keshi color required most often for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
+      "E4a": {
+        "name": "Luxury good expert (Purple)",
+        "content": "Take 1 displayed luxury good for free. The only condition is that purple is the goods-keshi color required most often for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
+      },
+      "E4b": {
+        "name": "Luxury good expert (Yellow)",
+        "content": "Take 1 displayed luxury good for free. The only condition is that yellow is the goods-keshi color required most often for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
+      },
+      "E4c": {
+        "name": "Luxury good expert (Orange)",
+        "content": "Take 1 displayed luxury good for free. The only condition is that orange is the goods-keshi color required most often for that luxury good. Ties count as meeting the condition. Gifts and statuettes can also be taken this way."
       },
       "E5": {
         "name": "Main square expert",

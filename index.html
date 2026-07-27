@@ -539,7 +539,7 @@
       <div class="card-header"><h2>확장2.사치품(선물/조각상)</h2><span class="count-tag">0개</span></div>
       <div class="table-wrap">
         <table class="data-table">
-          <thead><tr><th class="col-image">이미지</th><th class="col-number">타일번호</th><th class="col-text">내용</th></tr></thead>
+          <thead><tr><th class="col-image">이미지</th><th class="col-text">내용</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -703,8 +703,9 @@
     const tabs = document.querySelectorAll('#section-tabs button');
     const sections = document.querySelectorAll('[data-section]');
     const noNumberSections = new Set(['building', 'award', 'ex2Expert']);
-    const textOnlySections = new Set(['award', 'provision']);
-    const noNameSections = new Set(['scroll', 'oasis', 'river', 'newOasis', 'luxury', 'ex2Luxury', 'ex2Exchange', 'ex2Scroll', 'ex2Oasis']);
+    const textOnlySections = new Set(['award', 'provision', 'ex2Luxury']);
+    const noNameSections = new Set(['scroll', 'oasis', 'river', 'newOasis', 'luxury', 'ex2Exchange', 'ex2Scroll', 'ex2Oasis']);
+    const noDisplayNumberSections = new Set(['ex2Luxury']);
     const globalEmpty = document.getElementById('global-empty');
     const btnTop = document.getElementById('btn-top');
     const imageModal = document.getElementById('image-modal');
@@ -748,7 +749,7 @@
           if (!item) return;
           const localized = itemText(key, item, lang);
           const img = row.querySelector('img');
-          if (img) img.alt = `${localized.name} ${item.number}`;
+          if (img) img.alt = `${localized.name} ${noDisplayNumberSections.has(key) ? '' : item.number}`.trim();
           if (textOnlySections.has(key)) {
             row.cells[1].textContent = localized.content;
           } else if (noNameSections.has(key)) {
@@ -783,7 +784,7 @@
 
           img.className = 'ref-img';
           img.src = item.image;
-          img.alt = `${item.name} ${item.number}`;
+          img.alt = `${item.name} ${noDisplayNumberSections.has(key) ? '' : item.number}`.trim();
           img.loading = 'lazy';
           imgCell.className = 'col-image';
           nameCell.className = 'col-name';
@@ -845,10 +846,10 @@
       if (!item) return;
       const localized = itemText(section, item, activeLang);
       imageModalTitle.textContent = localized.name;
-      imageModalNumber.textContent = item.number || baseSectionLabels[activeLang]?.sections?.[section] || '';
+      imageModalNumber.textContent = (!noDisplayNumberSections.has(section) && item.number) || baseSectionLabels[activeLang]?.sections?.[section] || '';
       imageModalContent.textContent = localized.content;
       imageModalImg.src = item.image;
-      imageModalImg.alt = `${localized.name} ${item.number || ''}`.trim();
+      imageModalImg.alt = `${localized.name} ${noDisplayNumberSections.has(section) ? '' : (item.number || '')}`.trim();
       imageModal.classList.add('is-open');
       imageModal.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';

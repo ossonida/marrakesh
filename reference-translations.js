@@ -897,9 +897,17 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "Experte für Dattelernte",
         "content": "Nutze diesen Experten, wenn du die Sektoraktion „Dattelhain“ ausführst. Nimm 1 grünen Dattelpflücker-Keshi und setze ihn ein. Danach darf ein Dattelpflücker-Keshi 2 Datteln statt 1 Dattel erhalten; befindet sich in diesem Sektor ein Wasserverkäufer-Keshi, darfst du zusätzlich 2 Wasser erhalten."
       },
-      "E4": {
-        "name": "Experte für Luxusgüter",
-        "content": "Nimm 1 ausliegendes Luxusgut kostenlos. Die einzige Bedingung ist, dass die Farbe des Experten die für dieses Luxusgut am häufigsten benötigte Waren-Keshi-Farbe ist. Gleichstände erfüllen die Bedingung. Auch Geschenke und Statuetten können so genommen werden."
+      "E4a": {
+        "name": "Experte für Luxusgüter (Lila)",
+        "content": "Nimm 1 ausliegendes Luxusgut kostenlos. Die einzige Bedingung ist, dass Lila die für dieses Luxusgut am häufigsten benötigte Waren-Keshi-Farbe ist. Gleichstände erfüllen die Bedingung. Auch Geschenke und Statuetten können so genommen werden."
+      },
+      "E4b": {
+        "name": "Experte für Luxusgüter (Gelb)",
+        "content": "Nimm 1 ausliegendes Luxusgut kostenlos. Die einzige Bedingung ist, dass Gelb die für dieses Luxusgut am häufigsten benötigte Waren-Keshi-Farbe ist. Gleichstände erfüllen die Bedingung. Auch Geschenke und Statuetten können so genommen werden."
+      },
+      "E4c": {
+        "name": "Experte für Luxusgüter (Orange)",
+        "content": "Nimm 1 ausliegendes Luxusgut kostenlos. Die einzige Bedingung ist, dass Orange die für dieses Luxusgut am häufigsten benötigte Waren-Keshi-Farbe ist. Gleichstände erfüllen die Bedingung. Auch Geschenke und Statuetten können so genommen werden."
       },
       "E5": {
         "name": "Experte für den Hauptplatz",
@@ -1825,9 +1833,17 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "Expert cueilleur de dattes",
         "content": "Utilisez cet expert lorsque vous effectuez l’action du secteur de la palmeraie de dattes. Prenez 1 keshi vert de cueilleur de dattes et déployez-le. Ensuite, un keshi cueilleur de dattes peut recevoir 2 dattes au lieu de 1 ; s'il y a un keshi marchand d’eau dans ce secteur, vous pouvez également gagner 2 eaux supplémentaires."
       },
-      "E4": {
-        "name": "Expert en produits de luxe",
-        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que la couleur de l’expert soit la couleur de keshi marchandise la plus demandée pour ce bien de luxe. Les égalités remplissent la condition. Les cadeaux et les statuettes peuvent aussi être pris de cette manière."
+      "E4a": {
+        "name": "Expert en biens de luxe (violet)",
+        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que le violet soit la couleur de keshi marchandise la plus demandée pour ce bien de luxe. Les égalités remplissent la condition. Les cadeaux et les statuettes peuvent aussi être pris de cette manière."
+      },
+      "E4b": {
+        "name": "Expert en biens de luxe (jaune)",
+        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que le jaune soit la couleur de keshi marchandise la plus demandée pour ce bien de luxe. Les égalités remplissent la condition. Les cadeaux et les statuettes peuvent aussi être pris de cette manière."
+      },
+      "E4c": {
+        "name": "Expert en biens de luxe (orange)",
+        "content": "Prenez 1 bien de luxe affiché gratuitement. La seule condition est que l’orange soit la couleur de keshi marchandise la plus demandée pour ce bien de luxe. Les égalités remplissent la condition. Les cadeaux et les statuettes peuvent aussi être pris de cette manière."
       },
       "E5": {
         "name": "Expert de la place principale",
@@ -2753,9 +2769,17 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "デーツ採集者の専門家",
         "content": "デーツ果樹園セクターのアクションを行うときに使用します。緑のデーツ採集者ケシ1個を取り、配置します。その後、デーツ採集者ケシ1個はデーツ1個の代わりにデーツ2個を受け取れます。そのセクターに水商人ケシがある場合、追加で水2個も得られます。"
       },
-      "E4": {
-        "name": "高級品の専門家",
-        "content": "公開されている高級品1つを無料で取ります。条件は、その専門家の色が、その高級品で最も多く必要な商品ケシの色であることだけです。同数の場合も条件を満たします。贈り物や小像もこの方法で取ることができます。"
+      "E4a": {
+        "name": "高級品の専門家（紫）",
+        "content": "公開されている高級品1つを無料で取ります。条件は、その高級品で最も多く必要な商品ケシの色が紫であることだけです。同数の場合も条件を満たします。贈り物や小像もこの方法で取ることができます。"
+      },
+      "E4b": {
+        "name": "高級品の専門家（黄）",
+        "content": "公開されている高級品1つを無料で取ります。条件は、その高級品で最も多く必要な商品ケシの色が黄色であることだけです。同数の場合も条件を満たします。贈り物や小像もこの方法で取ることができます。"
+      },
+      "E4c": {
+        "name": "高級品の専門家（橙）",
+        "content": "公開されている高級品1つを無料で取ります。条件は、その高級品で最も多く必要な商品ケシの色がオレンジであることだけです。同数の場合も条件を満たします。贈り物や小像もこの方法で取ることができます。"
       },
       "E5": {
         "name": "メイン広場の専門家",
@@ -3681,9 +3705,17 @@ window.referenceLocaleData = Object.assign(window.referenceLocaleData || {}, {
         "name": "Experto recolector de dátiles",
         "content": "Utiliza este experto cuando realices la acción del sector del palmeral de dátiles. Toma 1 keshi recolector de dátiles verde y despliégalo. Después, un keshi recolector de dátiles puede recibir 2 dátiles en lugar de 1; si hay un keshi vendedor de agua en ese sector, también puedes ganar 2 aguas adicionales."
       },
-      "E4": {
-        "name": "Experto en bienes de lujo",
-        "content": "Toma gratis 1 bien de lujo expuesto. La única condición es que el color del experto sea el color de keshi de mercancía más requerido para ese bien de lujo. Los empates cumplen la condición. Los regalos y las estatuillas también pueden tomarse de esta forma."
+      "E4a": {
+        "name": "Experto en bienes de lujo (morado)",
+        "content": "Toma gratis 1 bien de lujo expuesto. La única condición es que el morado sea el color de keshi de mercancía más requerido para ese bien de lujo. Los empates cumplen la condición. Los regalos y las estatuillas también pueden tomarse de esta forma."
+      },
+      "E4b": {
+        "name": "Experto en bienes de lujo (amarillo)",
+        "content": "Toma gratis 1 bien de lujo expuesto. La única condición es que el amarillo sea el color de keshi de mercancía más requerido para ese bien de lujo. Los empates cumplen la condición. Los regalos y las estatuillas también pueden tomarse de esta forma."
+      },
+      "E4c": {
+        "name": "Experto en bienes de lujo (naranja)",
+        "content": "Toma gratis 1 bien de lujo expuesto. La única condición es que el naranja sea el color de keshi de mercancía más requerido para ese bien de lujo. Los empates cumplen la condición. Los regalos y las estatuillas también pueden tomarse de esta forma."
       },
       "E5": {
         "name": "Experto en plaza principal",
