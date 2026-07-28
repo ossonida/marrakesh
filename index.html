@@ -2,8 +2,9 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="Referrer" content="origin">
-  <meta name="referrer" content="always">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'none'; script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googlesyndication.com https://*.doubleclick.net; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://pagead2.googlesyndication.com https://*.googlesyndication.com; frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com; upgrade-insecure-requests">
+
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,interactive-widget=resizes-content">
   <!-- 애드센스 -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4300260005676352"
@@ -419,6 +420,7 @@
               <button type="button" data-lang="de"><span class="lang-label"><img class="lang-icon" data-lang="de" src="img/flag-de.svg" alt="Germany flag" aria-hidden="true"><span class="lang-code">DE</span></span></button>
               <button type="button" data-lang="fr"><span class="lang-label"><img class="lang-icon" data-lang="fr" src="img/flag-fr.svg" alt="France flag" aria-hidden="true"><span class="lang-code">FR</span></span></button>
               <button type="button" data-lang="ja"><span class="lang-label"><img class="lang-icon" data-lang="ja" src="img/flag-jp.svg" alt="Japan flag" aria-hidden="true"><span class="lang-code">JP</span></span></button>
+              <button type="button" data-lang="zh"><span class="lang-label"><img class="lang-icon" data-lang="zh" src="img/flag-cn.svg" alt="China flag" aria-hidden="true"><span class="lang-code">CN</span></span></button>
               <button type="button" data-lang="es"><span class="lang-label"><img class="lang-icon" data-lang="es" src="img/flag-es.svg" alt="Spain flag" aria-hidden="true"><span class="lang-code">ES</span></span></button>
             </div>
           </div>
@@ -680,6 +682,20 @@
         sectionNotes: { building: 'ゲーム開始前に、プレイヤーは特殊建物のどちらの面を使用するかを合意します。全員が同じ面を使用しなければなりません。（緑の枠のケシ/資源はゲーム開始時に受け取ります。）' },
         count: '件'
       },
+      zh: {
+        pageTitle: 'Marrakesh 参考',
+        tabs: ['全部', '卷轴', '绿洲', '河流板块', '扩展1 特殊建筑', '扩展1 绿洲', '扩展1 奢侈品', '扩展1 供给板块', '扩展1 奖励板块', '扩展2 奢侈品（礼物/小雕像）', '扩展2 交换板块', '扩展2 卷轴', '扩展2 绿洲', '扩展2 专家'],
+        search: '搜索编号、名称或文本',
+        empty: '没有找到结果。',
+        globalEmpty: '没有找到结果。',
+        cols: ['图片', '板块编号', '名称', '文本'],
+        buildingCols: ['图片', '名称', '文本'],
+        noNameCols: ['图片', '板块编号', '文本'],
+        awardCols: ['图片', '文本'],
+        sections: { scroll: '卷轴', oasis: '绿洲', river: '河流板块', building: '扩展1 特殊建筑', newOasis: '扩展1 绿洲', luxury: '扩展1 奢侈品', provision: '扩展1 供给板块', award: '扩展1 奖励板块', ex2Luxury: '扩展2 奢侈品（礼物/小雕像）', ex2Exchange: '扩展2 交换板块', ex2Scroll: '扩展2 卷轴', ex2Oasis: '扩展2 绿洲', ex2Expert: '扩展2 专家' },
+        sectionNotes: { building: '游戏开始前，玩家需商定特殊建筑使用哪一面。所有玩家必须使用同一面。（绿色边框的克什/资源在设置时获得。）' },
+        count: '项'
+      },
       es: {
         pageTitle: 'Referencia de Marrakesh',
         tabs: ['Todo', 'Pergaminos', 'Oasis', 'Losetas de río', 'Exp. 1 Edificios especiales', 'Exp. 1 Oasis', 'Exp. 1 Bienes de lujo', 'Exp. 1 Losetas de provisión', 'Exp. 1 Losetas de premio', 'Exp. 2 Bienes de lujo (regalos/estatuillas)', 'Exp. 2 Losetas de intercambio', 'Exp. 2 Pergaminos', 'Exp. 2 Oasis', 'Exp. 2 Expertos'],
@@ -717,8 +733,10 @@
     let activeSection = 'all';
     let activeLang = localStorage.getItem('marrakesh-lang') || 'ko';
 
+    const htmlLangCodes = { zh: 'zh-CN' };
+
     const numberPrefixes = {
-      building: { ko: '특수건물', en: 'Special Building', de: 'Sondergebäude', fr: 'Bâtiment spécial', ja: '特殊建物', es: 'Edificio especial' }
+      building: { ko: '특수건물', en: 'Special Building', de: 'Sondergebäude', fr: 'Bâtiment spécial', ja: '特殊建物', zh: '特殊建筑', es: 'Edificio especial' }
     };
 
     const displayNumberText = (section, item, lang = activeLang) => {
@@ -832,7 +850,7 @@
       const nextLang = baseSectionLabels[lang] ? lang : 'en';
       activeLang = nextLang;
       const t = baseSectionLabels[activeLang];
-      document.documentElement.lang = activeLang;
+      document.documentElement.lang = htmlLangCodes[activeLang] || activeLang;
       document.documentElement.setAttribute('data-lang', activeLang);
       document.getElementById('page-title').textContent = t.pageTitle;
       tabs.forEach((btn, i) => { if (t.tabs[i]) btn.textContent = t.tabs[i]; });
